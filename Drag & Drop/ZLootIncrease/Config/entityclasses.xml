@@ -1,0 +1,12 @@
+<config>
+  <set xpath="/entity_classes/entity_class[@name='DroppedLootContainer']/property[@name='TimeStayAfterDeath']/@value">1800</set>
+  <set xpath="/entity_classes/entity_class[starts-with(@name, 'EntityLootContainer')]/property[@name='TimeStayAfterDeath']/@value">1800</set>
+
+  <!-- .02 Default -->
+  <set xpath="/entity_classes/entity_class[starts-with(@name, 'zombieTemplate')]/property[@name='LootDropProb']/@value">0.09</set>
+  <!-- .03 Default -->
+  <set xpath="/entity_classes/entity_class[contains(@name, 'Feral')]/property[@name='LootDropProb']/@value">0.11</set>
+  <append xpath="/entity_classes/entity_class[contains(@name, 'Radiated')]">
+    <property name="LootDropProb" value=".13"/>
+  </append>
+</config>

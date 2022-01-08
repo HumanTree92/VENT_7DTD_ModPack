@@ -1,0 +1,35 @@
+<config>
+<remove xpath="/lootcontainers/lootcontainer[@id='17']"/>
+<remove xpath="/lootcontainers/lootcontainer[@id='83']"/>
+<remove xpath="/lootcontainers/lootcontainer[@id='111']"/>
+<remove xpath="/lootcontainers/lootcontainer[@id='112']"/>
+<remove xpath="/lootcontainers/lootcontainer[@id='113']"/>
+
+ <append xpath="/lootcontainers">
+	<!-- canned or dry food cupboard door open sound-->
+	<lootcontainer id="17" name="cupboard" count="1,2" size="6,3" sound_open="UseActions/open_cupboard" sound_close="UseActions/close_cupboard" loot_quality_template="qualBaseTemplate">
+		<item group="groupCupboard" count="0,3"/>
+		<item group="cannedfood" count="0,3" prob="0.25"/>
+	</lootcontainer>
+	<!-- army truck-->
+	<lootcontainer id="83" name="armyTruck" count="1,2" size="7,4" sound_open="UseActions/open_vehicle" sound_close="UseActions/close_vehicle" open_time="4" loot_quality_template="qualBaseTemplate">
+		<item group="groupArmyTruck" count="0,5"/>
+		<item group="cannedfood" count="0,5" prob="0.25"/>
+	</lootcontainer>
+	<!-- cntFoodPileSmall -->
+	<lootcontainer id="111" name="foodPileSmall" size="6,1" sound_open="UseActions/open_garbage" sound_close="silencefiller" loot_quality_template="qualBaseTemplate" destroy_on_close="true">
+		<item group="groupFoodPileSmall" count="0,2"/>
+		<item group="cannedfood" count="0,2" prob="0.25"/>
+	</lootcontainer>
+	<!-- cntFoodPileMedium -->
+	<lootcontainer id="112" name="foodPileMed" size="6,2" sound_open="UseActions/open_garbage" sound_close="silencefiller" loot_quality_template="qualBaseTemplate" destroy_on_close="true">
+		<item group="groupFoodPileMed" count="0,4"/>
+		<item group="cannedfood" count="0,4" prob="0.25"/>
+	</lootcontainer>
+	<!-- cntFoodPileLarge -->
+	<lootcontainer id="113" name="foodPileLarge" size="6,3" sound_open="UseActions/open_garbage" sound_close="silencefiller" loot_quality_template="qualBaseTemplate" destroy_on_close="true">
+		<item group="groupFoodPileLarge" count="0,6"/>
+		<item group="cannedfood" count="0,6" prob="0.25"/>
+	</lootcontainer>
+ </append>
+</config>

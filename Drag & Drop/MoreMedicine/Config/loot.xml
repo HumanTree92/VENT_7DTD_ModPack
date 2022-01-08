@@ -1,0 +1,30 @@
+<config>
+<remove xpath="/lootcontainers/lootcontainer[@id='51']"/>
+<remove xpath="/lootcontainers/lootcontainer[@id='106']"/>
+<remove xpath="/lootcontainers/lootcontainer[@id='107']"/>
+<remove xpath="/lootcontainers/lootcontainer[@id='131']"/>
+<remove xpath="/lootcontainers/lootcontainer[@id='145']"/>
+
+ <append xpath="/lootcontainers">
+	<!-- pop n pills -->
+	<lootcontainer id="51" name="popnpillsCrate" count="1,3" size="6,4" sound_open="UseActions/open_pill_case" sound_close="UseActions/close_pill_case" loot_quality_template="qualBaseTemplate">
+		<item group="groupPopNPillsCrate" count="0,6"/>
+	</lootcontainer>
+	<!-- cntPillCase -->
+	<lootcontainer id="106" name="popnpillsShelves" count="1,3" size="6,2" sound_open="UseActions/open_cupboard" sound_close="UseActions/close_cupboard" loot_quality_template="qualBaseTemplate">
+		<item group="groupPopnpillsShelves" count="0,6"/>
+	</lootcontainer>
+	<!-- cntPillCaseClosed -->
+	<lootcontainer id="107" name="medicalPillCase" count="1,3" size="6,2" sound_open="UseActions/open_pill_case" sound_close="UseActions/close_pill_case" loot_quality_template="qualBaseTemplate">
+		<item group="groupMedicalPileLarge" count="0,6"/>
+	</lootcontainer>
+	<!-- medicine cabinets -->
+	<lootcontainer id="131" name="medicineCabinet" count="1,3" size="6,2" sound_open="UseActions/open_medicine_cabinet" sound_close="UseActions/close_medicine_cabinet" loot_quality_template="qualBaseTemplate">
+		<item group="groupMedicineCabinet" count="0,6"/>
+	</lootcontainer>
+	<!--Ambulance -->
+	<lootcontainer id="145" name="ambulance" count="1,3" size="7,4" sound_open="UseActions/open_vehicle" sound_close="UseActions/close_vehicle" open_time="4" loot_quality_template="qualBaseTemplate">
+		<item group="groupAmbulance" count="0,6"/>
+	</lootcontainer>
+ </append>
+</config>

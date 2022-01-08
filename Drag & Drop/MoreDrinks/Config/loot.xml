@@ -1,0 +1,25 @@
+<config>
+<remove xpath="/lootcontainers/lootcontainer[@id='99']"/>
+<remove xpath="/lootcontainers/lootcontainer[@id='119']"/>
+<remove xpath="/lootcontainers/lootcontainer[@id='129']"/>
+
+ <append xpath="/lootcontainers">
+	<!-- cntWaterCoolerFull -->
+	<lootcontainer id="99" name="waterCooler" count="1,3" size="6,2" sound_open="UseActions/open_cooler" sound_close="UseActions/close_cooler" loot_quality_template="qualBaseTemplate">
+		<item name="drinkJarPureMineralWater" count="0,10"  prob="0.50"/>
+		<item name="drinkJarRiverWater" count="1,2"/>
+		<item name="drinkJarBoiledWater" count="1,2"/>
+	</lootcontainer>
+	<!-- cntSodaFountain -->
+	<lootcontainer id="119" name="sodaFountain" count="1,3" size="6,1" sound_open="UseActions/open_cooler" sound_close="UseActions/close_cooler" loot_quality_template="qualBaseTemplate">
+		<item group="groupSodaFountain"/>
+		<item name="drinkCanMegaCrush" count="0,10"  prob="0.50"/>
+	</lootcontainer>
+	<!-- cntFreezerBeveragesMiddleFullClosed -->
+	<lootcontainer id="129" name="shamwayDrinks" count="1,3" size="6,3" sound_open="UseActions/open_cupboard" sound_close="UseActions/close_cupboard" loot_quality_template="qualBaseTemplate">
+		<item group="groupShamwayCooler"/>
+		<item name="drinkJarPureMineralWater" count="0,10"  prob="0.50"/>
+		<item name="drinkCanMegaCrush" count="0,10"  prob="0.50"/>
+	</lootcontainer>
+ </append>
+</config>

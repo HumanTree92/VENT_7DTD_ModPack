@@ -1,0 +1,18 @@
+<config>
+<remove xpath="/lootcontainers/lootcontainer[@id='6']"/>
+<remove xpath="/lootcontainers/lootgroup[@name='groupSmallSafeLoot']"/>
+
+ <append xpath="/lootcontainers">
+ 
+	<lootgroup name="groupSmallSafeLoot" count="all">
+		<item group="groupSmallSafeLoot01" count="1"/>
+		<item group="groupSmallSafeLoot02" loot_prob_template="medHigh" force_prob="true"/>
+		<item group="foodCandy" count="0,10"  loot_prob_template="med" force_prob="true"/>
+		<item group="groupSmallSafeLoot03" loot_prob_template="medLow" force_prob="true"/>
+	</lootgroup>
+	<!-- wallSafe / deskSafe -->
+	<lootcontainer id="6" name="smallSafes" size="8,5" sound_open="UseActions/open_safe" sound_close="UseActions/close_safe" open_time="1" loot_quality_template="qualPlus1Template">
+		<item group="groupSmallSafeLoot" count="1,5"/>
+	</lootcontainer>
+ </append>
+</config>

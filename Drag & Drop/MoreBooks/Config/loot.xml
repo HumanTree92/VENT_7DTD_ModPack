@@ -1,0 +1,25 @@
+<config>
+<remove xpath="/lootcontainers/lootcontainer[@id='14']"/>
+<remove xpath="/lootcontainers/lootcontainer[@id='49']"/>
+<remove xpath="/lootcontainers/lootcontainer[@id='60']"/>
+<remove xpath="/lootcontainers/lootcontainer[@id='135']"/>
+
+ <append xpath="/lootcontainers">
+	<!-- misc metal container mailbox-->
+	<lootcontainer id="14" name="mailbox" count="1,3" size="6,2" sound_open="UseActions/open_mailbox" sound_close="UseActions/close_mailbox" loot_quality_template="qualBaseTemplate">
+		<item group="groupMailbox" count="0,3"/>
+	</lootcontainer>
+	<!-- bookcase -->
+	<lootcontainer id="49" name="bookcase" count="1,3" size="6,2" sound_open="UseActions/open_drawer" sound_close="UseActions/close_drawer" loot_quality_template="qualBaseTemplate">
+		<item group="groupBookcase" count="0,3"/>
+	</lootcontainer>
+	<!-- NOT_USED -->
+	<lootcontainer id="60" name="bookShelves" count="1,3" size="6,2" sound_open="UseActions/open_drawer" sound_close="UseActions/close_drawer" loot_quality_template="qualBaseTemplate">
+		<item group="groupCrackabookShelves" count="0,3"/>
+	</lootcontainer>
+	<!-- cntBookPile01 etc. -->
+	<lootcontainer id="135" name="bookPile" count="1,3" size="6,2" sound_open="UseActions/open_garbage" sound_close="silencefiller" loot_quality_template="qualBaseTemplate" destroy_on_close="true">
+		<item group="groupBookPile" count="0,3"/>
+	</lootcontainer>
+ </append>
+</config>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+  <ModInfo>
+    <Name value="13erserk - More Canned Food" />
+    <Description value="You can find more canned food." />
+    <Author value="13erserk" />
+    <Version value="20.0.0.0" compat="A20" />
+  </ModInfo>
+</xml>
