@@ -38,6 +38,7 @@ This is a Mod Pack for Velociti Entertainments Private 7 Days to Die Server.
   * [MoreCannedFood]( https://www.nexusmods.com/7daystodie/mods/1683 )
   * [MoreDrinks]( https://www.nexusmods.com/7daystodie/mods/1683 )
   * [MoreMedicine]( https://www.nexusmods.com/7daystodie/mods/1683 )
+  * [NoScreamerMod]( https://www.nexusmods.com/7daystodie/mods/1493 )
   * [ReasonableStackSize]( https://7daystodiemods.com/reasonable-stack-size/ )
   * [SkillPoints]( https://7daystodiemods.com/faster-leveling-and-more-skill-points-per-level/ )
   * [ZLootIncrease]( https://7daystodiemods.com/zombie-loot-bag-increase/ )

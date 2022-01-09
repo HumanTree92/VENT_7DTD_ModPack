@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configs>
+	<remove xpath="/entitygroups/entitygroup[@name='ZombieScouts']"></remove>
+	<remove xpath="/entitygroups/entitygroup[contains(@name,'Horde')]/entity[@name='zombieScreamer' or @name='zombieScreamerFeral' or @name='zombieScreamerRadiated']"></remove>
+</configs>
