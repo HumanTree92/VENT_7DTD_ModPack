@@ -1,5 +1,5 @@
 HUDPlus
-A20 - Version 1.02
+A20 - Version 1.03
 Description and Updates
 
 
@@ -43,9 +43,13 @@ ________________________________________________________________________________
 	o	The background of the chatoutput disappears WITH the text for easier readability
 
 •	BOTTOM LEFT STAT DISPLAY: HEALTH, STAMINA, FOOD, WATER, XP, LEVEL, OTHER
+	o	Don't know what something is? Move your cursor over it and it will tell you
 	o	Compacting the HUD display for easier read of health, stamina, food, water, xp, level, and other stats
-		--- in A20, Food and Water are in percentages.... for now.
 	o	Other stats include elevation, player temp, and outdoor temp
+
+    ----Version 1.03E only on these two-----
+﻿	o	Food and Water displayed in both Percentage and Amount
+	o	Other stats include Zombie Kills, Player Deaths, and Lootstage
 
 •	FUEL BURNING TEXT DISPLAY IN WHITE
 	o	Replaces the RED text of burning time to WHITE for easier readability	
@@ -53,10 +57,8 @@ ________________________________________________________________________________
 •	COMPASS, DATE, TIME ADJUSTMENTS
 	o	Compass is wider, easier to read, and has a mark for its center
 	o	Day and Time are moved to the left and right of compass for a more compact look
+	o	Day and Time are now also visible on menus	
 
 •	TOOLBELT ADJUSTMENTS
 	o	Toolbelt is lowered for more compact display and compatibility with other inventory mods
 	o	Slots on toolbelt now display a number	
-
-•	BOTTOM RIGHT STAT DISPLAY: KILLS, DEATHS, PVP .... DISABLED for A20, at least for now.
-	o	Displays your kills, deaths, and pvp kills in the bottom right hand corner of the HUD
