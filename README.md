@@ -9,6 +9,9 @@ This is a Mod Pack for Velociti Entertainments Private 7 Days to Die Server.
 3) Go to your Steam > steamapps > common > 7 Days To Die Directory.
 4) Create a New Folder called Mods
 5) Drag & Drop all the contents of Drag & Drop into the Mods Folder.
+6) Go to Steam > 7 Days To Die > Play > Show Game Launcher > Play
+7) Make sure EAC is unchecked if not it won't launch the game correctly with Mods Installed
+8) Click Run & Save as Default (This way you won't have to keep going back into the Game Launcher when you want to play.)
 
 # Credits & Mod Links
 * Server Sided Mods
@@ -46,7 +49,7 @@ This is a Mod Pack for Velociti Entertainments Private 7 Days to Die Server.
 * [Forums]( https://velocitientertainment.com/forum )
 * [About Us]( https://velocitientertainment.com/pc-gaming )
 * [Donate]( https://velocitientertainment.com/donations )
-* [Patreon] ( https://www.patreon.com/VelocitiEntertainment?fan_landing=true )
+* [Patreon]( https://www.patreon.com/VelocitiEntertainment?fan_landing=true )
 * [Steam Group]( https://steamcommunity.com/groups/velocitientertainment )
 * [Facebook]( https://facebook.com/VelocitiEntertainment )
 * [Twitter]( https://twitter.com/VelocitiEnt )
