@@ -1,5 +1,5 @@
 HUDPlus
-A20 - Version 1.03
+A20 - Version 1.03E
 Description and Updates
 
 
@@ -36,6 +36,9 @@ ________________________________________________________________________________
 ______________________________________________________________________________________________________________________
 3.  Features
 	*First, if you run into any conflicts, you may contact AuroraGiggleFairy via discord: https://discord.gg/Vm5eyW6N4r
+	
+	**NOTE, if intended for multiplayer, it will work. HOWEVER, for other players to get the most from this MOD, they should
+	install it on their local mod folder as well.
 
 
 •	CHATBOX IMPROVEMENT
@@ -43,13 +46,11 @@ ________________________________________________________________________________
 	o	The background of the chatoutput disappears WITH the text for easier readability
 
 •	BOTTOM LEFT STAT DISPLAY: HEALTH, STAMINA, FOOD, WATER, XP, LEVEL, OTHER
-	o	Don't know what something is? Move your cursor over it and it will tell you
+	o	Don't know what something is? Move your cursor over it and you will be told
 	o	Compacting the HUD display for easier read of health, stamina, food, water, xp, level, and other stats
-	o	Other stats include elevation, player temp, and outdoor temp
-
-    ----Version 1.03E only on these two-----
-﻿	o	Food and Water displayed in both Percentage and Amount
+	o	Food and Water displayed in both Percentage and Amount
 	o	Other stats include Zombie Kills, Player Deaths, and Lootstage
+	o	Other stats include elevation, player temp, and outdoor temp
 
 •	FUEL BURNING TEXT DISPLAY IN WHITE
 	o	Replaces the RED text of burning time to WHITE for easier readability	
