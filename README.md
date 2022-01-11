@@ -25,6 +25,7 @@ This is a Mod Pack for Velociti Entertainments Private 7 Days to Die Server.
   * [CandiesInSafes]( https://www.nexusmods.com/7daystodie/mods/1683 )
   * [CannedFood]( https://7daystodiemods.com/canned-food/ )
   * [ClaimAutoRepair]( https://www.nexusmods.com/7daystodie/mods/1705 )
+  * [CorpseRemover]( https://7daystodiemods.com/corpse-remover/ )
   * [DisableFallingTrees]( https://community.7daystodie.com/topic/20079-valmars-a20-modlets-outdated/ )
   * [ElectricityButtonsPush]( https://www.nexusmods.com/7daystodie/mods/1741 )
   * [ElectricityNoWires]( https://www.nexusmods.com/7daystodie/mods/1721 )
