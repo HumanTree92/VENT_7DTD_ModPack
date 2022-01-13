@@ -1,0 +1,79 @@
+<configs>
+	<!-- Vanilla Tweaks -->
+	<set xpath="/items/item[@name='vehicle4x4TruckPlaceable']/effect_group/passive_effect[@name='DegradationMax'][@value='7500']/@value">3000</set>
+	<set xpath="/items/item[@name='vehicleGyrocopterPlaceable']/effect_group/passive_effect[@name='DegradationMax'][@value='3000']/@value">2000</set>
+	<set xpath="/items/item[@name='vehicleMotorcyclePlaceable']/effect_group/passive_effect[@name='DegradationMax'][@value='6000']/@value">1500</set>
+	<set xpath="/items/item[@name='vehicleBicyclePlaceable']/effect_group/passive_effect[@name='DegradationMax'][@value='1500']/@value">500</set>
+	<set xpath="/items/item[@name='vehicleMinibikePlaceable']/effect_group/passive_effect[@name='DegradationMax'][@value='3000']/@value">1500</set>
+	<append xpath="/items">
+		<item name="vehicleHumveechassis">
+			<property name="Extends" value="vehicleWheels"/>
+			<property name="UnlockedBy" value="perkGreaseMonkey,vehicleHumveechassisSchematic"/>
+			<property name="CustomIcon" value="Humveechassis"/>
+			<property name="DescriptionKey" value="vehicleHumveechassisDesc"/>
+			<property name="EconomicValue" value="20000"/>
+		</item>
+		<item name="vehicleHumveechassisSchematic">
+			<property name="Extends" value="schematicNoQualityMaster"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CustomIcon" value="Humveechassis"/>
+			<property name="Unlocks" value="vehicleHumveechassis"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="vehicleHumveechassis" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="vehicleWheels" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+			</effect_group>
+		</item>
+		<item name="vehicleHumveebodySchematic">
+			<property name="Extends" value="schematicNoQualityMaster"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CustomIcon" value="Humveebody"/>
+			<property name="Unlocks" value="vehicleHumveebody"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="vehicleHumveebody" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="vehicleWheels" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+			</effect_group>
+		</item>
+		<item name="vehicleHumveebody">
+			<property name="Extends" value="vehicleWheels"/>
+			<property name="UnlockedBy" value="perkGreaseMonkey,vehicleHumveebodySchematic"/>
+			<property name="CustomIcon" value="Humveebody"/>
+			<property name="DescriptionKey" value="vehicleHumveebodyDesc"/>
+			<property name="EconomicValue" value="20000"/>
+		</item>
+		<item name="vehicleHumveeplaceable">
+			<property name="Extends" value="vehicle4x4TruckPlaceable"/>
+			<property name="Tags" value="vehicle,vengine,vfuel,vlight,canHaveCosmetic"/>
+			<property name="CustomIcon" value="Humvee"/>
+			<property name="DescriptionKey" value="vehicleHumveeplaceableDesc"/>
+			<property name="Meshfile" value="#@modfolder:Resources/Hummer.unity3d?Humvee1.prefab"/>
+			<property name="EconomicValue" value="40000"/>
+			<property class="Action1">
+				<property name="Vehicle" value="vehicleHumvee"/>
+				<property name="VehicleSize" value="4.7, 4.8, 5"/>
+			</property>
+			<effect_group name="Base Effects">
+				<passive_effect name="ModSlots" operation="base_set" value="4"/>
+				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="3500"/>
+			</effect_group>
+		</item>
+		<item name="vehicleHumveeToplessplaceable">
+			<property name="Extends" value="vehicle4x4TruckPlaceable"/>
+			<property name="CustomIcon" value="HumveeTopless"/>
+			<property name="DescriptionKey" value="vehicleHumveeToplessplaceableDesc"/>
+			<property name="Meshfile" value="#@modfolder:Resources/Hummer.unity3d?Humvee2.prefab"/>
+			<property name="EconomicValue" value="40000"/>
+			<property class="Action1">
+				<property name="Vehicle" value="vehicleHumveeTopless"/>
+				<property name="VehicleSize" value="4.7, 4.8, 5"/>
+			</property>
+			<effect_group name="Base Effects">
+				<passive_effect name="ModSlots" operation="base_set" value="4"/>
+				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="3500"/>
+			</effect_group>
+		</item>
+	</append>
+</configs>

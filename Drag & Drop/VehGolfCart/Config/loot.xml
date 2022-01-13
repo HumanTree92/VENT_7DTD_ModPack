@@ -1,0 +1,15 @@
+<configs>
+	<insertBefore xpath="/lootcontainers/lootgroup[@name='groupScrapCommon']">
+		<lootgroup name="GolfCartgroup">
+			<item name="vehicleGolfCartchassis"/>
+			<item name="vehicleGolfCartaccessories"/>
+		</lootgroup>
+	</insertBefore>
+	<append xpath="/lootcontainers/lootgroup[@name='vehiclePartsTiered']">
+		<item group="GolfCartgroup" loot_prob_template="ProbT1"/>
+	</append>
+	<append xpath="/lootcontainers/lootgroup[@name='schematicsVehiclesT1']">
+		<item name="vehicleGolfCartchassisSchematic"/>
+		<item name="vehicleGolfCartaccessoriesSchematic"/>
+	</append>
+</configs>

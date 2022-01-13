@@ -1,0 +1,62 @@
+<configs>
+	<!-- Vanilla Tweaks -->
+	<set xpath="/items/item[@name='vehicle4x4TruckPlaceable']/effect_group/passive_effect[@name='DegradationMax'][@value='7500']/@value">3000</set>
+	<set xpath="/items/item[@name='vehicleGyrocopterPlaceable']/effect_group/passive_effect[@name='DegradationMax'][@value='3000']/@value">2000</set>
+	<set xpath="/items/item[@name='vehicleMotorcyclePlaceable']/effect_group/passive_effect[@name='DegradationMax'][@value='6000']/@value">1500</set>
+	<set xpath="/items/item[@name='vehicleBicyclePlaceable']/effect_group/passive_effect[@name='DegradationMax'][@value='1500']/@value">500</set>
+	<set xpath="/items/item[@name='vehicleMinibikePlaceable']/effect_group/passive_effect[@name='DegradationMax'][@value='3000']/@value">1500</set>
+	<append xpath="/items">
+		<item name="vehicleDirtBikeChassis">
+			<property name="Extends" value="vehicleWheels"/>
+			<property name="UnlockedBy" value="perkGreaseMonkey,vehicleDirtBikeChassisSchematic"/>
+			<property name="CustomIcon" value="DirtBikechassis"/>
+			<property name="DescriptionKey" value="vehicleDirtBikeChassisDesc"/>
+			<property name="EconomicValue" value="3000"/>
+		</item>
+		<item name="vehicleDirtBikeChassisSchematic">
+			<property name="Extends" value="schematicNoQualityMaster"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CustomIcon" value="DirtBikechassis"/>
+			<property name="Unlocks" value="vehicleDirtBikeChassis"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="vehicleDirtBikeChassis" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="vehicleWheels" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+			</effect_group>
+		</item>
+		<item name="vehicleDirtBikePartsSchematic">
+			<property name="Extends" value="schematicNoQualityMaster"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CustomIcon" value="DirtBikeparts"/>
+			<property name="Unlocks" value="vehicleDirtBikeParts"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="vehicleDirtBikeParts" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="vehicleWheels" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+			</effect_group>
+		</item>
+		<item name="vehicleDirtBikeParts">
+			<property name="Extends" value="vehicleWheels"/>
+			<property name="UnlockedBy" value="perkGreaseMonkey,vehicleDirtBikePartsSchematic"/>
+			<property name="CustomIcon" value="DirtBikeparts"/>
+			<property name="DescriptionKey" value="vehicleDirtBikePartsDesc"/>
+			<property name="EconomicValue" value="3000"/>
+		</item>
+		<item name="vehicleDirtBikeplaceable">
+			<property name="Extends" value="vehicleMinibikePlaceable"/>
+			<property name="CustomIcon" value="DirtBike"/>
+			<property name="DescriptionKey" value="vehicleDirtBikeplaceableDesc"/>
+			<property name="Meshfile" value="#@modfolder:Resources/db1.unity3d?Dirt_Bike.prefab"/>
+			<property name="EconomicValue" value="8500"/>
+			<property class="Action1">
+				<property name="Vehicle" value="vehicleDirtBike"/>
+				<property name="VehicleSize" value="4.7, 4.8, 5"/>
+			</property>
+			<effect_group name="Base Effects">
+				<passive_effect name="ModSlots" operation="base_set" value="4"/>
+				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="1500"/>
+			</effect_group>
+		</item>
+	</append>
+</configs>

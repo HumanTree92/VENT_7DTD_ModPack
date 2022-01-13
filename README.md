@@ -21,7 +21,6 @@ This is a Mod Pack for Velociti Entertainments Private 7 Days to Die Server.
 * Client Sided Mods
   * [ActionSkills]( https://www.nexusmods.com/7daystodie/mods/1749 )
   * [AmmoDismantling]( https://community.7daystodie.com/topic/20079-valmars-a20-modlets-outdated/ )
-  * [BdubsVehicles]( https://www.nexusmods.com/7daystodie/mods/342 )
   * [CandiesInSafes]( https://www.nexusmods.com/7daystodie/mods/1683 )
   * [CannedFood]( https://7daystodiemods.com/canned-food/ )
   * [ClaimAutoRepair]( https://www.nexusmods.com/7daystodie/mods/1705 )
@@ -43,8 +42,8 @@ This is a Mod Pack for Velociti Entertainments Private 7 Days to Die Server.
   * [ReasonableStackSize]( https://7daystodiemods.com/reasonable-stack-size/ )
   * [SkillPoints]( https://7daystodiemods.com/faster-leveling-and-more-skill-points-per-level/ )
   * [StopFuelWaste]( https://www.nexusmods.com/7daystodie/mods/1884 )
+  * [Veh...]( https://www.nexusmods.com/7daystodie/mods/342 )
   * [ZLootIncrease]( https://7daystodiemods.com/zombie-loot-bag-increase/ )
-  
 
 # Visit Velociti Entertainment:
 * [Discord]( https://discord.velocitientertainment.com )
