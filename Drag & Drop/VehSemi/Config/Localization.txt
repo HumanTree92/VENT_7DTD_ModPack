@@ -1,0 +1,10 @@
+Key,Source,Context,Changes,English
+vehicleOldSemichassis,items,Part,EnChanged,Old Semi Chassis,,,,,
+vehicleOldSemichassisDesc,items,Part,EnChanged,Parts needed to craft the Old Semi. Grease Monkey level 4 required.,,,,,
+vehicleOldSemibody,items,Part,EnChanged,Old Semi Body,,,,,
+vehicleOldSemibodyDesc,items,Part,EnChanged,Parts needed to craft the Old Semi.,,,,,
+vehicleOldSemi,vehicles,vehicle,new,Old Semi,,,,,
+vehicleOldSemiplaceable,vehicles,item,EnChanged,Old Semi,,,,,
+vehicleOldSemiplaceableDesc,vehicles,item,EnChanged,"You better watch your step, Arlene!",,,,,
+vehicleOldSemichassisSchematic,items,Part,EnChanged,Old Semi Chassis Schematic
+vehicleOldSemibodySchematic,items,Part,EnChanged,Old Semi Body Schematic

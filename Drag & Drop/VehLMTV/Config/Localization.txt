@@ -1,0 +1,10 @@
+Key,Source,Context,Changes,English
+vehicleLMTVchassis,items,Part,EnChanged,LMTV Chassis
+vehicleLMTVchassisDesc,items,Part,EnChanged,Parts needed to craft the LMTV. Grease Monkey level 5 required.
+vehicleLMTVbody,items,Part,EnChanged,LMTV Body
+vehicleLMTVbodyDesc,items,Part,EnChanged,Parts needed to craft the LMTV.
+vehicleLMTV,vehicles,vehicle,new,LMTV
+vehicleLMTVplaceable,vehicles,item,EnChanged,LMTV
+vehicleLMTVplaceableDesc,vehicles,item,EnChanged,Military transport vehicle. Holds 6 people.
+vehicleLMTVchassisSchematic,items,Part,EnChanged,LMTV Chassis Schematic
+vehicleLMTVbodySchematic,items,Part,EnChanged,LMTV Body Schematic

@@ -1,0 +1,13 @@
+<configs>
+	<append xpath="/nav_object_classes">
+		<nav_object_class name="LMTV" extends="bicycle">
+			<property name="requirement_type" value="IsVehicleOwner"/>
+			<compass_settings>
+				<property name="sprite_name" value="LMTVUIicon"/>
+			</compass_settings>
+			<onscreen_settings>
+				<property name="sprite_name" value="LMTVUIicon"/>
+			</onscreen_settings>
+		</nav_object_class>
+	</append>
+</configs>

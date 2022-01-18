@@ -1,0 +1,62 @@
+<configs>
+	<!-- Vanilla Tweaks -->
+	<set xpath="/items/item[@name='vehicle4x4TruckPlaceable']/effect_group/passive_effect[@name='DegradationMax'][@value='7500']/@value">3000</set>
+	<set xpath="/items/item[@name='vehicleGyrocopterPlaceable']/effect_group/passive_effect[@name='DegradationMax'][@value='3000']/@value">2000</set>
+	<set xpath="/items/item[@name='vehicleMotorcyclePlaceable']/effect_group/passive_effect[@name='DegradationMax'][@value='6000']/@value">1500</set>
+	<set xpath="/items/item[@name='vehicleBicyclePlaceable']/effect_group/passive_effect[@name='DegradationMax'][@value='1500']/@value">500</set>
+	<set xpath="/items/item[@name='vehicleMinibikePlaceable']/effect_group/passive_effect[@name='DegradationMax'][@value='3000']/@value">1500</set>
+	<append xpath="/items">
+		<item name="vehicleLMTVchassis">
+			<property name="Extends" value="vehicleWheels"/>
+			<property name="UnlockedBy" value="perkGreaseMonkey,vehicleLMTVchassisSchematic"/>
+			<property name="CustomIcon" value="LMTVchassis"/>
+			<property name="DescriptionKey" value="vehicleLMTVchassisDesc"/>
+			<property name="EconomicValue" value="15000"/>
+		</item>
+		<item name="vehicleLMTVchassisSchematic">
+			<property name="Extends" value="schematicNoQualityMaster"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CustomIcon" value="LMTVchassis"/>
+			<property name="Unlocks" value="vehicleLMTVchassis"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="vehicleLMTVchassis" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="vehicleWheels" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+			</effect_group>
+		</item>
+		<item name="vehicleLMTVbodySchematic">
+			<property name="Extends" value="schematicNoQualityMaster"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CustomIcon" value="LMTVbody"/>
+			<property name="Unlocks" value="vehicleLMTVbody"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="vehicleLMTVbody" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="vehicleWheels" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+			</effect_group>
+		</item>
+		<item name="vehicleLMTVbody">
+			<property name="Extends" value="vehicleWheels"/>
+			<property name="UnlockedBy" value="perkGreaseMonkey,vehicleLMTVbodySchematic"/>
+			<property name="CustomIcon" value="LMTVbody"/>
+			<property name="DescriptionKey" value="vehicleLMTVbodyDesc"/>
+			<property name="EconomicValue" value="15000"/>
+		</item>
+		<item name="vehicleLMTVplaceable">
+			<property name="Extends" value="vehicle4x4TruckPlaceable"/>
+			<property name="CustomIcon" value="LMTV"/>
+			<property name="DescriptionKey" value="vehicleLMTVplaceableDesc"/>
+			<property name="Meshfile" value="#@modfolder:Resources/LMTV1.unity3d?LMTV"/>
+			<property name="EconomicValue" value="30000"/>
+			<property class="Action1">
+				<property name="Vehicle" value="vehicleLMTV"/>
+				<property name="VehicleSize" value="4.7, 4.8, 5"/>
+			</property>
+			<effect_group name="Base Effects">
+				<passive_effect name="ModSlots" operation="base_set" value="4"/>
+				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="3500"/>
+			</effect_group>
+		</item>
+	</append>
+</configs>
