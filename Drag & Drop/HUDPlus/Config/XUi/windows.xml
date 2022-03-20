@@ -133,25 +133,26 @@ Section 5 = TOOLBELT ADJUSTMENTS
 						<!--REMOVABILITY = You may delete this section to remove this part of the display-->
 					<rect name="hud" pos="155,-64" rows="1" cols="1" width="84" controller="MapStats" visible="{statvisible}" side="right">
 						<sprite depth="1" pos="0,0" height="77" width="84" color="0,0,0,250" type="sliced" foregroundlayer="true"/>
-						<sprite depth="2" name="windowIcon" width="19" height="19" pos="5,-4" sprite="ui_game_symbol_climb" color="[iconColor]" foregroundlayer="true" tooltip_key="Elevation"/>
+						<sprite depth="2" name="windowIcon" width="19" height="19" pos="5,-4" sprite="ui_game_symbol_climb" color="[iconColor]" foregroundlayer="true" tooltip_key="xuiElevation"/>
 						<label depth="2" name="TextContent" pos="30,-6" width="80" height="18" text="[DECEA3]{mapelevation}" font_size="18"/>	
-						<sprite depth="2" name="windowIcon" width="19" height="19" pos="5,-29" sprite="ui_game_symbol_temperature" color="[iconColor]" foregroundlayer="true"  tooltip_key="Outdoor Temperature"/>
+						<sprite depth="2" name="windowIcon" width="19" height="19" pos="5,-29" sprite="ui_game_symbol_temperature" color="[iconColor]" foregroundlayer="true"  tooltip_key="xuiTemperature"/>
 						<label depth="2" name="TextContent" pos="30,-31" width="80" height="18" text="[DECEA3]{maptemperature}" font_size="18"/>
-						<sprite depth="2" name="windowIcon" width="19" height="19" pos="5,-54" sprite="ui_game_symbol_light_armor" color="[iconColor]" foregroundlayer="true" tooltip_key="Player Temperature"/>
-						<label depth="2" name="TextContent" pos="30,-56" width="80" height="18" text="[DECEA3]{playercoretemp}" font_size="18"/>
+						<sprite depth="2" name="windowIcon" width="19" height="19" pos="5,-54" sprite="ui_game_symbol_light_armor" color="[iconColor]" foregroundlayer="true" tooltip_key="xuiFeelsLike"/>
+						<label depth="2" name="TextContent" pos="30,-56" width="80" height="18" text="[DECEA3]{playercoretemp}" display_value_key="{0}" font_size="18"/>
 					</rect>	
 					
-					<!--OTHER: Zombie Kills, Player Deaths, and Player Lootstage-->
-						<!--REMOVABILITY = You may delete this section to remove this part of the display-->
-					<rect name="hud" pos="155,15" rows="1" cols="1" width="84" controller="PlayerStats, PlayerStatController" side="right">
-						<sprite depth="1" pos="0,0" height="76" width="84" color="0,0,0,250" type="sliced" foregroundlayer="true"/>					
-						<sprite depth="2" name="windowIcon" width="19" height="19" pos="5,-4" sprite="ui_game_symbol_marksmanship" color="[iconColor]" foregroundlayer="true" tooltip_key="Zombie Kills"/>
-						<label depth="2" name="TextContent" pos="30,-6" width="80" height="18" text="[DECEA3]{PlayerZombieKills}" font_size="18"/>	
-						<sprite depth="2" name="windowIcon" width="19" height="19" pos="5,-29" sprite="ui_game_symbol_near_death_trauma" color="[iconColor]" foregroundlayer="true" tooltip_key="Deaths"/>
-						<label depth="2" name="TextContent" pos="30,-31" width="80" height="18" text="[DECEA3]{PlayerDeaths}" font_size="18"/>
-						<sprite depth="2" name="windowIcon" width="19" height="19" pos="5,-54" sprite="ui_game_symbol_shopping_cart" color="[iconColor]" foregroundlayer="true" tooltip_key="Lootstage"/>
-						<label depth="2" name="TextContent" pos="30,-56" width="80" height="18" text="[DECEA3]{PlayerLootStage}" font_size="18"/>
-					</rect>						
+				<!--Can't do this yet in EAC and server friendly fashion!!! But I'm still trying... and hoping Fun Pimps does a thing for this.-->
+						<!--OTHER: Zombie Kills, Player Deaths, and Player Lootstage-->
+								<!--REMOVABILITY = You may delete this section to remove this part of the display
+							<rect name="hud" pos="155,15" rows="1" cols="1" width="84" controller="PlayerStats, PlayerStatController" side="right">
+								<sprite depth="1" pos="0,0" height="76" width="84" color="0,0,0,250" type="sliced" foregroundlayer="true"/>					
+								<sprite depth="2" name="windowIcon" width="19" height="19" pos="5,-4" sprite="ui_game_symbol_marksmanship" color="[iconColor]" foregroundlayer="true" tooltip_key="Zombie Kills"/>
+								<label depth="2" name="TextContent" pos="30,-6" width="80" height="18" text="[DECEA3]{PlayerZombieKills}" font_size="18"/>	
+								<sprite depth="2" name="windowIcon" width="19" height="19" pos="5,-29" sprite="ui_game_symbol_near_death_trauma" color="[iconColor]" foregroundlayer="true" tooltip_key="Deaths"/>
+								<label depth="2" name="TextContent" pos="30,-31" width="80" height="18" text="[DECEA3]{PlayerDeaths}" font_size="18"/>
+								<sprite depth="2" name="windowIcon" width="19" height="19" pos="5,-54" sprite="ui_game_symbol_shopping_cart" color="[iconColor]" foregroundlayer="true" tooltip_key="Lootstage"/>
+								<label depth="2" name="TextContent" pos="30,-56" width="80" height="18" text="[DECEA3]{PlayerLootStage}" font_size="18"/>
+							</rect>-->				
 						
 					<!--XP Bar, Now Circle-->
 					<rect pos="76,-103" width="75" height="75" cursor_area="true" xp_fill_speed="2" >
@@ -160,8 +161,8 @@ Section 5 = TOOLBELT ADJUSTMENTS
 						<sprite depth="10" height="69" width="69"  name="border" sprite="ui_game_filled_circle" color="[black]" pivot="center" globalopacity="false"/>				
 						<sprite depth="11" height="69" width="69" name="background" sprite="ui_game_filled_circle" color="{xpcolor}" pivot="center" globalopacity="false" type="filled" fill="{xp}" filldirection="radial360" controller="ToolbeltWindow"/>
 						<sprite depth="12" width="55" height="55" name="center" sprite="ui_game_filled_circle" color="115,115,115" pivot="center" globalopacity="false"/>
-						<label depth="15" pos="0,10" name="LevelNumber" width="45" height="42" pivot="center" justify="center" text="{cvar($LastPlayerLevel)}" font_size="22" controller="HUDStatBar" tooltip_key="Level"/>
-						<label depth="15" pos="0,-12" name="XPtoNextLVL" width="45" height="42" pivot="center" justify="center" text="[DECEA3]{PlayerXPToNextLevel}" font_size="15"  controller="PlayerStats, PlayerStatController" tooltip_key="XP to Next Level"/>					
+						<label depth="15" pos="0,9" name="Level" width="45" height="42" pivot="center" justify="center" text="LEVEL" font_size="18"/>						
+						<label depth="15" pos="0,-10" name="LevelNumber" width="45" height="42" pivot="center" justify="center" text="{cvar($LastPlayerLevel)}" font_size="20" controller="HUDStatBar" />						
 					</rect>
 												
 					<!--Food Bar-->			
@@ -170,8 +171,7 @@ Section 5 = TOOLBELT ADJUSTMENTS
 						<sprite depth="2" name="background" color="0,0,0,140" type="sliced" />
 						<filledsprite depth="3" name="background" color="110,110,110,128" width="75" type="filled" fill="{statmodifiedmax}" />
 						<filledsprite depth="5" name="BarContent" color="0,150,54,180" width="75" type="filled" fill="0" filldirection="vertical" />
-						<sprite depth="7" name="Icon" atlas="{staticonatlas|once}" sprite="ui_game_symbol_fork" size="20,20" pos="10,-30" foregroundlayer="true"/>
-						<label depth="7" name="TextContent" pos="-2,-58" font_size="20" color="[white]" text="{PlayerFoodCurrent}" controller="PlayerStats, PlayerStatController" height="34" width="42" justify="center"  tooltip_key="Food Amount"/>
+						<sprite depth="7" name="Icon" atlas="{staticonatlas|once}" sprite="ui_game_symbol_fork" size="22,28" pos="11,-47" foregroundlayer="true"/>
 						<label depth="7" name="TextContent" pos="0,-2" font_size="18" color="[white]" text="{statcurrent}%" height="34" width="42" justify="center" tooltip_key="Food Percentage" />
 						<sprite depth="8" name="border" color="0,0,0,255" type="sliced" fillcenter="false"/>
 						<filledsprite depth="8" name="background" color="0,0,0,255" width="75" fillcenter="false" type="filled" fill="{statmodifiedmax}" />
@@ -184,8 +184,7 @@ Section 5 = TOOLBELT ADJUSTMENTS
 						<sprite depth="2" name="background" color="0,0,0,140" type="sliced" />									
 						<filledsprite depth="3" name="background" color="110,110,110,128" width="75" type="filled" fill="{statmodifiedmax}"/>
 						<filledsprite depth="5" name="BarContent" color="0,200,255,180" width="75" type="filled" fill="0" filldirection="vertical" globalopacity="false"/>
-						<sprite depth="7" name="Icon" atlas="{staticonatlas|once}" sprite="ui_game_symbol_water" size="22,22" pos="46,-28" foregroundlayer="true"/>
-						<label depth="7" name="TextContent" pos="36,-58" font_size="20" color="[white]" text="{PlayerWaterCurrent}" controller="PlayerStats, PlayerStatController" height="34" width="42" justify="center" tooltip_key="Water Amount"/>
+						<sprite depth="7" name="Icon" atlas="{staticonatlas|once}" sprite="ui_game_symbol_water" size="30,30" pos="38,-45" foregroundlayer="true"/>
 						<label depth="7" name="TextContent" pos="34,-2" font_size="18" color="[white]" text="{statcurrent}%"  height="34" width="42" justify="center" tooltip_key="Water Percentage"/>
 						<sprite depth="8" name="border" color="0,0,0,255" type="sliced" fillcenter="false"/>
 						<filledsprite depth="8" name="background" color="0,0,0,255" width="75" fillcenter="false" type="filled" fill="{statmodifiedmax}" />
@@ -257,27 +256,29 @@ Section 5 = TOOLBELT ADJUSTMENTS
 			
 		REMOVABILITY = It is safe to delete this section if you wish to not have this feature.-->
 
-		<!--a. Compass Adjustments-->				
+		<!--a. Compass Adjustments-->
 			<set xpath="/windows/window[@name='windowCompass']/@pos">-260,-9</set>
-			<set xpath="/windows/window[@name='windowCompass']/@width">550</set>
-			
+			<set xpath="/windows/window[@name='windowCompass']/@width">520</set>			
 			<set xpath="/windows/window[@name='windowCompass']/sprite[@depth='0']/@color">0,0,0,235</set>
 			<set xpath="/windows/window[@name='windowCompass']/sprite[@depth='1']/@color">120,120,120,235</set>
 			
 			<set xpath="/windows/window[@name='windowCompass']/sprite[@depth='0']/@width">456</set>
-			<set xpath="/windows/window[@name='windowCompass']/sprite[@depth='1']/@width">450</set>			
-			<set xpath="/windows/window[@name='windowCompass']/texture/@width">450</set>
-			
-			
+			<set xpath="/windows/window[@name='windowCompass']/sprite[@depth='1']/@width">450</set>
 			<set xpath="/windows/window[@name='windowCompass']/sprite[@depth='0']/@pos">32,0</set>
-			<set xpath="/windows/window[@name='windowCompass']/sprite[@depth='1']/@pos">35,-3</set>		
-			<set xpath="/windows/window[@name='windowCompass']/texture/@pos">35,-12</set>
+			<set xpath="/windows/window[@name='windowCompass']/sprite[@depth='1']/@pos">35,-3</set>	
+
+			<set xpath="/windows/window[@name='windowCompass']/texture/@width">450</set>
+			<set xpath="/windows/window[@name='windowCompass']/texture/@rect_size">0.35,1</set>
+			<set xpath="/windows/window[@name='windowCompass']/texture/@rect_offset">{#compass_rotation / 360 + 0.067 - 0.18},0</set>
+			<set xpath="/windows/window[@name='windowCompass']/texture/@pos">35,-12</set>			
+	
 	
 		<!--b. Mark on center of compass-->
 			<append xpath="/windows/window[@name='windowCompass']">
 				<label depth="20" name="TextContent" pos="69,5" width="380" height="60" text="I" font_size="60" color="22,22,22,235" justify="center"/>
 			</append>
-			
+	
+	
 		<!--c. Day and Time adjustment-->
 			<remove xpath="/windows/window[@name='windowCompass']/sprite[@pos='240,-60']"/>
 			<append xpath="/windows/window[@name='windowCompass']">
@@ -359,11 +360,6 @@ Section 5 = TOOLBELT ADJUSTMENTS
 				<sprite depth="19" pos="707,10" height="13" width="14" color="0,0,0,250" type="sliced" foregroundlayer="true" />		
 				<label depth="20" name="slot#" pos="707,10" width="14" height="12" text="[DECEA3]10" font_size="12" color="" justify="center"/>
 			</append>
-	
-	
-	
-	
-	
 	
 	
 

@@ -1,5 +1,5 @@
 HUDPlus
-A20 - Version 1.03E
+A20 - Version 1.4.1
 Description and Updates
 
 
@@ -37,8 +37,15 @@ ________________________________________________________________________________
 3.  Features
 	*First, if you run into any conflicts, you may contact AuroraGiggleFairy via discord: https://discord.gg/Vm5eyW6N4r
 	
-	**NOTE, if intended for multiplayer, it will work. HOWEVER, for other players to get the most from this MOD, they should
-	install it on their local mod folder as well.
+
+
+NEW FEATURES
+-Full Language Support
+-See what icons are by putting the cursor over them on the display
+-AGF version of color coding locked / jammed / empty loot. 
+
+FIXES
+-Compass is now accurate in following waypoints, etc.
 
 
 •	CHATBOX IMPROVEMENT
@@ -48,18 +55,17 @@ ________________________________________________________________________________
 •	BOTTOM LEFT STAT DISPLAY: HEALTH, STAMINA, FOOD, WATER, XP, LEVEL, OTHER
 	o	Don't know what something is? Move your cursor over it and you will be told
 	o	Compacting the HUD display for easier read of health, stamina, food, water, xp, level, and other stats
-	o	Food and Water displayed in both Percentage and Amount
-	o	Other stats include Zombie Kills, Player Deaths, and Lootstage
+	o	Food and Water displayed in Percentage (If you want exact numbers, you need the Enhanced Patch)
 	o	Other stats include elevation, player temp, and outdoor temp
 
 •	FUEL BURNING TEXT DISPLAY IN WHITE
 	o	Replaces the RED text of burning time to WHITE for easier readability	
 
 •	COMPASS, DATE, TIME ADJUSTMENTS
-	o	Compass is wider, easier to read, and has a mark for its center
+	o	Compass is wider, easier to read, and has a mark for its center (It is now accurate!)
 	o	Day and Time are moved to the left and right of compass for a more compact look
-	o	Day and Time are now also visible on menus	
+	o	Day and Time are now visible on menus	
 
 •	TOOLBELT ADJUSTMENTS
 	o	Toolbelt is lowered for more compact display and compatibility with other inventory mods
-	o	Slots on toolbelt now display a number	
+	o	Slots on toolbelt display which slot they are	
