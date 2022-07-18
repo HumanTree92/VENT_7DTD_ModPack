@@ -20,17 +20,33 @@ need to put them in sequence, all belong to the same root trigger.
 
 ![Simple Setup](Screens/in-game-simple-setup.jpg)
 
+[![GitHub CI Compile Status][3]][2]
+
 ### Download and Install
 
-Simply download here from GitHub and put into your A20 Mods folder:
+Simply [download here from GitHub][1] and put into your A20 Mods folder:
 
 - https://github.com/OCB7D2D/ElectricityButtonsPush/archive/master.zip
 
 ## Changelog
 
+### Version 0.6.0
+
+- Introducing compatibility for Undead Legacy (experimental)  
+  Rename this mod to e.g `ZElectricityPushButton` to load after UL
+- Adds (lootable) Push Button Blueprint item
+- Push Button is craftable at workstation T2
+- ULM Recipes are not set in stone yet ;-)
+
+### Version 0.5.1
+
+- Added localization fix
+- Completed German translation
+
 ### Version 0.5.0
 
-- Some clean-ups and copied bugfix from ElectricityWorkarounds
+- A few minor code refactorings and cleanups
+- Copied bugfix from ElectricityWorkarounds
 
 ### Version 0.4.0
 
@@ -39,3 +55,7 @@ Simply download here from GitHub and put into your A20 Mods folder:
 ## Compatibility
 
 I've developed and tested this Mod against version a20.b218.
+
+[1]: https://github.com/OCB7D2D/ElectricityButtonsPush/releases
+[2]: https://github.com/OCB7D2D/ElectricityButtonsPush/actions/workflows/ci.yml
+[3]: https://github.com/OCB7D2D/ElectricityButtonsPush/actions/workflows/ci.yml/badge.svg
