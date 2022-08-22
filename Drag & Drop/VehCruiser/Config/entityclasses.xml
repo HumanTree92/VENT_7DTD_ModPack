@@ -1,7 +1,7 @@
 <configs>
 	<append xpath="/entity_classes">
 		<entity_class name="vehicleCruiser">
-			<property name="Tags" value="moto,pedals"/>
+			<property name="Tags" value="vehicle,moto,pedals"/>
 			<property name="Class" value="EntityMotorcycle"/>
 			<property name="Parent" value="Cars"/>
 			<property name="Prefab" value="#@modfolder:Resources/Cruiser1.unity3d?Cruiser.prefab"/>
@@ -21,7 +21,7 @@
 			<property name="NavObject" value="Cruiser"/>
 		</entity_class>
 		<entity_class name="vehicleCruiser2">
-			<property name="Tags" value="moto,pedals"/>
+			<property name="Tags" value="vehicle,moto,pedals"/>
 			<property name="Class" value="EntityMotorcycle"/>
 			<property name="Parent" value="Cars"/>
 			<property name="Prefab" value="#@modfolder:Resources/Cruiser1.unity3d?Cruiser2.prefab"/>

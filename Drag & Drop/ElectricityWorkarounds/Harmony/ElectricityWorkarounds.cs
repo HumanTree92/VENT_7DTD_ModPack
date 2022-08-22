@@ -144,7 +144,7 @@ public class ElectricityWorkarounds : IModApi
             // Otherwise the new state will not be persisted
             if (__instance.TileEntity is TileEntityPoweredTrigger te)
             {
-                te.Activate(false, te.IsTriggered);
+                te.Activate(te.IsPowered, te.IsTriggered);
                 te.SetModified();
             }
 
@@ -228,5 +228,41 @@ public class ElectricityWorkarounds : IModApi
             }
         }
     }
+
+    // Below are the potential fixes for the power.dat reset
+
+    static bool PM_Loaded = false;
+
+    [HarmonyPatch(typeof(PowerManager))]
+    [HarmonyPatch(MethodType.Constructor)]
+    public class PowerManager_CTOR
+    {
+        static void Prefix()
+        {
+            PM_Loaded = false;
+        }
+    }
+
+    [HarmonyPatch(typeof(PowerManager))]
+    [HarmonyPatch("LoadPowerManager")]
+    public class PowerManager_LoadPowerManager
+    {
+        static void Postfix()
+        {
+            PM_Loaded = true;
+        }
+    }
+
+    [HarmonyPatch(typeof(PowerManager))]
+    [HarmonyPatch("savePowerDataThreaded")]
+    public class PowerManager_savePowerDataThreaded
+    {
+        static bool Prefix(ref int __result)
+        {
+            __result = -1;
+            return PM_Loaded;
+        }
+    }
+
 
 }

@@ -1,7 +1,7 @@
 <configs>
 	<append xpath="/entity_classes">
 		<entity_class name="vehicleRat">
-			<property name="Tags" value="moto,pedals"/>
+			<property name="Tags" value="vehicle,moto,pedals"/>
 			<property name="Class" value="EntityMotorcycle"/>
 			<property name="Parent" value="Cars"/>
 			<property name="Prefab" value="#@modfolder:Resources/Rat1.unity3d?Rat.prefab"/>
@@ -21,7 +21,7 @@
 			<property name="NavObject" value="Rat"/>
 		</entity_class>
 		<entity_class name="vehicleRat2">
-			<property name="Tags" value="moto,pedals"/>
+			<property name="Tags" value="vehicle,moto,pedals"/>
 			<property name="Class" value="EntityMotorcycle"/>
 			<property name="Parent" value="Cars"/>
 			<property name="Prefab" value="#@modfolder:Resources/Rat1.unity3d?Rat2.prefab"/>

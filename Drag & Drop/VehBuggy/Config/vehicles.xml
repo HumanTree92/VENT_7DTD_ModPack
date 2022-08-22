@@ -97,6 +97,7 @@
 			</property>
 			<property class="pedals">
 				<property name="class" value="Pedals"/>
+				<property name="staminaDrain" value="0, -5"/>
 				<property name="slot_type" value="pedals"/>
 				<property name="transform" value="Origin/pedalJoint"/>
 				<property name="pedalLPosition" value="-.05, 0, 0"/>
