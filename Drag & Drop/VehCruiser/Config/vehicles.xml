@@ -91,23 +91,15 @@
 				<property name="IKHandRRotation" value="27.30321, 18.59375, -18.961643"/>
 				<property name="parent_part" value="chassis"/>
 			</property>
-			<property class="pedals">
-				<property name="class" value="Pedals"/>
-				<property name="staminaDrain" value="0, -5"/>				
-				<property name="slot_type" value="pedals"/>
-				<property name="transform" value="Origin/pedalJoint"/>
-				<property name="pedalLPosition" value="-.05, 0, 0"/>
-				<property name="pedalRPosition" value=".05, 0, 0"/>
-				<property name="IKFootLPosition" value="-0.23, 0.04, -0.08"/>
-				<property name="IKFootLRotation" value="-35, 0, 0"/>
-				<property name="IKFootRPosition" value="0.23, 0.04, -0.08"/>
-				<property name="IKFootRRotation" value="-35, 0, 0"/>
-				<property name="pedalSound" value=""/>
-			</property>
 			<property class="seat0">
+				<property name="class" value="Seat"/>
 				<property name="position" value="0, -.15, .14"/>
 				<property name="rotation" value="0, 0, 0"/>
 				<property name="exit" value="-.9,0,0 ~ .9,0,0 ~ 0,0,-1.5 ~ 0,0,1.6 ~ 0,1.5,0"/>
+				<property name="IKFootLPosition" value="-0.27, 0.52, 0.2"/>
+				<property name="IKFootLRotation" value="-15, 0, 0"/>
+				<property name="IKFootRPosition" value="0.27, 0.52, 0.2"/>
+				<property name="IKFootRRotation" value="-15, 0, 0"/>
 			</property>
 			<property class="wheel0">
 				<property name="steerTransform" value="Origin/handlebar_joint"/>
@@ -234,23 +226,15 @@
 				<property name="IKHandRRotation" value="27.30321, 18.59375, -18.961643"/>
 				<property name="parent_part" value="chassis"/>
 			</property>
-			<property class="pedals">
-				<property name="class" value="Pedals"/>
-				<property name="staminaDrain" value="0, -5"/>
-				<property name="slot_type" value="pedals"/>
-				<property name="transform" value="Origin/pedalJoint"/>
-				<property name="pedalLPosition" value="-.05, 0, 0"/>
-				<property name="pedalRPosition" value=".05, 0, 0"/>
-				<property name="IKFootLPosition" value="-0.23, 0.04, -0.08"/>
-				<property name="IKFootLRotation" value="-35, 0, 0"/>
-				<property name="IKFootRPosition" value="0.23, 0.04, -0.08"/>
-				<property name="IKFootRRotation" value="-35, 0, 0"/>
-				<property name="pedalSound" value=""/>
-			</property>
 			<property class="seat0">
+				<property name="class" value="Seat"/>
 				<property name="position" value="0, -.15, .14"/>
 				<property name="rotation" value="0, 0, 0"/>
 				<property name="exit" value="-.9,0,0 ~ .9,0,0 ~ 0,0,-1.5 ~ 0,0,1.6 ~ 0,1.5,0"/>
+				<property name="IKFootLPosition" value="-0.27, 0.52, 0.2"/>
+				<property name="IKFootLRotation" value="-15, 0, 0"/>
+				<property name="IKFootRPosition" value="0.27, 0.52, 0.2"/>
+				<property name="IKFootRRotation" value="-15, 0, 0"/>
 			</property>
 			<property class="wheel0">
 				<property name="steerTransform" value="Origin/handlebar_joint"/>
