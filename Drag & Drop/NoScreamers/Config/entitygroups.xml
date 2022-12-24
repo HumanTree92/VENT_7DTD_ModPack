@@ -1,0 +1,5 @@
+<NoScreamers>
+<remove xpath="/entitygroups/entitygroup[contains(@name, 'Scouts')]"/>
+<remove xpath="/entitygroups/entitygroup[contains(@name, 'scout')]/entity[contains(@name, 'Screamer')]"/>
+	
+</NoScreamers>

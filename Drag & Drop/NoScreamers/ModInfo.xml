@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<xml>
+	<ModInfo>
+		<Name value="NoScreamers" />
+		<Description value="Disables Screamer Spawning" />
+		<Author value="kaiwolfe132" />
+		<Version value="1.0" />
+
+	</ModInfo>
+</xml>
