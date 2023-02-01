@@ -1,5 +1,5 @@
 HUDPlus
-A20 - Version 1.4.1
+A20 - Version 1.5.2
 Description and Updates
 
 
@@ -18,9 +18,10 @@ ________________________________________________________________________________
 	-First published a mod during Alpha 18
 	-Where to find:
 		https://discord.gg/Vm5eyW6N4r
+		https://auroragigglefairy.github.io/
+		https://www.twitch.tv/AuroraGiggleFairy
 		https://7daystodiemods.com/
 		https://www.nexusmods.com/7daystodie
-		https://www.twitch.tv/AuroraGiggleFairy
 		
 		
 ______________________________________________________________________________________________________________________
@@ -38,8 +39,12 @@ ________________________________________________________________________________
 	*First, if you run into any conflicts, you may contact AuroraGiggleFairy via discord: https://discord.gg/Vm5eyW6N4r
 	
 
+NEW FEATURES (version 1.5.1)
+-Crafting Times more readable (Thank you Morph3usx for the specific orange color)
+-Other "by the pixel" corrections
 
-NEW FEATURES
+
+NEW FEATURES (version 1.4.1)
 -Full Language Support
 -See what icons are by putting the cursor over them on the display
 -AGF version of color coding locked / jammed / empty loot. 
@@ -69,3 +74,4 @@ FIXES
 •	TOOLBELT ADJUSTMENTS
 	o	Toolbelt is lowered for more compact display and compatibility with other inventory mods
 	o	Slots on toolbelt display which slot they are	
+	
