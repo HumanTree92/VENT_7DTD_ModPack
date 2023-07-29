@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<xml>
-		<ModInfo>
-			<Name value="Dirt Bike"/>
-			<Description value="A bike for the dirt."/>
-			<Author value="bdubyah"/>
-			<Version value="1.2"/>
-			<Website value=""/>
-		</ModInfo>
+		<Name value="DirtBike" />
+		<Author value="bdubyah" />
+		<Description value="A bike for the dirt." />
+		<DisplayName value="Dirt Bike" />
+		<Website value="" />
+		<Version value="21.0.2.2" />
 	</xml>

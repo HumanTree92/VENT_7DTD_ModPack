@@ -1,0 +1,5 @@
+<AGF-HUDPlus>
+
+	<remove xpath="//window[@name='windowEntering']"/>
+
+</AGF-HUDPlus>

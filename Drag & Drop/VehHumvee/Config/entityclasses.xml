@@ -1,7 +1,7 @@
 <configs>
 	<append xpath="/entity_classes">
 		<entity_class name="vehicleHumvee">
-			<property name="Tags" value="vehicle"/>
+			<property name="Tags" value="vehicle,usesGas"/>
 			<property name="Class" value="EntityVJeep"/>
 			<property name="Parent" value="Cars"/>
 			<property name="Prefab" value="#@modfolder:Resources/Hummer.unity3d?Humvee1.prefab"/>
@@ -21,7 +21,7 @@
 			<property name="NavObject" value="Humvee"/>
 		</entity_class>
 		<entity_class name="vehicleHumveeTopless">
-			<property name="Tags" value="vehicle"/>
+			<property name="Tags" value="vehicle,usesGas"/>
 			<property name="Class" value="EntityVJeep"/>
 			<property name="Parent" value="Cars"/>
 			<property name="Prefab" value="#@modfolder:Resources/Hummer.unity3d?Humvee2.prefab"/>

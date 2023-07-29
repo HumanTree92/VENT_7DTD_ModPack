@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<xml>
-		<ModInfo>
-			<Name value="Buggy"/>
-			<Description value="An old offroad buggy."/>
-			<Author value="bdubyah"/>
-			<Version value="1.21"/>
-			<Website value=""/>
-		</ModInfo>
+		<Name value="Buggy" />
+		<Author value="bdubyah" />
+		<Description value="An old offroad buggy." />
+		<DisplayName value="Buggy" />
+		<Website value="" />
+		<Version value="21.0.2.2" />
 	</xml>

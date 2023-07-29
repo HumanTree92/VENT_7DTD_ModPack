@@ -1,46 +1,20 @@
 <configs>
-	<!-- Vanilla Tweaks -->
-	<set xpath="/items/item[@name='vehicle4x4TruckPlaceable']/effect_group/passive_effect[@name='DegradationMax'][@value='7500']/@value">3000</set>
-	<set xpath="/items/item[@name='vehicleGyrocopterPlaceable']/effect_group/passive_effect[@name='DegradationMax'][@value='3000']/@value">2000</set>
-	<set xpath="/items/item[@name='vehicleMotorcyclePlaceable']/effect_group/passive_effect[@name='DegradationMax'][@value='6000']/@value">1500</set>
-	<set xpath="/items/item[@name='vehicleBicyclePlaceable']/effect_group/passive_effect[@name='DegradationMax'][@value='1500']/@value">500</set>
-	<set xpath="/items/item[@name='vehicleMinibikePlaceable']/effect_group/passive_effect[@name='DegradationMax'][@value='3000']/@value">1500</set>
 	<append xpath="/items">
 		<item name="vehicleBuggychassis">
 			<property name="Extends" value="vehicleWheels"/>
-			<property name="UnlockedBy" value="perkGreaseMonkey,vehicleBuggychassisSchematic"/>
+			<property name="UnlockedBy" value="craftingVehicles"/>
 			<property name="CustomIcon" value="Buggychassis"/>
 			<property name="DescriptionKey" value="vehicleBuggychassisDesc"/>
-			<property name="EconomicValue" value="12000"/>
-		</item>
-		<item name="vehicleBuggychassisSchematic">
-			<property name="Extends" value="schematicNoQualityMaster"/>
-			<property name="CreativeMode" value="Player"/>
-			<property name="CustomIcon" value="Buggychassis"/>
-			<property name="Unlocks" value="vehicleBuggychassis"/>
-			<effect_group tiered="false">
-				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="vehicleBuggychassis" operation="set" value="1"/>
-				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="vehicleWheels" operation="set" value="1"/>
-				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
-			</effect_group>
-		</item>
-		<item name="vehicleBuggyaccessoriesSchematic">
-			<property name="Extends" value="schematicNoQualityMaster"/>
-			<property name="CreativeMode" value="Player"/>
-			<property name="CustomIcon" value="Buggyaccessories"/>
-			<property name="Unlocks" value="vehicleBuggyaccessories"/>
-			<effect_group tiered="false">
-				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="vehicleBuggyaccessories" operation="set" value="1"/>
-				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="vehicleWheels" operation="set" value="1"/>
-				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
-			</effect_group>
+			<property name="EconomicValue" value="6000"/>
+			<property name="TraderStageTemplate" value="vehicleTier3"/>
 		</item>
 		<item name="vehicleBuggyaccessories">
 			<property name="Extends" value="vehicleWheels"/>
-			<property name="UnlockedBy" value="perkGreaseMonkey,vehicleBuggyaccessoriesSchematic"/>
+			<property name="UnlockedBy" value="craftingVehicles"/>
 			<property name="CustomIcon" value="Buggyaccessories"/>
 			<property name="DescriptionKey" value="vehicleBuggyaccessoriesDesc"/>
-			<property name="EconomicValue" value="12000"/>
+			<property name="EconomicValue" value="6000"/>
+			<property name="TraderStageTemplate" value="vehicleTier3"/>
 		</item>
 		<item name="vehicleBuggyplaceable">
 			<property name="Extends" value="vehicle4x4TruckPlaceable"/>
@@ -48,15 +22,16 @@
 			<property name="CustomIcon" value="Buggy"/>
 			<property name="DescriptionKey" value="vehicleBuggyplaceableDesc"/>
 			<property name="Meshfile" value="#@modfolder:Resources/Buggy1.unity3d?Buggy.prefab"/>
-			<property name="EconomicValue" value="30000"/>
+			<property name="EconomicValue" value="25000"/>
+			<property name="TraderStageTemplate" value="vehicleTier4"/>
 			<property class="Action1">
 				<property name="Vehicle" value="vehicleBuggy"/>
 				<property name="VehicleSize" value="4.7, 4.8, 5"/>
 			</property>
-			<effect_group name="Base Effects">
+			<effect_group name="Base Effects" tiered="false">
 				<passive_effect name="ModSlots" operation="base_set" value="4"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
-				<passive_effect name="DegradationMax" operation="base_set" value="1500"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="5500"/>
 			</effect_group>
 		</item>
 	</append>

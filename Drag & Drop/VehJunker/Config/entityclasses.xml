@@ -1,7 +1,7 @@
 <configs>
 	<append xpath="/entity_classes">
 		<entity_class name="vehicleJunker">
-			<property name="Tags" value="vehicle,moto,pedals"/>
+			<property name="Tags" value="vehicle,moto,pedals,usesGas"/>
 			<property name="Class" value="EntityMotorcycle"/>
 			<property name="Parent" value="Cars"/>
 			<property name="Prefab" value="#@modfolder:Resources/Junker1.unity3d?Junker.prefab"/>
@@ -21,7 +21,7 @@
 			<property name="NavObject" value="Junker"/>
 		</entity_class>
 		<entity_class name="vehicleJunker2">
-			<property name="Tags" value="vehicle,moto,pedals"/>
+			<property name="Tags" value="vehicle,moto,pedals,usesGas"/>
 			<property name="Class" value="EntityMotorcycle"/>
 			<property name="Parent" value="Cars"/>
 			<property name="Prefab" value="#@modfolder:Resources/Junker1.unity3d?Junker2.prefab"/>

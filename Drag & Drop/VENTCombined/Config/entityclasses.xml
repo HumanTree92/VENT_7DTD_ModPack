@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<entity_classes>
+    <!-- 10 Second Corpses -->
+	<append xpath="/entity_classes/entity_class[@name='zombieTemplateMale']">
+        <property name="TimeStayAfterDeath" value="10"/>
+        <property name="DeadBodyHitPoints" value="1"/>
+    </append>
+
+	<!-- Changes loot drops to .30 -->
+	<set xpath="/entity_classes/entity_class[contains(@name, 'zombie')]/property[contains(@name, 'LootDropProb')]/@value">.30</set>
+
+	<!-- Adds more TimeStayAfterDeath to EntityLoot to 60 min -->
+	<set xpath="/entity_classes/entity_class[contains(@name, 'EntityLoot')]/property[contains(@name, 'TimeStayAfterDeath')]/@value">3600</set>
+</entity_classes>

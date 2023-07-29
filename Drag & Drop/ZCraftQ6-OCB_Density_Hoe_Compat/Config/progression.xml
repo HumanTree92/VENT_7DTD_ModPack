@@ -1,0 +1,8 @@
+<BlackWarrior>
+
+<set xpath="/progression/crafting_skills/crafting_skill[@name='craftingRepairTools']/display_entry[@unlock_level='10,15,20,25,30']/@unlock_level">10,15,20,25,30,35</set>
+<set xpath="/progression/crafting_skills/crafting_skill[@name='craftingRepairTools']/effect_group/passive_effect[@level='10,50']/@level">10,60</set>
+<set xpath="/progression/crafting_skills/crafting_skill[@name='craftingRepairTools']/effect_group/passive_effect[@level='15,20,25,30,50']/@level">15,20,25,30,35,60</set>
+<set xpath="/progression/crafting_skills/crafting_skill[@name='craftingRepairTools']/effect_group/passive_effect[@value='1,2,3,4,4']/@value">1,2,3,4,5,5</set>
+
+</BlackWarrior>

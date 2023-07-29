@@ -1,8 +1,0 @@
-<configs>		
-	<append xpath="/traders/trader_item_groups/trader_item_group[@name='vehiclePartsT1']">
-		<item name="vehicleUAZ452chassis"/>
-	</append>
-	<append xpath="/traders/trader_item_groups/trader_item_group[@name='rareBooks']">
-		<item name="vehicleUAZ452chassisSchematic"/>
-	</append>
-</configs>

@@ -1,0 +1,39 @@
+<AGF-HUDPlus>
+
+
+
+
+
+<!--CRAFTING IMPROVEMENT
+	Feature: 	Crafting and burning times adjusted for easier viewing.
+	
+		Why: 	I like readability and sometimes find it hard to differentiate the crafting time and whats behind it.
+	
+	Default: 	Burn time is  a bright red that for some, is difficult to read.
+				Craft time in crafting queue is white with minimal differentiation of what is behind it.
+	
+	Delete?: 	Safe to remove this section on existing games.
+				To remove, delete the sections under windows and controls.
+				
+	XML's: 		windows, contols
+	
+	Code:		(windows.xml) Added a line of code of the burning time to adjust the color.
+				(controls.xml) Removed original crafting timer set-up.
+				(controls.xml) Appended a new timer setting that changes the color and adds a background.
+-->
+	
+	<!--Removed original crafting timer set-up.-->
+		<remove xpath="/controls/recipe_stack/rect/label[@name='timer']"/>
+		
+	<!--Appended a new timer setting that changes the color and adds a background.-->
+		<append xpath="/controls/recipe_stack/rect">
+			<label depth="4" name="timer" pos="36,-40" width="70" height="22" font_size="20" justify="center" pivot="center" color="252, 140, 3"><!--Thank you Morph3usx for color suggestion.-->
+				<sprite depth="-1" name="timerBackground" pos="-37,12" width="73" height="22" color="0,0,0,255" type="sliced"/>
+			</label>
+		</append>
+
+
+
+
+
+</AGF-HUDPlus>

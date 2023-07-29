@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-	<xml>
-		<ModInfo>
-			<Name value="Humvee"/>
-			<Description value="Leftover military Humvee."/>
-			<Author value="bdubyah"/>
-			<Version value="1.1"/>
-			<Website value=""/>
-		</ModInfo>
+	<xml>		
+		<Name value="Humvee" />
+		<Author value="bdubyah" />
+		<Description value="Leftover military Humvee." />
+		<DisplayName value="Humvee" />
+		<Website value="" />
+		<Version value="21.0.2.2" />
 	</xml>

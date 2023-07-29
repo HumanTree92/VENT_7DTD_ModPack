@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configs>
+	<!-- Faster Leveling & More Skill Points per Level -->
+	<set xpath="/progression/level/@exp_to_level">1000</set>
+	<set xpath="/progression/level/@skill_points_per_level">2</set>
+</configs>

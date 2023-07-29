@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<xml>
-		<ModInfo>
-			<Name value="Junker"/>
-			<Description value="A worn down custom bike."/>
-			<Author value="bdubyah"/>
-			<Version value="1.42"/>
-			<Website value=""/>
-		</ModInfo>
+		<Name value="Junker" />
+		<Author value="bdubyah" />
+		<Description value="A worn down custom bike." />
+		<DisplayName value="Junker" />
+		<Website value="" />
+		<Version value="21.0.2.1" />
 	</xml>

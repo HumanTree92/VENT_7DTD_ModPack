@@ -1,10 +1,8 @@
-Key,Source,Context,Changes,English
-vehicleDirtBike,vehicles,vehicle,new,Dirt Bike,,,,,
-vehicleDirtBikeplaceable,vehicles,item,EnChanged,Dirt Bike,,,,,
-vehicleDirtBikeplaceableDesc,vehicles,item,EnChanged,A dirt bike. And no neighbors to complain about it. Sweet!,,,,,
-vehicleDirtBikeChassis,items,Part,EnChanged,Dirt Bike Chassis,,,,,
-vehicleDirtBikeChassisDesc,items,Part,EnChanged,The beginning of something...awesome!,,,,,
-vehicleDirtBikeParts,items,Part,EnChanged,Dirt Bike Parts,,,,,
-vehicleDirtBikePartsDesc,items,Part,EnChanged,You might need these.,,,,,
-vehicleDirtBikeChassisSchematic,items,Part,EnChanged,Dirt Bike Chassis Schematic
-vehicleDirtBikePartsSchematic,items,Part,EnChanged,Dirt Bike Parts Schematic
+Key,English
+vehicleDirtBike,Dirt Bike
+vehicleDirtBikeplaceable,Dirt Bike
+vehicleDirtBikeplaceableDesc,"A dirt bike. And no neighbors to complain about it. Sweet!"
+vehicleDirtBikeChassis,Dirt Bike Chassis
+vehicleDirtBikeChassisDesc,"The beginning of something...awesome!"
+vehicleDirtBikeParts,Dirt Bike Parts
+vehicleDirtBikePartsDesc,You might need these.

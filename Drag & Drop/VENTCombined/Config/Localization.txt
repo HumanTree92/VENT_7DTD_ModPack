@@ -1,0 +1,5 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,spanish,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese
+perkFlurryOfStrengthDesc,progression,perk Str,,,"You are not just strong, but you are fast as well. Increase club, sledgehammer, and harvesting tools speeds."
+perkFlurryOfStrengthRank1LongDesc,progression,perk Str,,,"Swing those big guns faster!\nClub, sledgehammer, and harvesting tools are 10% faster."
+perkFlurryOfStrengthRank2LongDesc,progression,perk Str,,,"The faster you swing, the harder you hit!\nClub, sledgehammer, and harvesting tools are 17% faster."
+perkFlurryOfStrengthRank3LongDesc,progression,perk Str,,,"Let your enemies take a ride on heavy metal.\nClub, sledgehammer, and harvesting tools are 25% faster."

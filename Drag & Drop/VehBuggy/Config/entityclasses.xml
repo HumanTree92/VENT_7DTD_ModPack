@@ -1,7 +1,7 @@
 <configs>
 	<append xpath="/entity_classes">
 		<entity_class name="vehicleBuggy">
-			<property name="Tags" value="vehicle,moto,pedals"/>
+			<property name="Tags" value="vehicle,moto,pedals,usesGas"/>
 			<property name="Class" value="EntityVJeep"/>
 			<property name="Parent" value="Cars"/>
 			<property name="Prefab" value="#@modfolder:Resources/Buggy1.unity3d?Buggy.prefab"/>

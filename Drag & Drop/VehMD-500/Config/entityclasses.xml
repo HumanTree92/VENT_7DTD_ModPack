@@ -1,7 +1,7 @@
 <configs>
 	<append xpath="/entity_classes">
 		<entity_class name="vehicleMD500">
-			<property name="Tags" value="vehicle"/>
+			<property name="Tags" value="vehicle,usesGas"/>
 			<property name="Class" value="EntityVGyroCopter"/>
 			<property name="Parent" value="Cars"/>
 			<property name="Prefab" value="#@modfolder:Resources/MD500.unity3d?MD500heli.prefab"/>

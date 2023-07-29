@@ -1,5 +1,6 @@
 <configs>
-
-	<append xpath="/progression/perks/perk[@name='perkGreaseMonkey']/effect_group/passive_effect[@level='4,5']/@tags">,vehicleHumveechassis,vehicleHumveebody</append>
-		
+	<append xpath="//crafting_skill[@name='craftingVehicles']/display_entry[@icon='vehicle4x4TruckPlaceable']/unlock_entry/@item">,vehicleHumveechassis,vehicleHumveebody</append>
+	<append xpath="//crafting_skill[@name='craftingVehicles']/effect_group">
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="70,100" value="1" tags="vehicleHumveechassis,vehicleHumveebody"/>
+	</append>	
  </configs>

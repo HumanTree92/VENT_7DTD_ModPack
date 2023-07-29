@@ -1,7 +1,7 @@
 <configs>
 	<append xpath="/entity_classes">
 		<entity_class name="vehicleWillyJeep">
-			<property name="Tags" value="vehicle"/>
+			<property name="Tags" value="vehicle,usesGas"/>
 			<property name="Class" value="EntityVJeep"/>
 			<property name="Parent" value="Cars"/>
 			<property name="Prefab" value="#@modfolder:Resources/Willy_Jeep.unity3d?Willy_Jeep.prefab"/>
@@ -21,7 +21,7 @@
 			<property name="NavObject" value="WillyJeep"/>
 		</entity_class>
 		<entity_class name="vehicleWillyJeepTopless">
-			<property name="Tags" value="vehicle"/>
+			<property name="Tags" value="vehicle,usesGas"/>
 			<property name="Class" value="EntityVJeep"/>
 			<property name="Parent" value="Cars"/>
 			<property name="Prefab" value="#@modfolder:Resources/Willy_Jeep.unity3d?Willy_Jeeptopless.prefab"/>
@@ -41,7 +41,7 @@
 			<property name="NavObject" value="WillyJeep"/>
 		</entity_class>
 		<entity_class name="vehicleWillyJeepBlack">
-			<property name="Tags" value="vehicle"/>
+			<property name="Tags" value="vehicle,usesGas"/>
 			<property name="Class" value="EntityVJeep"/>
 			<property name="Parent" value="Cars"/>
 			<property name="Prefab" value="#@modfolder:Resources/Willy_Jeep.unity3d?Willy_JeepBlack.prefab"/>
@@ -61,7 +61,7 @@
 			<property name="NavObject" value="WillyJeep"/>
 		</entity_class>
 		<entity_class name="vehicleWillyJeepToplessBlack">
-			<property name="Tags" value="vehicle"/>
+			<property name="Tags" value="vehicle,usesGas"/>
 			<property name="Class" value="EntityVJeep"/>
 			<property name="Parent" value="Cars"/>
 			<property name="Prefab" value="#@modfolder:Resources/Willy_Jeep.unity3d?Willy_JeeptoplessBlack.prefab"/>
@@ -81,7 +81,7 @@
 			<property name="NavObject" value="WillyJeep"/>
 		</entity_class>
 		<entity_class name="vehicleWillyJeepBlue">
-			<property name="Tags" value="vehicle"/>
+			<property name="Tags" value="vehicle,usesGas"/>
 			<property name="Class" value="EntityVJeep"/>
 			<property name="Parent" value="Cars"/>
 			<property name="Prefab" value="#@modfolder:Resources/Willy_Jeep.unity3d?Willy_JeepBlue.prefab"/>
@@ -101,7 +101,7 @@
 			<property name="NavObject" value="WillyJeep"/>
 		</entity_class>
 		<entity_class name="vehicleWillyJeepToplessBlue">
-			<property name="Tags" value="vehicle"/>
+			<property name="Tags" value="vehicle,usesGas"/>
 			<property name="Class" value="EntityVJeep"/>
 			<property name="Parent" value="Cars"/>
 			<property name="Prefab" value="#@modfolder:Resources/Willy_Jeep.unity3d?Willy_JeeptoplessBlue.prefab"/>
@@ -121,7 +121,7 @@
 			<property name="NavObject" value="WillyJeep"/>
 		</entity_class>
 		<entity_class name="vehicleWillyJeepGreen">
-			<property name="Tags" value="vehicle"/>
+			<property name="Tags" value="vehicle,usesGas"/>
 			<property name="Class" value="EntityVJeep"/>
 			<property name="Parent" value="Cars"/>
 			<property name="Prefab" value="#@modfolder:Resources/Willy_Jeep.unity3d?Willy_JeepGreen.prefab"/>
@@ -141,7 +141,7 @@
 			<property name="NavObject" value="WillyJeep"/>
 		</entity_class>
 		<entity_class name="vehicleWillyJeepToplessGreen">
-			<property name="Tags" value="vehicle"/>
+			<property name="Tags" value="vehicle,usesGas"/>
 			<property name="Class" value="EntityVJeep"/>
 			<property name="Parent" value="Cars"/>
 			<property name="Prefab" value="#@modfolder:Resources/Willy_Jeep.unity3d?Willy_JeeptoplessGreen.prefab"/>
@@ -161,7 +161,7 @@
 			<property name="NavObject" value="WillyJeep"/>
 		</entity_class>
 		<entity_class name="vehicleWillyJeepOrange">
-			<property name="Tags" value="vehicle"/>
+			<property name="Tags" value="vehicle,usesGas"/>
 			<property name="Class" value="EntityVJeep"/>
 			<property name="Parent" value="Cars"/>
 			<property name="Prefab" value="#@modfolder:Resources/Willy_Jeep.unity3d?Willy_JeepOrange.prefab"/>
@@ -181,7 +181,7 @@
 			<property name="NavObject" value="WillyJeep"/>
 		</entity_class>
 		<entity_class name="vehicleWillyJeepToplessOrange">
-			<property name="Tags" value="vehicle"/>
+			<property name="Tags" value="vehicle,usesGas"/>
 			<property name="Class" value="EntityVJeep"/>
 			<property name="Parent" value="Cars"/>
 			<property name="Prefab" value="#@modfolder:Resources/Willy_Jeep.unity3d?Willy_JeeptoplessOrange.prefab"/>
@@ -201,7 +201,7 @@
 			<property name="NavObject" value="WillyJeep"/>
 		</entity_class>
 		<entity_class name="vehicleWillyJeepPurple">
-			<property name="Tags" value="vehicle"/>
+			<property name="Tags" value="vehicle,usesGas"/>
 			<property name="Class" value="EntityVJeep"/>
 			<property name="Parent" value="Cars"/>
 			<property name="Prefab" value="#@modfolder:Resources/Willy_Jeep.unity3d?Willy_JeepPurple.prefab"/>
@@ -221,7 +221,7 @@
 			<property name="NavObject" value="WillyJeep"/>
 		</entity_class>
 		<entity_class name="vehicleWillyJeepToplessPurple">
-			<property name="Tags" value="vehicle"/>
+			<property name="Tags" value="vehicle,usesGas"/>
 			<property name="Class" value="EntityVJeep"/>
 			<property name="Parent" value="Cars"/>
 			<property name="Prefab" value="#@modfolder:Resources/Willy_Jeep.unity3d?Willy_JeeptoplessPurple.prefab"/>
@@ -241,7 +241,7 @@
 			<property name="NavObject" value="WillyJeep"/>
 		</entity_class>
 		<entity_class name="vehicleWillyJeepRed">
-			<property name="Tags" value="vehicle"/>
+			<property name="Tags" value="vehicle,usesGas"/>
 			<property name="Class" value="EntityVJeep"/>
 			<property name="Parent" value="Cars"/>
 			<property name="Prefab" value="#@modfolder:Resources/Willy_Jeep.unity3d?Willy_JeepRed.prefab"/>
@@ -261,7 +261,7 @@
 			<property name="NavObject" value="WillyJeep"/>
 		</entity_class>
 		<entity_class name="vehicleWillyJeepToplessRed">
-			<property name="Tags" value="vehicle"/>
+			<property name="Tags" value="vehicle,usesGas"/>
 			<property name="Class" value="EntityVJeep"/>
 			<property name="Parent" value="Cars"/>
 			<property name="Prefab" value="#@modfolder:Resources/Willy_Jeep.unity3d?Willy_JeeptoplessRed.prefab"/>

@@ -8,8 +8,4 @@
 	<append xpath="/lootcontainers/lootgroup[@name='vehiclePartsTiered']">
 		<item group="DirtBikegroup" loot_prob_template="ProbT2"/>
 	</append>
-	<append xpath="/lootcontainers/lootgroup[@name='schematicsVehiclesT1']">
-		<item name="vehicleDirtBikeChassisSchematic"/>
-		<item name="vehicleDirtBikePartsSchematic"/>
-	</append>
 </configs>

@@ -6,7 +6,7 @@
 	
 		<!-- Old V8 -->
 		
-			<SoundDataNode name="BuggyoldV8_idle"> <AudioSource name="Sounds/AudioSource_Vehicle"/>
+			<SoundDataNode name="Buggy_idle"> <AudioSource name="Sounds/AudioSource_Vehicle"/>
 				<AudioClip ClipName="#@modfolder:Resources/Buggyvehiclesounds6.unity3d?Buggyidle" Loop="true"/>
 				<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0.01"/> </SoundDataNode>
 				

@@ -1,9 +1,0 @@
-<xml>
-	<ModInfo>
-		<Name value="Reasonable stack size" />
-		<Description value="Adjust stack size of most common items and items that we find in large quantity." />
-		<Author value="Thunder2258" />
-		<Version value="A20.0" />
-		<Website value="" />
-	</ModInfo>
-</xml>

@@ -1,7 +1,7 @@
 <configs>
 	<append xpath="/entity_classes">
 		<entity_class name="vehicleDirtBike">
-			<property name="Tags" value="vehicle"/>
+			<property name="Tags" value="vehicle,usesGas"/>
 			<property name="Class" value="EntityMotorcycle"/>
 			<property name="Parent" value="Cars"/>
 			<property name="Prefab" value="#@modfolder:Resources/db1.unity3d?Dirt_Bike.prefab"/>

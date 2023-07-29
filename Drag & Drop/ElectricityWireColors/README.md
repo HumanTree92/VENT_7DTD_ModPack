@@ -19,9 +19,17 @@ Simply [download here from GitHub][2] and put into your A20 Mods folder:
 
 ## Changelog
 
+### Version 1.2.0
+
+- Update compatibility for 7D2D A21.0(b324)
+
 ## Version 1.0.2
 
 - Fix potential null pointer access in `UpdateWireColor`
+- Add gitattributes to force line endings on file types
+- Add better compatibility for MSVC solution file
+- Automated deployment and release packaging
+- Update .NET Target Framework Version to 4.8
 
 ## Version 1.0.1
 
@@ -42,7 +50,7 @@ Simply [download here from GitHub][2] and put into your A20 Mods folder:
 
 ## Compatibility
 
-I've developed and tested this Mod against version a20.b238
+Developed initially for version A20(b238), updated through A21.0(b324).
 
 [1]: https://github.com/OCB7D2D/ElectricityOverhaul
 [2]: https://github.com/OCB7D2D/ElectricityOverhaul/releases

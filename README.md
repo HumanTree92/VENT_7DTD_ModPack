@@ -13,39 +13,6 @@ This is a Mod Pack for Velociti Entertainments Private 7 Days to Die Server.
 7) Make sure EAC is unchecked if not it won't launch the game correctly with Mods Installed
 8) Click Run & Save as Default (This way you won't have to keep going back into the Game Launcher when you want to play.)
 
-# Credits & Mod Links
-* Server Sided Mods
-  * [H7SBBackpacks]( https://7daystodiemods.com/h7sb-backpacks/ )
-  * [StarterItems]( https://www.nexusmods.com/7daystodie/mods/1871 )
-
-* Client Sided Mods
-  * [ActionSkills]( https://www.nexusmods.com/7daystodie/mods/1749 )
-  * [AmmoDismantling]( https://community.7daystodie.com/topic/20079-valmars-a20-modlets-outdated )
-  * [CandiesInSafes]( https://www.nexusmods.com/7daystodie/mods/1683 )
-  * [CannedFood]( https://7daystodiemods.com/canned-food )
-  * [ClaimAutoRepair]( https://www.nexusmods.com/7daystodie/mods/1705 )
-  * [CorpseRemover]( https://7daystodiemods.com/corpse-remover )
-  * [DisableFallingTrees]( https://community.7daystodie.com/topic/20079-valmars-a20-modlets-outdated )
-  * [ElectricityButtonsPush]( https://www.nexusmods.com/7daystodie/mods/1741 )
-  * [ElectricityNoWires]( https://www.nexusmods.com/7daystodie/mods/1721 )
-  * [ElectricitySolarRecipes]( https://www.nexusmods.com/7daystodie/mods/1713 )
-  * [ElectricityWireColors]( https://www.nexusmods.com/7daystodie/mods/1720 )
-  * [ElectricityWorkarounds]( https://www.nexusmods.com/7daystodie/mods/1728 )
-  * [FasterBellows]( https://7daystodiemods.com/faster-bellows )
-  * [HUDPlus]( https://www.nexusmods.com/7daystodie/mods/870 )
-  * [IncreasedModSlots]( https://7daystodiemods.com/increased-mod-slots )
-  * [MoreAirdropItems]( https://www.nexusmods.com/7daystodie/mods/1683 )
-  * [MoreBooks]( https://www.nexusmods.com/7daystodie/mods/1683 )
-  * [MoreCannedFood]( https://www.nexusmods.com/7daystodie/mods/1683 )
-  * [MoreDrinks]( https://www.nexusmods.com/7daystodie/mods/1683 )
-  * [MoreMedicine]( https://www.nexusmods.com/7daystodie/mods/1683 )
-  * [NoScreamers]( https://www.nexusmods.com/7daystodie/mods/1700 )
-  * [ReasonableStackSize]( https://7daystodiemods.com/reasonable-stack-size )
-  * [SkillPoints]( https://7daystodiemods.com/faster-leveling-and-more-skill-points-per-level )
-  * [StopFuelWaste]( https://www.nexusmods.com/7daystodie/mods/1884 )
-  * [Veh...]( https://www.nexusmods.com/7daystodie/mods/342 )
-  * [ZLootIncrease]( https://7daystodiemods.com/zombie-loot-bag-increase )
-
 # Visit Velociti Entertainment:
 * [Discord]( https://discord.velocitientertainment.com )
 * [Website]( https://velocitientertainment.com )

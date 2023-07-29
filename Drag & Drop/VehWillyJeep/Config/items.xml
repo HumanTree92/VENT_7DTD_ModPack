@@ -1,10 +1,4 @@
 <configs>
-	<!-- Vanilla Tweaks -->
-	<set xpath="/items/item[@name='vehicle4x4TruckPlaceable']/effect_group/passive_effect[@name='DegradationMax'][@value='7500']/@value">3000</set>
-	<set xpath="/items/item[@name='vehicleGyrocopterPlaceable']/effect_group/passive_effect[@name='DegradationMax'][@value='3000']/@value">2000</set>
-	<set xpath="/items/item[@name='vehicleMotorcyclePlaceable']/effect_group/passive_effect[@name='DegradationMax'][@value='6000']/@value">1500</set>
-	<set xpath="/items/item[@name='vehicleBicyclePlaceable']/effect_group/passive_effect[@name='DegradationMax'][@value='1500']/@value">500</set>
-	<set xpath="/items/item[@name='vehicleMinibikePlaceable']/effect_group/passive_effect[@name='DegradationMax'][@value='3000']/@value">1500</set>
 	<append xpath="/items">
 		<item name="vehicleWillyJeepplaceable">
 			<property name="Extends" value="vehicle4x4TruckPlaceable"/>
@@ -12,14 +6,15 @@
 			<property name="DescriptionKey" value="vehicleWillyJeepplaceableDesc"/>
 			<property name="Meshfile" value="#@modfolder:Resources/Willy_Jeep.unity3d?Willy_Jeep.prefab"/>
 			<property name="EconomicValue" value="30000"/>
+			<property name="TraderStageTemplate" value="vehicleTier4"/>
 			<property class="Action1">
 				<property name="Vehicle" value="vehicleWillyJeep"/>
 				<property name="VehicleSize" value="4.7, 4.8, 5"/>
 			</property>
-			<effect_group name="Base Effects">
+			<effect_group name="Base Effects" tiered="false">
 				<passive_effect name="ModSlots" operation="base_set" value="4"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
-				<passive_effect name="DegradationMax" operation="base_set" value="3000"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="8000"/>
 			</effect_group>
 		</item>
 		<item name="vehicleWillyJeepToplessplaceable">
@@ -27,14 +22,15 @@
 			<property name="DescriptionKey" value="vehicleWillyJeepToplessplaceableDesc"/>
 			<property name="Meshfile" value="#@modfolder:Resources/Willy_Jeep.unity3d?Willy_Jeeptopless.prefab"/>
 			<property name="EconomicValue" value="30000"/>
+			<property name="TraderStageTemplate" value="vehicleTier4"/>
 			<property class="Action1">
 				<property name="Vehicle" value="vehicleWillyJeepTopless"/>
 				<property name="VehicleSize" value="4.7, 4.8, 5"/>
 			</property>
-			<effect_group name="Base Effects">
+			<effect_group name="Base Effects" tiered="false">
 				<passive_effect name="ModSlots" operation="base_set" value="4"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
-				<passive_effect name="DegradationMax" operation="base_set" value="3000"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="8000"/>
 			</effect_group>
 		</item>
 		<item name="vehicleWillyJeepBlackplaceable">
@@ -43,14 +39,15 @@
 			<property name="DescriptionKey" value="vehicleWillyJeepplaceableDesc"/>
 			<property name="Meshfile" value="#@modfolder:Resources/Willy_Jeep.unity3d?Willy_JeepBlack.prefab"/>
 			<property name="EconomicValue" value="30000"/>
+			<property name="TraderStageTemplate" value="vehicleTier4"/>
 			<property class="Action1">
 				<property name="Vehicle" value="vehicleWillyJeepBlack"/>
 				<property name="VehicleSize" value="4.7, 4.8, 5"/>
 			</property>
-			<effect_group name="Base Effects">
+			<effect_group name="Base Effects" tiered="false">
 				<passive_effect name="ModSlots" operation="base_set" value="4"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
-				<passive_effect name="DegradationMax" operation="base_set" value="3000"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="8000"/>
 			</effect_group>
 		</item>
 		<item name="vehicleWillyJeepToplessBlackplaceable">
@@ -58,14 +55,15 @@
 			<property name="DescriptionKey" value="vehicleWillyJeepToplessplaceableDesc"/>
 			<property name="Meshfile" value="#@modfolder:Resources/Willy_Jeep.unity3d?Willy_JeeptoplessBlack.prefab"/>
 			<property name="EconomicValue" value="30000"/>
+			<property name="TraderStageTemplate" value="vehicleTier4"/>
 			<property class="Action1">
 				<property name="Vehicle" value="vehicleWillyJeepToplessBlack"/>
 				<property name="VehicleSize" value="4.7, 4.8, 5"/>
 			</property>
-			<effect_group name="Base Effects">
+			<effect_group name="Base Effects" tiered="false">
 				<passive_effect name="ModSlots" operation="base_set" value="4"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
-				<passive_effect name="DegradationMax" operation="base_set" value="3000"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="8000"/>
 			</effect_group>
 		</item>
 		<item name="vehicleWillyJeepBlueplaceable">
@@ -74,14 +72,15 @@
 			<property name="DescriptionKey" value="vehicleWillyJeepplaceableDesc"/>
 			<property name="Meshfile" value="#@modfolder:Resources/Willy_Jeep.unity3d?Willy_JeepBlue.prefab"/>
 			<property name="EconomicValue" value="30000"/>
+			<property name="TraderStageTemplate" value="vehicleTier4"/>
 			<property class="Action1">
 				<property name="Vehicle" value="vehicleWillyJeepBlue"/>
 				<property name="VehicleSize" value="4.7, 4.8, 5"/>
 			</property>
-			<effect_group name="Base Effects">
+			<effect_group name="Base Effects" tiered="false">
 				<passive_effect name="ModSlots" operation="base_set" value="4"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
-				<passive_effect name="DegradationMax" operation="base_set" value="3000"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="8000"/>
 			</effect_group>
 		</item>
 		<item name="vehicleWillyJeepToplessBlueplaceable">
@@ -89,14 +88,15 @@
 			<property name="DescriptionKey" value="vehicleWillyJeepToplessplaceableDesc"/>
 			<property name="Meshfile" value="#@modfolder:Resources/Willy_Jeep.unity3d?Willy_JeeptoplessBlue.prefab"/>
 			<property name="EconomicValue" value="30000"/>
+			<property name="TraderStageTemplate" value="vehicleTier4"/>
 			<property class="Action1">
 				<property name="Vehicle" value="vehicleWillyJeepToplessBlue"/>
 				<property name="VehicleSize" value="4.7, 4.8, 5"/>
 			</property>
-			<effect_group name="Base Effects">
+			<effect_group name="Base Effects" tiered="false">
 				<passive_effect name="ModSlots" operation="base_set" value="4"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
-				<passive_effect name="DegradationMax" operation="base_set" value="3000"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="8000"/>
 			</effect_group>
 		</item>
 		<item name="vehicleWillyJeepGreenplaceable">
@@ -105,14 +105,15 @@
 			<property name="DescriptionKey" value="vehicleWillyJeepplaceableDesc"/>
 			<property name="Meshfile" value="#@modfolder:Resources/Willy_Jeep.unity3d?Willy_JeepGreen.prefab"/>
 			<property name="EconomicValue" value="30000"/>
+			<property name="TraderStageTemplate" value="vehicleTier4"/>
 			<property class="Action1">
 				<property name="Vehicle" value="vehicleWillyJeepGreen"/>
 				<property name="VehicleSize" value="4.7, 4.8, 5"/>
 			</property>
-			<effect_group name="Base Effects">
+			<effect_group name="Base Effects" tiered="false">
 				<passive_effect name="ModSlots" operation="base_set" value="4"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
-				<passive_effect name="DegradationMax" operation="base_set" value="3000"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="8000"/>
 			</effect_group>
 		</item>
 		<item name="vehicleWillyJeepToplessGreenplaceable">
@@ -120,14 +121,15 @@
 			<property name="DescriptionKey" value="vehicleWillyJeepToplessplaceableDesc"/>
 			<property name="Meshfile" value="#@modfolder:Resources/Willy_Jeep.unity3d?Willy_JeeptoplessGreen.prefab"/>
 			<property name="EconomicValue" value="30000"/>
+			<property name="TraderStageTemplate" value="vehicleTier4"/>
 			<property class="Action1">
 				<property name="Vehicle" value="vehicleWillyJeepToplessGreen"/>
 				<property name="VehicleSize" value="4.7, 4.8, 5"/>
 			</property>
-			<effect_group name="Base Effects">
+			<effect_group name="Base Effects" tiered="false">
 				<passive_effect name="ModSlots" operation="base_set" value="4"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
-				<passive_effect name="DegradationMax" operation="base_set" value="3000"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="8000"/>
 			</effect_group>
 		</item>
 		<item name="vehicleWillyJeepOrangeplaceable">
@@ -136,14 +138,15 @@
 			<property name="DescriptionKey" value="vehicleWillyJeepplaceableDesc"/>
 			<property name="Meshfile" value="#@modfolder:Resources/Willy_Jeep.unity3d?Willy_JeepOrange.prefab"/>
 			<property name="EconomicValue" value="30000"/>
+			<property name="TraderStageTemplate" value="vehicleTier4"/>
 			<property class="Action1">
 				<property name="Vehicle" value="vehicleWillyJeepOrange"/>
 				<property name="VehicleSize" value="4.7, 4.8, 5"/>
 			</property>
-			<effect_group name="Base Effects">
+			<effect_group name="Base Effects" tiered="false">
 				<passive_effect name="ModSlots" operation="base_set" value="4"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
-				<passive_effect name="DegradationMax" operation="base_set" value="3000"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="8000"/>
 			</effect_group>
 		</item>
 		<item name="vehicleWillyJeepToplessOrangeplaceable">
@@ -151,14 +154,15 @@
 			<property name="DescriptionKey" value="vehicleWillyJeepToplessplaceableDesc"/>
 			<property name="Meshfile" value="#@modfolder:Resources/Willy_Jeep.unity3d?Willy_JeeptoplessOrange.prefab"/>
 			<property name="EconomicValue" value="30000"/>
+			<property name="TraderStageTemplate" value="vehicleTier4"/>
 			<property class="Action1">
 				<property name="Vehicle" value="vehicleWillyJeepToplessOrange"/>
 				<property name="VehicleSize" value="4.7, 4.8, 5"/>
 			</property>
-			<effect_group name="Base Effects">
+			<effect_group name="Base Effects" tiered="false">
 				<passive_effect name="ModSlots" operation="base_set" value="4"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
-				<passive_effect name="DegradationMax" operation="base_set" value="3000"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="8000"/>
 			</effect_group>
 		</item>
 		<item name="vehicleWillyJeepPurpleplaceable">
@@ -167,14 +171,15 @@
 			<property name="DescriptionKey" value="vehicleWillyJeepplaceableDesc"/>
 			<property name="Meshfile" value="#@modfolder:Resources/Willy_Jeep.unity3d?Willy_JeepPurple.prefab"/>
 			<property name="EconomicValue" value="30000"/>
+			<property name="TraderStageTemplate" value="vehicleTier4"/>
 			<property class="Action1">
 				<property name="Vehicle" value="vehicleWillyJeepPurple"/>
 				<property name="VehicleSize" value="4.7, 4.8, 5"/>
 			</property>
-			<effect_group name="Base Effects">
+			<effect_group name="Base Effects" tiered="false">
 				<passive_effect name="ModSlots" operation="base_set" value="4"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
-				<passive_effect name="DegradationMax" operation="base_set" value="3000"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="8000"/>
 			</effect_group>
 		</item>
 		<item name="vehicleWillyJeepToplessPurpleplaceable">
@@ -182,14 +187,15 @@
 			<property name="DescriptionKey" value="vehicleWillyJeepToplessplaceableDesc"/>
 			<property name="Meshfile" value="#@modfolder:Resources/Willy_Jeep.unity3d?Willy_JeeptoplessPurple.prefab"/>
 			<property name="EconomicValue" value="30000"/>
+			<property name="TraderStageTemplate" value="vehicleTier4"/>
 			<property class="Action1">
 				<property name="Vehicle" value="vehicleWillyJeepToplessPurple"/>
 				<property name="VehicleSize" value="4.7, 4.8, 5"/>
 			</property>
-			<effect_group name="Base Effects">
+			<effect_group name="Base Effects" tiered="false">
 				<passive_effect name="ModSlots" operation="base_set" value="4"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
-				<passive_effect name="DegradationMax" operation="base_set" value="3000"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="8000"/>
 			</effect_group>
 		</item>
 		<item name="vehicleWillyJeepRedplaceable">
@@ -198,14 +204,15 @@
 			<property name="DescriptionKey" value="vehicleWillyJeepplaceableDesc"/>
 			<property name="Meshfile" value="#@modfolder:Resources/Willy_Jeep.unity3d?Willy_JeepRed.prefab"/>
 			<property name="EconomicValue" value="30000"/>
+			<property name="TraderStageTemplate" value="vehicleTier4"/>
 			<property class="Action1">
 				<property name="Vehicle" value="vehicleWillyJeepRed"/>
 				<property name="VehicleSize" value="4.7, 4.8, 5"/>
 			</property>
-			<effect_group name="Base Effects">
+			<effect_group name="Base Effects" tiered="false">
 				<passive_effect name="ModSlots" operation="base_set" value="4"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
-				<passive_effect name="DegradationMax" operation="base_set" value="3000"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="8000"/>
 			</effect_group>
 		</item>
 		<item name="vehicleWillyJeepToplessRedplaceable">
@@ -213,14 +220,15 @@
 			<property name="DescriptionKey" value="vehicleWillyJeepToplessplaceableDesc"/>
 			<property name="Meshfile" value="#@modfolder:Resources/Willy_Jeep.unity3d?Willy_JeeptoplessRed.prefab"/>
 			<property name="EconomicValue" value="30000"/>
+			<property name="TraderStageTemplate" value="vehicleTier4"/>
 			<property class="Action1">
 				<property name="Vehicle" value="vehicleWillyJeepToplessRed"/>
 				<property name="VehicleSize" value="4.7, 4.8, 5"/>
 			</property>
-			<effect_group name="Base Effects">
+			<effect_group name="Base Effects" tiered="false">
 				<passive_effect name="ModSlots" operation="base_set" value="4"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
-				<passive_effect name="DegradationMax" operation="base_set" value="3000"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="8000"/>
 			</effect_group>
 		</item>
 	</append>

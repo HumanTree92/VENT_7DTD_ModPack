@@ -1,10 +1,8 @@
 <configs>		
-	<append xpath="/traders/trader_item_groups/trader_item_group[@name='vehiclePartsT1']">
+	<append xpath="/traders/trader_item_groups/trader_item_group[@name='groupVehicles']">
 		<item name="vehicleHumveechassis"/>
 		<item name="vehicleHumveebody"/>
-	</append>
-	<append xpath="/traders/trader_item_groups/trader_item_group[@name='rareBooks']">
-		<item name="vehicleHumveechassisSchematic"/>
-		<item name="vehicleHumveebodySchematic"/>
+		<item name="vehicleHumveeplaceable"/>
+		<item name="vehicleHumveeToplessplaceable"/>
 	</append>
 </configs>
