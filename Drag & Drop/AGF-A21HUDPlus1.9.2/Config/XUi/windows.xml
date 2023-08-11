@@ -31,8 +31,8 @@
 					<sprite depth="2" name="windowicon" width="28" height="28" sprite="ui_game_symbol_skull" color="{difficultycolor6}" visible="{visible6}"/>
 					<sprite depth="2" name="windowicon" width="28" height="28" sprite="ui_game_symbol_skull" color="{difficultycolor7}" visible="{visible7}"/>
 					<rect width="16" height="16" visible="{visible_half}">
-						<sprite depth="2" name="windowicon" width="16" height="16" sprite="ui_game_symbol_skull" type="filled" fill="0.5" color="255,128,0"/>
-						<sprite depth="2" name="windowicon" width="16" height="16" sprite="ui_game_symbol_skull" type="filled" fill="0.5" fillinvert="true"  color="[lightGrey]"/>
+						<sprite depth="2" name="windowicon" width="28" height="28" sprite="ui_game_symbol_skull" type="filled" fill="0.5" color="255,128,0"/>
+						<sprite depth="2" name="windowicon" width="28" height="28" sprite="ui_game_symbol_skull" type="filled" fill="0.5" fillinvert="true"  color="[lightGrey]"/>
 					</rect>
 				</grid>				
 			</rect>
@@ -49,8 +49,8 @@
 					<sprite depth="2" name="windowicon" width="28" height="28" sprite="ui_game_symbol_skull" color="{difficultycolor6}" visible="{visible6}"/>
 					<sprite depth="2" name="windowicon" width="28" height="28" sprite="ui_game_symbol_skull" color="{difficultycolor7}" visible="{visible7}"/>
 					<rect width="16" height="16" visible="{visible_half}">
-						<sprite depth="2" name="windowicon" width="16" height="16" sprite="ui_game_symbol_skull" type="filled" fill="0.5" color="255,128,0"/>
-						<sprite depth="2" name="windowicon" width="16" height="16" sprite="ui_game_symbol_skull" type="filled" fill="0.5" fillinvert="true"  color="[lightGrey]"/>
+						<sprite depth="2" name="windowicon" width="28" height="28" sprite="ui_game_symbol_skull" type="filled" fill="0.5" color="255,128,0"/>
+						<sprite depth="2" name="windowicon" width="28" height="28" sprite="ui_game_symbol_skull" type="filled" fill="0.5" fillinvert="true"  color="[lightGrey]"/>
 					</rect>
 				</grid>				
 			</rect>
@@ -210,7 +210,7 @@
 					<sprite depth="11" height="69" width="69" name="background" sprite="ui_game_filled_circle" color="{xpcolor}" pivot="center" globalopacity="false" type="filled" fill="{xp}" filldirection="radial360" controller="ToolbeltWindow"/>
 					<sprite depth="12" width="55" height="55" name="center" sprite="ui_game_filled_circle" color="115,115,115" pivot="center" globalopacity="false"/>
 					<label depth="15" pos="0,9" name="Level" width="45" height="42" pivot="center" justify="center" text="LEVEL" font_size="18"/>						
-					<label depth="15" pos="0,-10" name="LevelNumber" width="45" height="42" pivot="center" justify="center" text="{cvar($LastPlayerLevel)}" font_size="20" controller="HUDStatBar" />						
+					<label depth="15" pos="0,-10" name="LevelNumber" width="45" height="42" pivot="center" justify="center" text="{cvar($LastPlayerLevel)}" font_size="20" controller="MapStats" />						
 				</rect>
 											
 				<!--Food Bar Adjustments-->			
@@ -370,7 +370,9 @@
 		<!--Added a line of code of the burning time to adjust the color.-->
 			<setattribute xpath="/windows/window[@name='windowFuel']/panel[@style='header.panel']/label[@style='header.timer']" name="color">[white]</setattribute>
 
-
+		<!--5th Crafting Slot-->
+			<set xpath="/windows/window[@name='windowCraftingQueue']/rect/grid/@cols">5</set>
+			<set xpath="/windows/window[@name='windowCraftingQueue']/rect/@pos">9,0</set>
 
 
 
@@ -555,9 +557,6 @@
 	
 	
 
-<!--5th Crafting Slot-->
-		<set xpath="/windows/window[@name='windowCraftingQueue']/rect/grid/@cols">5</set>
-		<set xpath="/windows/window[@name='windowCraftingQueue']/rect/@pos">9,0</set>
 		
 	
 

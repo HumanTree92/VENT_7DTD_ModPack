@@ -1,14 +1,17 @@
-HUDPlus
-A21 - Version 1.9.1
+HUDPlus Addon
+A21 - Version 1.5.1
+
 
 ______________________________________________________________________________________________________________________
 README TABLE OF CONTENTS
 1. About Author
 2. Mod Philosophy
-3. Installation Notes
+3. Installation and Removal Notes
 4. Features
+5. Change Log
 
-_____________________________________________________________________________________________________________________
+
+____________________________________________________________________________________________________________________
 1.  ABOUT AUTHOR
 	-My name is AuroraGiggleFairy (AGF), previously known as RilesPlus
 	-Started playing 7d2d during Alpha 12
@@ -21,6 +24,7 @@ ________________________________________________________________________________
 		https://7daystodiemods.com/
 		https://www.nexusmods.com/7daystodie
 		
+
 ______________________________________________________________________________________________________________________
 2.  MOD PHILOSOPHY
 	-Preferably easy installation and use!
@@ -31,32 +35,33 @@ ________________________________________________________________________________
 		
 	"The best mods rely on community involvement."
 
+
 ______________________________________________________________________________________________________________________
 3.  INSTALLATION NOTES
 	*First, if you run into any conflicts, you may contact AuroraGiggleFairy via discord: https://discord.gg/Vm5eyW6N4r
+		-All questions welcome from newcombers to seasoned 7d2d people.
 
-	-This is a server-side mod, meaning this mod can be installed on JUST the server and will work automatically for joining players.
-	-Works with EAC on or off.
+	-REQUIRES HUDPlus main file, as this addon just "adds" onto the original.
+	-REQUIRES EAC to be turned off.
+	-To work multiplayer, host and clients must have this installed.
 	-All 14 languages supported
-	-HUDPlus is SAFE to install on new or existing games.
-	-HUDPLUS is SAFE to remove from an existing game.
+	-ADDON for HUDPLus is SAFE to install on new or existing games.
+	-ADDON for HUDPLus is SAFE to remove from an existing game.
 
-______________________________________________________________________________________________________________________
+
+_____________________________________________________________________________________________________________________
 4.  FEATURES
 
-Compact and readable display of health, stamina, food, water, level, xp, elevation, and temperature.
-Wider and accurate compass with a center mark.
-Lowered toolbelt for backpack mod compatibility and added slot numbers.
-Improved readability of the chat output when sending and receiving messages.
-Map information moved to its own section next to the map with labels.
-Crafting and burning times adjusted for easier viewing.
-Date, Time and Skulls displayed on all menus.
-Viewing quest selections made easier with improved background, color, and poi_names.
-Simple color coordination of interactive blocks or npcs.
-5 crafting slots positioned evenly.
-Removed Pop up of wandering into new location.
-Simplified location name viewing.
+FIRST, AGF is NOT the author of the .dll component of this file, only the display on the HUD.
+	You can find more information about the .dll here: https://github.com/s7092910/PlayerStatController
 
-
+Food and Water displays both amount and percentages.
+XP to Next Level and Lootstage is displayed.
+On the chat output you can see zombie kills, player deaths, and pvp kills.
 
 	
+______________________________________________________________________________________________________________
+5.  Change Log
+
+v1.5.1
+-Updated the .dll used and provided it's source in the readme.

@@ -6,13 +6,15 @@
 		<remove xpath="/windows/window[@name='HUDLeftStatBars']/rect[@name='hud']/rect[@name='food']/sprite[@name='Icon']"/>
 		<set xpath="/windows/window[@name='HUDLeftStatBars']/rect[@name='hud']/rect[@name='food']/label[@name='TextContent']/@pos">0,-59</set>
 		<append xpath="/windows/window[@name='HUDLeftStatBars']/rect[@name='hud']/rect[@name='food']">
-			<label depth="7" name="TextContent" pos="0,-2" font_size="18" color="[white]" text="{PlayerFoodCurrent}"  height="34" width="42" justify="center" tooltip_key="xuiFoodAmount" controller="PlayerStats, PlayerStatController"/>
+			<label depth="7" name="TextContent" pos="0,-2" font_size="18" color="[white]" text="{PlayerFood}"  height="34" width="42" justify="center" tooltip_key="xuiFoodAmount" controller="PlayerStats, PlayerStatController"/>
+			<!--<label depth="7" name="TextContent" pos="0,-18" font_size="18" color="222,206,163,255" text="{PlayerFoodMax}"  height="34" width="42" justify="center" tooltip_key="xuiFoodAmount" controller="PlayerStats, PlayerStatController"/>-->
 		</append>
 		
 		<remove xpath="/windows/window[@name='HUDLeftStatBars']/rect[@name='hud']/rect[@name='water']/sprite[@name='Icon']"/>	
 		<set xpath="/windows/window[@name='HUDLeftStatBars']/rect[@name='hud']/rect[@name='water']/label[@name='TextContent']/@pos">34,-59</set>	
 		<append xpath="/windows/window[@name='HUDLeftStatBars']/rect[@name='hud']/rect[@name='water']">
-			<label depth="7" name="TextContent" pos="34,-2" font_size="18" color="[white]" text="{PlayerWaterCurrent}"  height="34" width="42" justify="center" tooltip_key="xuiWaterAmount" controller="PlayerStats, PlayerStatController"/>
+			<label depth="7" name="TextContent" pos="34,-2" font_size="18" color="[white]" text="{PlayerWater}"  height="34" width="42" justify="center" tooltip_key="xuiWaterAmount" controller="PlayerStats, PlayerStatController"/>
+			<!--<label depth="7" name="TextContent" pos="34,-18" font_size="18" color="222,206,163,255" text="{PlayerWaterMax}"  height="34" width="42" justify="center" tooltip_key="xuiWaterAmount" controller="PlayerStats, PlayerStatController"/>-->
 		</append>	
 
 
