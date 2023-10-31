@@ -160,6 +160,7 @@
 			<property name="Create_item_count" value="10000"/> <!-- Default 6000 -->
 		</property>
 	</append>
+
 	<!-- Stack Size Misc -->
 	<set xpath="/items/item[@name='resourceSewingKit']/property[@name='Stacknumber']/@value">50</set> <!-- Default 20 -->
 	<set xpath="/items/item[@name='resourceOil']/property[@name='Stacknumber']/@value">100</set> <!-- Default 50 -->

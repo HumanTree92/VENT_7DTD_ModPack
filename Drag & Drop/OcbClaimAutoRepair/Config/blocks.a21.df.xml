@@ -1,6 +1,6 @@
 <configs>
 	<append xpath="/blocks/block[@name='ocbBlockClaimAutoRepair']">
-		<property name="UnlockedBy" value="craftingRepairTools"/>
+		<property name="UnlockedBy" value="perkWorkbench,perkAdvancedEngineering"/>
 
 		<property name="Stacknumber" value="5"/>
 
