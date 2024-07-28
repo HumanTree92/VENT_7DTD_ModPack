@@ -19,7 +19,7 @@
 			<property name="airDrag_velScale_angVelScale" value=".997, .97"/>
 			<property name="waterDrag_y_velScale_velMaxScale" value="1.5, .9, 1"/>
 			<property name="waterLift_y_depth_force" value="1, .5, .1"/>
-			<property name="hornSound" value="truck_horn"/>
+			<property name="hornSound" value="UH60_horn"/>
 			<property class="engine">
 				<property name="class" value="Engine"/>
 				<property name="particleOn" value="M/p_on"/>

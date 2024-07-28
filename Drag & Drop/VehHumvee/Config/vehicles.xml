@@ -19,7 +19,7 @@
 			<property name="unstickForce" value="1"/>
 			<property name="waterDrag_y_velScale_velMaxScale" value="1.8, .9, .1"/>
 			<property name="wheelPtlScale" value="1"/>
-			<property name="hornSound" value="truck_horn"/>
+			<property name="hornSound" value="HV_horn"/>
 			<property class="chassis">
 				<property name="class" value="Chassis"/>
 				<property name="display_name" value="chassis"/>
@@ -42,28 +42,28 @@
 									500,2500, -1400,800,0, 150,9999,9999,
 									,
 									Vehicles/Suv/suv_decel1,
-									0, .3,  .45, .1,  -9, .1, .1, truck4_idle,
-									-.1, .1,  .65, .3,  0, 8, .1, truck4_max_speed_lp
+									0, .3,  .45, .1,  -9, .1, .1, HV_idle,
+									-.1, .1,  .65, .3,  0, 8, .1, HV_max_speed_lp
 									"/>
 				<property name="gear2" value="
 									500,2500, -2000,1000,2000, 400,9999,9999,
 									,
-									truck4_idle,
-									-.25, -.05, .2, .4, -1, 1, .1, truck4_max_speed_lp
+									HV_idle,
+									-.25, -.05, .2, .4, -1, 1, .1, HV_max_speed_lp
 									"/>
 				<property name="gear3" value="
 									500,2500, -2000,1000,2000, 350,2200,1000,
 									,
-									truck4_idle,
-									-.28, -.07, .3, .6, -1, 1, .1, truck4_max_speed_lp
+									HV_idle,
+									-.28, -.07, .3, .6, -1, 1, .1, HV_max_speed_lp
 									"/>
 				<property name="gear4" value="
 									500,2500, -2000,1000,2000, 250,9999,9999,
 									,
-									truck4_idle,
-									-.31, -.08, .6, 1, -1, 1, .1, truck4_max_speed_lp
+									HV_idle,
+									-.31, -.08, .6, 1, -1, 1, .1, HV_max_speed_lp
 									"/>
-				<property name="sound_start" value="truck4_startup"/>
+				<property name="sound_start" value="HV_startup"/>
 				<property name="sound_shut_off" value="Vehicles/Suv/suv_shutoff"/>
 				<property name="sound_no_fuel_shut_off" value="Vehicles/Motorbike/motorbike_empty"/>
 				<property name="paint" value="M/Body2"/>

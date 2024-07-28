@@ -19,7 +19,7 @@
 			<property name="unstickForce" value="1"/>
 			<property name="waterDrag_y_velScale_velMaxScale" value="1.8, .9, .1"/>
 			<property name="wheelPtlScale" value="1"/>
-			<property name="hornSound" value="car_horn2"/>
+			<property name="hornSound" value="WJ_horn"/>
 			<property class="chassis">
 				<property name="class" value="Chassis"/>
 				<property name="paint" value="M/willy2/Body"/>
@@ -59,7 +59,7 @@
 										Vehicles/Suv/suv_decel2,
 										-.31, -.08, .6, .4, -1, 1, .1, Vehicles/Suv/suv_max_speed_lp
 											"/>
-				<property name="sound_start" value="modernV8_startup"/>
+				<property name="sound_start" value="Vehicles/Suv/suv_startup"/>
 				<property name="sound_shut_off" value="Vehicles/Suv/suv_shutoff"/>
 				<property name="sound_no_fuel_shut_off" value="Vehicles/Motorbike/motorbike_empty"/>
 				<property name="mod" value="speed"/>

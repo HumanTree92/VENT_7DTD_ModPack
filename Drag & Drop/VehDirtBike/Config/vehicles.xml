@@ -19,7 +19,7 @@
 			<property name="unstickForce" value="1"/>
 			<property name="waterDrag_y_velScale_velMaxScale" value="1.7, .9, .1"/>
 			<property name="wheelPtlScale" value="1"/>
-			<property name="hornSound" value="horn_loud"/>
+			<property name="hornSound" value="DBhorn_loud"/>
 			<property class="chassis">
 				<property name="class" value="Chassis"/>
 				<property name="display_name" value="chassis"/>

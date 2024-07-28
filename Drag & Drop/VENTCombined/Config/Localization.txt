@@ -2,3 +2,10 @@ Key,File,Type,UsedInMainMenu,NoTranslate,english
 
 StarterBundleName,items,Item,,,Starter Kit
 StarterBundleDesc,items,Item,,,Included are items necessary to your survival\nPress Open and claim your items!
+resourceCoalBundle,items,Item,,,Stack of Coal (10000)
+resourceLeadBundle,items,Item,,,Stack of Lead (10000)
+resourceOilShaleBundle,items,Item,,,Stack of Oil Shale (10000)
+resourcePotassiumNitratePowderBundle,items,Item,,,Stack of Nitrate Powder (10000)
+resourceRockSmallBundle,items,Item,,,Stack of Small Stone (10000)
+resourceScrapIronBundle,items,Item,,,Stack of Iron (10000)
+resourceWoodBundle,items,Item,,,Stack of Wood (10000)

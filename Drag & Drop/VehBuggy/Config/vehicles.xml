@@ -22,7 +22,7 @@
 			<property name="unstickForce" value="1"/>
 			<property name="waterDrag_y_velScale_velMaxScale" value="1.8, .9, .1"/>
 			<property name="wheelPtlScale" value="1"/>
-			<property name="hornSound" value="horn_loud"/>
+			<property name="hornSound" value="Buggyhorn_loud"/>
 			<property class="chassis">
 				<property name="class" value="Chassis"/>
 				<property name="display_name" value="chassis"/>
@@ -45,7 +45,7 @@
 									500,2500, -1400,800,0, 350,2200,900,
 								Vehicles/Suv/suv_accel1,
 								Vehicles/Suv/suv_decel1,
-								0, .7, 1, .1, -9, .12, .1, oldV8_idle,
+								0, .7, 1, .1, -9, .12, .1, Buggy_idle,
 								-.4, -.02, .7, .7, -.2, 9, .2, Vehicles/Suv/suv_max_speed_lp
 								"/>
 				<property name="gear2" value="
