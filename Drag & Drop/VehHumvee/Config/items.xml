@@ -5,7 +5,7 @@
 			<property name="UnlockedBy" value="craftingVehicles"/>
 			<property name="CustomIcon" value="Humveechassis"/>
 			<property name="DescriptionKey" value="vehicleHumveechassisDesc"/>
-			<property name="EconomicValue" value="12000"/>
+			<property name="EconomicValue" value="11000"/>
 			<property name="TraderStageTemplate" value="vehicleTier3"/>
 		</item>
 		<item name="vehicleHumveebody">
@@ -13,16 +13,16 @@
 			<property name="UnlockedBy" value="craftingVehicles"/>
 			<property name="CustomIcon" value="Humveebody"/>
 			<property name="DescriptionKey" value="vehicleHumveebodyDesc"/>
-			<property name="EconomicValue" value="12000"/>
+			<property name="EconomicValue" value="11000"/>
 			<property name="TraderStageTemplate" value="vehicleTier3"/>
 		</item>
 		<item name="vehicleHumveeplaceable">
-			<property name="Extends" value="vehicle4x4TruckPlaceable"/>
-			<property name="Tags" value="vehicle,vengine,vfuel,vlight,canHaveCosmetic"/>
+			<property name="Extends" value="vehicleTruck4x4Placeable"/>
+			<property name="Tags" value="vehicle,vengine,vfuel,vseat,vplow,vlight,vbody,canHaveCosmetic"/>
 			<property name="CustomIcon" value="Humvee"/>
 			<property name="DescriptionKey" value="vehicleHumveeplaceableDesc"/>
 			<property name="Meshfile" value="#@modfolder:Resources/Hummer.unity3d?Humvee1.prefab"/>
-			<property name="EconomicValue" value="40000"/>
+			<property name="EconomicValue" value="35000"/>
 			<property name="TraderStageTemplate" value="vehicleTier4"/>
 			<property class="Action1">
 				<property name="Vehicle" value="vehicleHumvee"/>
@@ -34,22 +34,21 @@
 				<passive_effect name="DegradationMax" operation="base_set" value="12000"/>
 			</effect_group>
 		</item>
-		<item name="vehicleHumveeToplessplaceable">
-			<property name="Extends" value="vehicle4x4TruckPlaceable"/>
-			<property name="CustomIcon" value="HumveeTopless"/>
-			<property name="DescriptionKey" value="vehicleHumveeToplessplaceableDesc"/>
-			<property name="Meshfile" value="#@modfolder:Resources/Hummer.unity3d?Humvee2.prefab"/>
-			<property name="EconomicValue" value="40000"/>
-			<property name="TraderStageTemplate" value="vehicleTier4"/>
-			<property class="Action1">
-				<property name="Vehicle" value="vehicleHumveeTopless"/>
-				<property name="VehicleSize" value="4.7, 4.8, 5"/>
+		<item name="questRewardHumveePartsBundle">
+			<property name="Extends" value="questRewardBundleMaster"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CustomIcon" value="bundleVehicle4x4"/>
+			<property name="CustomIconTint" value="FFFFFF"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="DescriptionKey" value="questRewardVehicleBundleDesc"/>
+			<property class="Action0">
+				<property name="Create_item" value="vehiclesSkillMagazine,vehicleWheels,questRewardVehiclePartsBundle"/>
+				<property name="Create_item_count" value="3,4,1"/>
+				<property name="Random_item" value="vehicleHumveechassis,vehicleHumveebody"/>
+				<property name="Random_item_count" value="1,1"/>
+				<property name="Random_count" value="1"/>
+				<property name="Unique_random_only" value="true"/>
 			</property>
-			<effect_group name="Base Effects" tiered="false">
-				<passive_effect name="ModSlots" operation="base_set" value="4"/>
-				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
-				<passive_effect name="DegradationMax" operation="base_set" value="12000"/>
-			</effect_group>
 		</item>
 	</append>
 </configs>

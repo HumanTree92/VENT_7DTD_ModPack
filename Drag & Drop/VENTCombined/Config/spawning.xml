@@ -1,3 +1,0 @@
-<NoScreamersSpawn>
-	<remove xpath="/spawning/entityspawner[contains(@name, 'Scouts')]"/>
-</NoScreamersSpawn>

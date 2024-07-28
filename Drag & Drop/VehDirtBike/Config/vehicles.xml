@@ -3,14 +3,13 @@
 		<vehicle name="vehicleDirtBike">
 			<property name="cameraDistance" value="4, 5"/>
 			<property name="cameraTurnRate" value=".2, .35"/>
-			<property name="motorTorque" value="2000, 900"/>
-			<property name="turboScale" value="1.5, 1.3"/>
-			<property name="velocityMax" value="13, 12"/>
-			<property name="brakeTorque" value="4000"/>
+			<property name="motorTorque_turbo" value="2300, 900, 3000, 1200"/>
+			<property name="velocityMax_turbo" value="13, 7, 17.5, 8.5"/>
+			<property name="brakeTorque" value="3500"/>
 			<property name="upAngleMax" value="90"/>
 			<property name="upForce" value="5"/>
-			<property name="steerRate" value="150"/>
-			<property name="steerCenteringRate" value="110"/>
+			<property name="steerRate" value="200"/>
+			<property name="steerCenteringRate" value="150"/>
 			<property name="tiltAngleMax" value="15"/>
 			<property name="tiltThreshold" value="3"/>
 			<property name="tiltDampening" value="1.22"/>
@@ -20,7 +19,7 @@
 			<property name="unstickForce" value="1"/>
 			<property name="waterDrag_y_velScale_velMaxScale" value="1.7, .9, .1"/>
 			<property name="wheelPtlScale" value="1"/>
-			<property name="hornSound" value="DBhorn_loud"/>
+			<property name="hornSound" value="horn_loud"/>
 			<property class="chassis">
 				<property name="class" value="Chassis"/>
 				<property name="display_name" value="chassis"/>
@@ -28,13 +27,13 @@
 				<property name="mesh" value="chassis"/>
 				<property name="transform" value="Origin"/>
 				<property name="part_damage_reduction" value="0.5"/>
-				<property name="paint" value="CHASSIS_meshBIKE"/>
+				<property name="paint" value="M/CHASSIS_meshBIKE"/>
 			</property>
 			<property class="engine">
 				<property name="class" value="Engine"/>
-				<property name="particleOn" value="p_on"/>
-				<property name="particleDamaged" value="p_damaged"/>
-				<property name="particleBroken" value="p_broken"/>
+				<property name="particleOn" value="M/p_on"/>
+				<property name="particleDamaged" value="M/p_damaged"/>
+				<property name="particleBroken" value="M/p_broken"/>
 				<property name="foodDrain" value=".003,.003"/>
 				<property name="slot_type" value="engine"/>
 				<property name="mesh" value="engine_small"/>
@@ -68,54 +67,61 @@
 				<property name="sound_start" value="Vehicles/Motorbike/minibike_start_"/>
 				<property name="sound_shut_off" value="Vehicles/Motorbike/minibike_shutoff_"/>
 				<property name="sound_no_fuel_shut_off" value="Vehicles/Motorbike/motorbike_empty"/>
-				<property name="parent_part" value="chassis"/>
+				<property name="mod" value="speed"/>
+				<property name="modT" value="M/ExhaustTurbo"/>
+				<property name="modHideT" value="M/Exhaust"/>
 			</property>
 			<property class="fuelTank">
 				<property name="class" value="FuelTank"/>
-				<property name="parent_part" value="engine"/>
 				<property name="capacity" value="75"/>
+				<property name="mod" value="fueltank"/>
+				<property name="modT" value="M/Origin/handlebar_joint/Fuel"/>
 			</property>
 			<property class="handlebars">
 				<property name="class" value="Steering"/>
 				<property name="slot_type" value="handlebars"/>
 				<property name="mesh" value="handlebar"/>
-				<property name="transform" value="Origin/handlebar_joint"/>
-				<property name="IKHandLPosition" value="-.35, .05, -.1"/>
-				<property name="IKHandLRotation" value="27.30321, -25.59375, 8.961643"/>
-				<property name="IKHandRPosition" value=".35, .05, -.1"/>
-				<property name="IKHandRRotation" value="27.30321, 25.59375, -8.961643"/>
-				<property name="parent_part" value="chassis"/>
+				<property name="transform" value="M/Origin/handlebar_joint"/>
+				<property name="IKHandLPosition" value="-.38, .05, -.11"/>
+				<property name="IKHandLRotation" value="357.7, 96.1, 36.5"/>
+				<property name="IKHandRPosition" value=".38, .05, -.114"/>
+				<property name="IKHandRRotation" value="174.1, 266.4, 31.2"/>
+				<property name="paint" value="M/Origin/handlebar_joint/steering_mesh"/>
 			</property>
 			<property class="seat0">
-				<property name="position" value="0, 0.16, .05"/>
-				<property name="rotation" value="-10, 0, 0"/>
-				<property name="exit" value="-.9,0,0 ~ .9,0,0 ~ 0,0,-1.5 ~ 0,0,1.6 ~ 0,1.5,0"/>
-			</property>
-			<property class="seat1">
 				<property name="class" value="Seat"/>
-				<property name="position" value="0, 0.18, -.365"/>
-				<property name="rotation" value="-10, 0, 0"/>
-				<property name="exit" value="-.9,0,-.7 ~ .9,0,-.7 ~ -.6,0,-1.5 ~ -.6,0,1.6 ~ 0,1.5,-.6"/>
-				<property name="mod" value="1"/>
-				<property name="IKFootLPosition" value="-.3, .36, -.1"/>
-				<property name="IKFootLRotation" value="10, 0, 0"/>
-				<property name="IKFootRPosition" value=".3, .36, -.1"/>
-				<property name="IKFootRRotation" value="10, 0, 0"/>
+				<property name="pose" value="30"/>
+				<property name="position" value="0, .2, .3"/>
+				<property name="rotation" value="0, 0, 0"/>
+				<property name="exit" value="-.9,0,0 ~ .9,0,0 ~ 0,0,-1.5 ~ 0,0,1.6 ~ 0,1.5,0"/>
+				<property name="IKFootLPosition" value="-0.22, 0.29, -0.52"/>
+				<property name="IKFootLRotation" value="0, 0, 4"/>
+				<property name="IKFootRPosition" value="0.22, 0.29, -0.52"/>
+				<property name="IKFootRRotation" value="0, 0, 356"/>
 			</property>
 			<property class="wheel0">
-				<property name="steerTransform" value="Origin/handlebar_joint"/>
-				<property name="tireTransform" value="Origin/handlebar_joint/frontWheel_joint"/>
+				<property name="steerTransform" value="M/Origin/handlebar_joint"/>
+				<property name="tireTransform" value="M/Origin/handlebar_joint/frontWheel_joint"/>
 				<property name="torqueScale_motor_brake" value=".8, 1"/>
 			</property>
 			<property class="wheel1">
-				<property name="tireTransform" value="Origin/backWheelJoint"/>
+				<property name="tireTransform" value="M/Origin/backWheelJoint"/>
 				<property name="torqueScale_motor_brake" value="1, 1"/>
 			</property>
 			<property class="headlight">
 				<property name="class" value="Headlight"/>
-				<property name="parent_part" value="handlebars"/>
-				<property name="transform" value="Origin/handlebar_joint/headlight"/>
 				<property name="bright" value=".9"/>
+				<property name="transform" value="M/Origin/handlebar_joint/headlight"/>
+				<property name="mod" value="light"/>
+				<property name="modT" value="M/Origin/handlebar_joint/HeadLights"/>
+				<property name="modOnT" value="M/Origin/handlebar_joint/HeadLights/Lights"/>
+				<property name="modMatEmissive" value="909090"/>
+			</property>
+			<property class="armor">
+				<property name="class" value="VehiclePart"/>
+				<property name="mod" value="armor"/>
+				<property name="modT" value="M/Origin/handlebar_joint/Armor"/>
+				<property name="modRBT" value="Armor"/>
 			</property>
 			<property class="storage">
 				<property name="class" value="Storage"/>
@@ -123,7 +129,6 @@
 				<property name="slot_type" value="basket"/>
 				<property name="mesh" value="basket"/>
 				<property name="transform" value="basket"/>
-				<property name="parent_part" value="chassis"/>
 			</property>
 		</vehicle>
 	</append>

@@ -9,3 +9,5 @@ vehicleHumveeplaceableDesc,Military surplus at its finest!
 vehicleHumveeTopless,Humvee
 vehicleHumveeToplessplaceable,Humvee (Topless)
 vehicleHumveeToplessplaceableDesc,Military surplus at its finest!
+modVehicleHumveeDoors,Humvee Doors
+modVehicleHumveeDoorsDesc,Equip this mod to your Humvee if you want it to have doors.

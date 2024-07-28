@@ -3,6 +3,12 @@
 		<lootgroup name="Buggygroup">
 			<item name="vehicleBuggychassis"/>
 			<item name="vehicleBuggyaccessories"/>
+			<item name="vehicleWheels"/>
+			<item name="smallEngine"/>
+			<item name="carBattery"/>
+		</lootgroup>
+		<lootgroup name="groupQuestBuggyParts" count="all">
+			<item name="questRewardBuggyPartsBundle"/>
 		</lootgroup>
 	</insertBefore>
 	<append xpath="/lootcontainers/lootgroup[@name='vehiclePartsTiered']">

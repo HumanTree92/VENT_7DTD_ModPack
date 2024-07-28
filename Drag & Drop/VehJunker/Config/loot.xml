@@ -3,6 +3,12 @@
 		<lootgroup name="Junkergroup">
 			<item name="vehicleJunkerChassis"/>
 			<item name="vehicleJunkerbars"/>
+			<item name="vehicleWheels"/>
+			<item name="smallEngine"/>
+			<item name="carBattery"/>
+		</lootgroup>
+		<lootgroup name="groupQuestJunkerParts" count="all">
+			<item name="questRewardJunkerPartsBundle"/>
 		</lootgroup>
 	</insertBefore>
 	<append xpath="/lootcontainers/lootgroup[@name='vehiclePartsTiered']">

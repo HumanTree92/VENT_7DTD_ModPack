@@ -3,6 +3,12 @@
 		<lootgroup name="MD500group">
 			<item name="vehicleMD500chassis"/>
 			<item name="vehicleMD500accessories"/>
+			<item name="vehicleWheels"/>
+			<item name="smallEngine"/>
+			<item name="carBattery"/>
+		</lootgroup>
+		<lootgroup name="groupQuestMD500Parts" count="all">
+			<item name="questRewardMD500PartsBundle"/>
 		</lootgroup>
 	</insertBefore>
 	<append xpath="/lootcontainers/lootgroup[@name='vehiclePartsTiered']">

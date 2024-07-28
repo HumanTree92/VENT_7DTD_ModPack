@@ -1,0 +1,24 @@
+<AGF-HUDPlus-Calendar>
+
+
+<!--This code to utilize the localization for the days of the week is created by DragonTander.
+	-I am seeking his permission to publish this format of it in order to use with my HUD-->
+
+
+<remove xpath="/windows/window[@name='windowCompass']/rect[@name='hud']"></remove>	
+
+<append xpath="/windows/window[@name='windowCompass']">
+		<rect name="hud" pos="-250,-4" rows="1" cols="1" width="250">
+				<sprite pos="0,6" name="Background" sprite="menu_empty" color="0,0,0,225" foregroundlayer="true" height="46" width="250" type="sliced" />
+				<label depth="3" text="{daytitle}" width="140" font_size="20" justify="center" pos="6,2" height="28" />
+				<label depth="3" text="[{daycolor}]{# localization('daycount_' + day%7)}[-] - [{daycolor}]{day}[-]" width="140" font_size="20" justify="center" pos="6,-20" height="28" />
+				
+				<label depth="3" text="{timetitle}" width="170" font_size="20" justify="center" pos="86,2" height="28" />
+				<label depth="3" text="[DECEA3]{time}" width="170" font_size="20" justify="center" pos="86,-20" height="28" />
+				
+		</rect>	
+</append>
+
+
+
+</AGF-HUDPlus-Calendar>

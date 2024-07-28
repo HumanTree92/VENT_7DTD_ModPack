@@ -3,6 +3,13 @@
 		<lootgroup name="Humveegroup">
 			<item name="vehicleHumveechassis"/>
 			<item name="vehicleHumveebody"/>
+			<item name="modVehicleHumveeDoors"/>
+			<item name="vehicleWheels"/>
+			<item name="smallEngine"/>
+			<item name="carBattery"/>
+		</lootgroup>
+		<lootgroup name="groupQuestHumveeParts" count="all">
+			<item name="questRewardHumveePartsBundle"/>
 		</lootgroup>
 	</insertBefore>
 	<append xpath="/lootcontainers/lootgroup[@name='vehiclePartsTiered']">

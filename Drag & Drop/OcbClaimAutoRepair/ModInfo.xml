@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<xml>
-	<Name value="OcbClaimAutoRepair" />
-	<DisplayName value="OCB Claim Auto Repair Block" />
-	<Description value="Auto repairs blocks in your claim vicinity" />
-	<Website value="https://github.com/OCB7D2D/OcbClaimAutoRepair" />
-	<Author value="ocbMaurice" />
-	<Version value="0.8.1" />
-</xml>

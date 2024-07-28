@@ -6,6 +6,12 @@
 		<lootgroup name="UH60group">
 			<item name="vehicleUH60chassis"/>
 			<item name="vehicleUH60accessories"/>
+			<item name="vehicleWheels"/>
+			<item name="smallEngine"/>
+			<item name="carBattery"/>
+		</lootgroup>
+		<lootgroup name="groupQuestUH60Parts" count="all">
+			<item name="questRewardUH60PartsBundle"/>
 		</lootgroup>
 	</insertBefore>
 	<append xpath="/lootcontainers/lootgroup[@name='vehiclePartsTiered']">

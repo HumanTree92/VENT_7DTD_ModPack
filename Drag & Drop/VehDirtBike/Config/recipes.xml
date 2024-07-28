@@ -1,30 +1,31 @@
 <configs>
 	<append xpath="/recipes">
-		
-		<recipe name="vehicleDirtBikeChassis" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+		<recipe name="vehicleDirtBikeChassis" count="1" craft_area="workbench" craft_time="120" tags="perkGreaseMonkey,learnable,workbenchCrafting">
 			<ingredient name="resourceForgedSteel" count="35"/>
 			<ingredient name="resourceMechanicalParts" count="30"/>
 			<ingredient name="resourceDuctTape" count="12"/>
 			<ingredient name="resourceMetalPipe" count="12"/>
 			<ingredient name="resourceSpring" count="3"/>
+			<effect_group>
+				<passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,3" value=".5,.5" tags="resourceForgedSteel,resourceMetalPipe,resourceMechanicalParts,resourceDuctTape"/>
+			</effect_group>
 		</recipe>
-		
-		<recipe name="vehicleDirtBikeParts" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+		<recipe name="vehicleDirtBikeParts" count="1" craft_area="workbench" craft_time="120" tags="perkGreaseMonkey,learnable,workbenchCrafting">
 			<ingredient name="resourceForgedSteel" count="20"/>
 			<ingredient name="resourceMechanicalParts" count="12"/>
 			<ingredient name="resourceScrapPolymers" count="50"/>
 			<ingredient name="resourceLeather" count="12"/>
 			<ingredient name="resourceForgedIron" count="15"/>
+			<effect_group>
+				<passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,3" value=".5,.5" tags="resourceForgedSteel,resourceLeather,resourceMechanicalParts,resourceScrapPolymers"/>
+			</effect_group>
 		</recipe>
-
-		<recipe name="vehicleDirtBikeplaceable" count="1" craft_time="150" craft_area="workbench">
+		<recipe name="vehicleDirtBikeplaceable" count="1" craft_area="workbench" craft_time="120" tags="workbenchCrafting">
 			<ingredient name="vehicleWheels" count="2"/>
 			<ingredient name="vehicleDirtBikeChassis" count="1"/>
 			<ingredient name="vehicleDirtBikeParts" count="1"/>
 			<ingredient name="smallEngine" count="1"/>
 			<ingredient name="carBattery" count="1"/>
 		</recipe>
-
-		
 	</append>
  </configs>

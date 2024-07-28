@@ -18,10 +18,11 @@
 		</item>
 		<item name="vehicleJunkerplaceable">
 			<property name="Extends" value="vehicleMinibikePlaceable"/>
+			<property name="Tags" value="vehicle,vengine,vfuel,varmor,vlight,vseat,canHaveCosmetic"/>
 			<property name="CustomIcon" value="Junker"/>
 			<property name="DescriptionKey" value="vehicleJunkerplaceableDesc"/>
 			<property name="Meshfile" value="#@modfolder:Resources/Junker1.unity3d?Junker.prefab"/>
-			<property name="EconomicValue" value="11000"/>
+			<property name="EconomicValue" value="10000"/>
 			<property name="TraderStageTemplate" value="vehicleTier3"/>
 			<property class="Action1">
 				<property name="Vehicle" value="vehicleJunker"/>
@@ -30,25 +31,24 @@
 			<effect_group name="Base Effects" tiered="false">
 				<passive_effect name="ModSlots" operation="base_set" value="4"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
-				<passive_effect name="DegradationMax" operation="base_set" value="4000"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="3800"/>
 			</effect_group>
 		</item>
-		<item name="vehicleJunker2placeable">
-			<property name="Extends" value="vehicleMinibikePlaceable"/>
-			<property name="CustomIcon" value="Junker2"/>
-			<property name="DescriptionKey" value="vehicleJunker2placeableDesc"/>
-			<property name="Meshfile" value="#@modfolder:Resources/Junker1.unity3d?Junker2.prefab"/>
-			<property name="EconomicValue" value="11000"/>
-			<property name="TraderStageTemplate" value="vehicleTier3"/>
-			<property class="Action1">
-				<property name="Vehicle" value="vehicleJunker2"/>
-				<property name="VehicleSize" value="2.7, 2.8, 5"/>
+		<item name="questRewardJunkerPartsBundle">
+			<property name="Extends" value="questRewardBundleMaster"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CustomIcon" value="bundleVehicleMotorCycle"/>
+			<property name="CustomIconTint" value="FFFFFF"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="DescriptionKey" value="questRewardVehicleBundleDesc"/>
+			<property class="Action0">
+				<property name="Create_item" value="vehiclesSkillMagazine,vehicleWheels,questRewardVehiclePartsBundle"/>
+				<property name="Create_item_count" value="3,2,1"/>
+				<property name="Random_item" value="vehicleJunkerChassis,vehicleJunkerbars"/>
+				<property name="Random_item_count" value="1,1"/>
+				<property name="Random_count" value="1"/>
+				<property name="Unique_random_only" value="true"/>
 			</property>
-			<effect_group name="Base Effects" tiered="false">
-				<passive_effect name="ModSlots" operation="base_set" value="4"/>
-				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
-				<passive_effect name="DegradationMax" operation="base_set" value="4000"/>
-			</effect_group>
 		</item>
 	</append>
 </configs>

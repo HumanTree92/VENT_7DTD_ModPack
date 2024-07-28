@@ -3,6 +3,5 @@
 		<item name="vehicleHumveechassis"/>
 		<item name="vehicleHumveebody"/>
 		<item name="vehicleHumveeplaceable"/>
-		<item name="vehicleHumveeToplessplaceable"/>
 	</append>
 </configs>

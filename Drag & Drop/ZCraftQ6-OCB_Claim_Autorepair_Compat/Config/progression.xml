@@ -1,5 +1,0 @@
-<BlackWarrior>
-
-<set xpath="/progression/crafting_skills/crafting_skill[@name='craftingRepairTools']/effect_group/passive_effect[@level='35,50']/@level">35,60</set>
-
-</BlackWarrior>
