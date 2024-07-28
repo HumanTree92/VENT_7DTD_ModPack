@@ -1,4 +1,8 @@
 <entity_classes>
+	<!-- Starter Bundle -->
+	<append xpath="/entity_classes/entity_class[@name='playerMale']/property[@name='ItemsOnEnterGame.GameModeSurvival']/@value">,StarterBundle</append>
+	<append xpath="/entity_classes/entity_class[@name='playerMale']/property[@name='ItemsOnEnterGame.GameModeSurvivalSP']/@value">,StarterBundle</append>
+	<append xpath="/entity_classes/entity_class[@name='playerMale']/property[@name='ItemsOnEnterGame.GameModeSurvivalMP']/@value">,StarterBundle</append>
 
 	<!-- Changes loot drops from .02 range to .05 -->
 	<set xpath="/entity_classes/entity_class[contains(@name, 'zombie')]/property[contains(@name, 'LootDropProb')]/@value">.30</set>

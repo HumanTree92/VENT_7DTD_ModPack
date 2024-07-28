@@ -1,0 +1,4 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english
+
+StarterBundleName,items,Item,,,Starter Kit
+StarterBundleDesc,items,Item,,,Included are items necessary to your survival\nPress Open and claim your items!
