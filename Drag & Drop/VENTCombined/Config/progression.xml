@@ -3,4 +3,9 @@
 	<!-- Faster Leveling & More Skill Points per Level -->
 	<set xpath="/progression/level/@exp_to_level">1000</set>
 	<set xpath="/progression/level/@skill_points_per_level">2</set>
+
+	<!-- Mining Fury -->
+	<append xpath="/progression/perks/perk[@name='perkMiner69r']/effect_group" >
+		<passive_effect name="AttacksPerMinute" operation="perc_add" level="1,2,3,4,5" value=".1,.15,.2,.25,.3" tags="perkMiner69r"/>
+	</append>
 </configs>
