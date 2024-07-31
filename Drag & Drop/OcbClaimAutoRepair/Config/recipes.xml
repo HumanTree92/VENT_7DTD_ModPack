@@ -1,0 +1,11 @@
+<configs patcher-version="7">
+	<modif condition="UndeadLegacy_CoreModule">
+		<modinc path="recipes.ulm.xml"/>
+	</modif>
+	<modelsif condition="DarknessFallsCore">
+		<modinc path="recipes.a21.df.xml"/>
+	</modelsif>
+	<modelse>
+		<modinc path="recipes.a21.xml"/>
+	</modelse>
+</configs>
