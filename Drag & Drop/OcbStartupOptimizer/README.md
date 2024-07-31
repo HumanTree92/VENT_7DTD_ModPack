@@ -1,4 +1,4 @@
-# OCB Startup Optimizer - 7 Days to Die (V1.0 exp) Addon
+# OCB Startup Optimizer - 7 Days to Die (V1.0) Addon
 
 This mod will re-compress any LZMA unity3d resource to use LZ4 compression for faster load times.
 The LZ4 format will probably use 20% to 80% more diskspace than LZMA compression.
@@ -32,6 +32,10 @@ Otherwise please use one of the [official releases][2] here.
 Only clone or download the repo if you know what you do!
 
 ## Changelog
+
+### Version 1.1.1
+
+- Fix compatibility with OCB Inventory Mouse Wheel
 
 ### Version 1.1.0
 
