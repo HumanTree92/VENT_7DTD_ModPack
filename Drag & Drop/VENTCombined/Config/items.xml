@@ -279,4 +279,1198 @@
 	<!--Twice as fast Bellow-->
 	<set xpath="/items/item[@name='toolBellows']/effect_group/passive_effect[@name='CraftingSmeltTime']/@value">-.777</set> <!-- Default -.333  -->
 	<set xpath="/items/item[@name='toolBellows']/effect_group/display_value[@name='dCraftingSmeltTime']/@value">1.3</set> <!-- Default .5 -->
+
+	<!-- Add Disassembly items -->
+	<append xpath="/items">
+		<!-- 7.62mm -->
+		<item name="Disassemble 7.62mm (10)">
+			<property name="Extends" value="ammo9mmBulletBall"/>
+			<property name="CustomIcon" value="smallammo"/>
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Sound_start" value="close_garbage"/>
+				<property name="Create_item" value="resourceBulletTip,resourceGunPowder,resourceBulletCasing"/>
+				<property name="Create_item_count" value="10,30,10"/>
+			</property>
+		</item>
+		<item name="Disassemble 7.62mm (50)">
+			<property name="Extends" value="ammo9mmBulletBall"/>
+			<property name="CustomIcon" value="mediumammo"/>
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Sound_start" value="close_garbage"/>
+				<property name="Create_item" value="resourceBulletTip,resourceGunPowder,resourceBulletCasing"/>
+				<property name="Create_item_count" value="50,150,50"/>
+			</property>
+		</item>
+		<item name="Disassemble 7.62mm (150)">
+			<property name="Extends" value="ammo9mmBulletBall"/>
+			<property name="CustomIcon" value="largeammo"/>
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Sound_start" value="close_garbage"/>
+				<property name="Create_item" value="resourceBulletTip,resourceGunPowder,resourceBulletCasing"/>
+				<property name="Create_item_count" value="150,450,150"/>
+			</property>
+		</item>
+		<item name="Disassemble 7.62mm AP (10)">
+			<property name="Extends" value="ammo9mmBulletBall"/>
+			<property name="CustomIcon" value="smallammo"/>
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Sound_start" value="close_garbage"/>
+				<property name="Create_item" value="resourceBulletTip,resourceGunPowder,resourceBulletCasing"/>
+				<property name="Create_item_count" value="20,50,10"/>
+			</property>
+		</item>
+		<item name="Disassemble 7.62mm AP (50)">
+			<property name="Extends" value="ammo9mmBulletBall"/>
+			<property name="CustomIcon" value="mediumammo"/>
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Sound_start" value="close_garbage"/>
+				<property name="Create_item" value="resourceBulletTip,resourceGunPowder,resourceBulletCasing"/>
+				<property name="Create_item_count" value="100,250,50"/>
+			</property>
+		</item>
+		<item name="Disassemble 7.62mm AP (150)">
+			<property name="Extends" value="ammo9mmBulletBall"/>
+			<property name="CustomIcon" value="largeammo"/>
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Sound_start" value="close_garbage"/>
+				<property name="Create_item" value="resourceBulletTip,resourceGunPowder,resourceBulletCasing"/>
+				<property name="Create_item_count" value="300,750,150"/>
+			</property>
+		</item>
+		<item name="Disassemble 7.62mm HP (10)">
+			<property name="Extends" value="ammo9mmBulletBall"/>
+			<property name="CustomIcon" value="smallammo"/>
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Sound_start" value="close_garbage"/>
+				<property name="Create_item" value="resourceBulletTip,resourceGunPowder,resourceBulletCasing"/>
+				<property name="Create_item_count" value="20,30,10"/>
+			</property>
+		</item>
+		<item name="Disassemble 7.62mm HP (50)">
+			<property name="Extends" value="ammo9mmBulletBall"/>
+			<property name="CustomIcon" value="mediumammo"/>
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Sound_start" value="close_garbage"/>
+				<property name="Create_item" value="resourceBulletTip,resourceGunPowder,resourceBulletCasing"/>
+				<property name="Create_item_count" value="100,150,50"/>
+			</property>
+		</item>
+		<item name="Disassemble 7.62mm HP (150)">
+			<property name="Extends" value="ammo9mmBulletBall"/>
+			<property name="CustomIcon" value="largeammo"/>
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Sound_start" value="close_garbage"/>
+				<property name="Create_item" value="resourceBulletTip,resourceGunPowder,resourceBulletCasing"/>
+				<property name="Create_item_count" value="300,450,150"/>
+			</property>
+		</item>
+
+		<!-- 9mm -->
+		<item name="Disassemble 9mm (10)">
+			<property name="Extends" value="ammo9mmBulletBall"/>
+			<property name="CustomIcon" value="smallammo"/>
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Sound_start" value="close_garbage"/>
+				<property name="Create_item" value="resourceBulletTip,resourceGunPowder,resourceBulletCasing"/>
+				<property name="Create_item_count" value="10,10,10"/>
+			</property>
+		</item>
+		<item name="Disassemble 9mm (50)">
+			<property name="Extends" value="ammo9mmBulletBall"/>
+			<property name="CustomIcon" value="mediumammo"/>
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Sound_start" value="close_garbage"/>
+				<property name="Create_item" value="resourceBulletTip,resourceGunPowder,resourceBulletCasing"/>
+				<property name="Create_item_count" value="50,50,50"/>
+			</property>
+		</item>
+		<item name="Disassemble 9mm (300)">
+			<property name="Extends" value="ammo9mmBulletBall"/>
+			<property name="CustomIcon" value="largeammo"/>
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Sound_start" value="close_garbage"/>
+				<property name="Create_item" value="resourceBulletTip,resourceGunPowder,resourceBulletCasing"/>
+				<property name="Create_item_count" value="300,300,300"/>
+			</property>
+		</item>
+		<item name="Disassemble 9mm AP (10)">
+			<property name="Extends" value="ammo9mmBulletBall"/>
+			<property name="CustomIcon" value="smallammo"/>
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Sound_start" value="close_garbage"/>
+				<property name="Create_item" value="resourceBulletTip,resourceGunPowder,resourceBulletCasing"/>
+				<property name="Create_item_count" value="20,20,10"/>
+			</property>
+		</item>
+		<item name="Disassemble 9mm AP (50)">
+			<property name="Extends" value="ammo9mmBulletBall"/>
+			<property name="CustomIcon" value="mediumammo"/>
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Sound_start" value="close_garbage"/>
+				<property name="Create_item" value="resourceBulletTip,resourceGunPowder,resourceBulletCasing"/>
+				<property name="Create_item_count" value="100,100,50"/>
+			</property>
+		</item>
+		<item name="Disassemble 9mm AP (300)">
+			<property name="Extends" value="ammo9mmBulletBall"/>
+			<property name="CustomIcon" value="largeammo"/>
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Sound_start" value="close_garbage"/>
+				<property name="Create_item" value="resourceBulletTip,resourceGunPowder,resourceBulletCasing"/>
+				<property name="Create_item_count" value="600,600,300"/>
+			</property>
+		</item>
+		<item name="Disassemble 9mm HP (10)">
+			<property name="Extends" value="ammo9mmBulletBall"/>
+			<property name="CustomIcon" value="smallammo"/>
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Sound_start" value="close_garbage"/>
+				<property name="Create_item" value="resourceBulletTip,resourceGunPowder,resourceBulletCasing"/>
+				<property name="Create_item_count" value="20,10,10"/>
+			</property>
+		</item>
+		<item name="Disassemble 9mm HP (50)">
+			<property name="Extends" value="ammo9mmBulletBall"/>
+			<property name="CustomIcon" value="mediumammo"/>
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Sound_start" value="close_garbage"/>
+				<property name="Create_item" value="resourceBulletTip,resourceGunPowder,resourceBulletCasing"/>
+				<property name="Create_item_count" value="100,50,50"/>
+			</property>
+		</item>
+		<item name="Disassemble 9mm HP (300)">
+			<property name="Extends" value="ammo9mmBulletBall"/>
+			<property name="CustomIcon" value="largeammo"/>
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Sound_start" value="close_garbage"/>
+				<property name="Create_item" value="resourceBulletTip,resourceGunPowder,resourceBulletCasing"/>
+				<property name="Create_item_count" value="600,300,300"/>
+			</property>
+		</item>
+
+		<!-- 44Magnum -->
+		<item name="Disassemble 44Magnum (10)">
+			<property name="Extends" value="ammo9mmBulletBall"/>
+			<property name="CustomIcon" value="smallammo"/>
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Sound_start" value="close_garbage"/>
+				<property name="Create_item" value="resourceBulletTip,resourceGunPowder,resourceBulletCasing"/>
+				<property name="Create_item_count" value="10,20,10"/>
+			</property>
+		</item>
+		<item name="Disassemble 44Magnum (50)">
+			<property name="Extends" value="ammo9mmBulletBall"/>
+			<property name="CustomIcon" value="mediumammo"/>
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Sound_start" value="close_garbage"/>
+				<property name="Create_item" value="resourceBulletTip,resourceGunPowder,resourceBulletCasing"/>
+				<property name="Create_item_count" value="50,100,50"/>
+			</property>
+		</item>
+		<item name="Disassemble 44Magnum (300)">
+			<property name="Extends" value="ammo9mmBulletBall"/>
+			<property name="CustomIcon" value="largeammo"/>
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Sound_start" value="close_garbage"/>
+				<property name="Create_item" value="resourceBulletTip,resourceGunPowder,resourceBulletCasing"/>
+				<property name="Create_item_count" value="300,600,300"/>
+			</property>
+		</item>
+		<item name="Disassemble 44Magnum HP (10)">
+			<property name="Extends" value="ammo9mmBulletBall"/>
+			<property name="CustomIcon" value="smallammo"/>
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Sound_start" value="close_garbage"/>
+				<property name="Create_item" value="resourceBulletTip,resourceGunPowder,resourceBulletCasing"/>
+				<property name="Create_item_count" value="20,20,10"/>
+			</property>
+		</item>
+		<item name="Disassemble 44Magnum HP (50)">
+			<property name="Extends" value="ammo9mmBulletBall"/>
+			<property name="CustomIcon" value="mediumammo"/>
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Sound_start" value="close_garbage"/>
+				<property name="Create_item" value="resourceBulletTip,resourceGunPowder,resourceBulletCasing"/>
+				<property name="Create_item_count" value="100,100,50"/>
+			</property>
+		</item>
+		<item name="Disassemble 44Magnum HP (300)">
+			<property name="Extends" value="ammo9mmBulletBall"/>
+			<property name="CustomIcon" value="largeammo"/>
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Sound_start" value="close_garbage"/>
+				<property name="Create_item" value="resourceBulletTip,resourceGunPowder,resourceBulletCasing"/>
+				<property name="Create_item_count" value="600,600,300"/>
+			</property>
+		</item>
+		<item name="Disassemble 44Magnum AP (10)">
+			<property name="Extends" value="ammo9mmBulletBall"/>
+			<property name="CustomIcon" value="smallammo"/>
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Sound_start" value="close_garbage"/>
+				<property name="Create_item" value="resourceBulletTip,resourceGunPowder,resourceBulletCasing"/>
+				<property name="Create_item_count" value="20,30,10"/>>
+			</property>
+		</item>
+		<item name="Disassemble 44Magnum AP (50)">
+			<property name="Extends" value="ammo9mmBulletBall"/>
+			<property name="CustomIcon" value="mediumammo"/>
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Sound_start" value="close_garbage"/>
+				<property name="Create_item" value="resourceBulletTip,resourceGunPowder,resourceBulletCasing"/>
+				<property name="Create_item_count" value="100,150,50"/>
+			</property>
+		</item>
+		<item name="Disassemble 44Magnum AP (300)">
+			<property name="Extends" value="ammo9mmBulletBall"/>
+			<property name="CustomIcon" value="largeammo"/>
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Sound_start" value="close_garbage"/>
+				<property name="Create_item" value="resourceBulletTip,resourceGunPowder,resourceBulletCasing"/>
+				<property name="Create_item_count" value="600,900,300"/>
+			</property>
+		</item>
+
+		<!-- Shotgun Shells -->
+		<item name="Disassemble Shotgun Shells (10)">
+			<property name="Extends" value="ammo9mmBulletBall"/>
+			<property name="CustomIcon" value="smallammo"/>
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Sound_start" value="close_garbage"/>
+				<property name="Create_item" value="resourceBuckshot,resourceGunPowder,resourcePaper"/>
+				<property name="Create_item_count" value="10,40,10"/>
+			</property>
+		</item>
+		<item name="Disassemble Shotgun Shells (50)">
+			<property name="Extends" value="ammo9mmBulletBall"/>
+			<property name="CustomIcon" value="mediumammo"/>
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Sound_start" value="close_garbage"/>
+				<property name="Create_item" value="resourceBuckshot,resourceGunPowder,resourcePaper"/>
+				<property name="Create_item_count" value="50,200,50"/>
+			</property>
+		</item>
+		<item name="Disassemble Shotgun Shells (150)">
+			<property name="Extends" value="ammo9mmBulletBall"/>
+			<property name="CustomIcon" value="largeammo"/>
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Sound_start" value="close_garbage"/>
+				<property name="Create_item" value="resourceBuckshot,resourceGunPowder,resourcePaper"/>
+				<property name="Create_item_count" value="150,600,150"/>
+			</property>
+		</item>
+		<item name="Disassemble Shotgun Slugs (10)">
+			<property name="Extends" value="ammo9mmBulletBall"/>
+			<property name="CustomIcon" value="smallammo"/>
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Sound_start" value="close_garbage"/>
+				<property name="Create_item" value="resourceBulletTip,resourceGunPowder,resourceScrapPolymers"/>
+				<property name="Create_item_count" value="20,50,10"/>
+			</property>
+		</item>
+		<item name="Disassemble Shotgun Slugs (50)">
+			<property name="Extends" value="ammo9mmBulletBall"/>
+			<property name="CustomIcon" value="mediumammo"/>
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Sound_start" value="close_garbage"/>
+				<property name="Create_item" value="resourceBulletTip,resourceGunPowder,resourceScrapPolymers"/>
+				<property name="Create_item_count" value="100,250,50"/>
+			</property>
+		</item>
+		<item name="Disassemble Shotgun Slugs (150)">
+			<property name="Extends" value="ammo9mmBulletBall"/>
+			<property name="CustomIcon" value="largeammo"/>
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Sound_start" value="close_garbage"/>
+				<property name="Create_item" value="resourceBulletTip,resourceGunPowder,resourceScrapPolymers"/>
+				<property name="Create_item_count" value="300,750,150"/>
+			</property>
+		</item>
+		<item name="Disassemble Shotgun Breaching Slug (10)">
+			<property name="Extends" value="ammo9mmBulletBall"/>
+			<property name="CustomIcon" value="smallammo"/>
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Sound_start" value="close_garbage"/>
+				<property name="Create_item" value="resourceForgedSteel,resourceClayLump,resourceGunPowder,resourceScrapPolymers"/>
+				<property name="Create_item_count" value="30,20,40,10"/>
+			</property>
+		</item>
+		<item name="Disassemble Shotgun Breaching Slug (50)">
+			<property name="Extends" value="ammo9mmBulletBall"/>
+			<property name="CustomIcon" value="mediumammo"/>
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Sound_start" value="close_garbage"/>
+				<property name="Create_item" value="resourceForgedSteel,resourceClayLump,resourceGunPowder,resourceScrapPolymers"/>
+				<property name="Create_item_count" value="150,100,200,50"/>
+			</property>
+		</item>
+		<item name="Disassemble Shotgun Breaching Slug (150)">
+			<property name="Extends" value="ammo9mmBulletBall"/>
+			<property name="CustomIcon" value="largeammo"/>
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Sound_start" value="close_garbage"/>
+				<property name="Create_item" value="resourceForgedSteel,resourceClayLump,resourceGunPowder,resourceScrapPolymers"/>
+				<property name="Create_item_count" value="450,300,600,150"/>
+			</property>
+		</item>
+
+		<!-- Arrow & Bolt -->
+		<item name="Disassemble Stone Arrow (10)">
+			<property name="Extends" value="ammo9mmBulletBall"/>
+			<property name="CustomIcon" value="smallarrows"/>
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Sound_start" value="close_garbage"/>
+				<property name="Create_item" value="resourceRockSmall,resourceWood,resourceFeather"/>
+				<property name="Create_item_count" value="10,10,10"/>
+			</property>
+		</item>
+		<item name="Disassemble Stone Arrow (50)">
+			<property name="Extends" value="ammo9mmBulletBall"/>
+			<property name="CustomIcon" value="mediumarrows"/>
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Sound_start" value="close_garbage"/>
+				<property name="Create_item" value="resourceRockSmall,resourceWood,resourceFeather"/>
+				<property name="Create_item_count" value="50,50,50"/>
+			</property>
+		</item>
+		<item name="Disassemble Stone Arrow (150)">
+			<property name="Extends" value="ammo9mmBulletBall"/>
+			<property name="CustomIcon" value="largearrows"/>
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Sound_start" value="close_garbage"/>
+				<property name="Create_item" value="resourceRockSmall,resourceWood,resourceFeather"/>
+				<property name="Create_item_count" value="150,150,150"/>
+			</property>
+		</item>
+
+		<item name="Disassemble Stone Bolt (10)">
+			<property name="Extends" value="ammo9mmBulletBall"/>
+			<property name="CustomIcon" value="smallarrows"/>
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Sound_start" value="close_garbage"/>
+				<property name="Create_item" value="resourceRockSmall,resourceWood,resourceFeather"/>
+				<property name="Create_item_count" value="10,10,10"/>
+			</property>
+		</item>
+		<item name="Disassemble Stone Bolt (50)">
+			<property name="Extends" value="ammo9mmBulletBall"/>
+			<property name="CustomIcon" value="mediumarrows"/>
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Sound_start" value="close_garbage"/>
+				<property name="Create_item" value="resourceRockSmall,resourceWood,resourceFeather"/>
+				<property name="Create_item_count" value="50,50,50"/>
+			</property>
+		</item>
+		<item name="Disassemble Stone Bolt (150)">
+			<property name="Extends" value="ammo9mmBulletBall"/>
+			<property name="CustomIcon" value="largearrows"/>
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Sound_start" value="close_garbage"/>
+				<property name="Create_item" value="resourceRockSmall,resourceWood,resourceFeather"/>
+				<property name="Create_item_count" value="150,150,150"/>
+			</property>
+		</item>
+
+		<item name="Disassemble Iron Arrow (10)">
+			<property name="Extends" value="ammo9mmBulletBall"/>
+			<property name="CustomIcon" value="smallarrows"/>
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Sound_start" value="close_garbage"/>
+				<property name="Create_item" value="resourceArrowHeadIron,resourceWood,resourceFeather"/>
+				<property name="Create_item_count" value="10,10,10"/>
+			</property>
+		</item>
+		<item name="Disassemble Iron Arrow (50)">
+			<property name="Extends" value="ammo9mmBulletBall"/>
+			<property name="CustomIcon" value="mediumarrows"/>
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Sound_start" value="close_garbage"/>
+				<property name="Create_item" value="resourceArrowHeadIron,resourceWood,resourceFeather"/>
+				<property name="Create_item_count" value="50,50,50"/>
+			</property>
+		</item>
+		<item name="Disassemble Iron Arrow (150)">
+			<property name="Extends" value="ammo9mmBulletBall"/>
+			<property name="CustomIcon" value="largearrows"/>
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Sound_start" value="close_garbage"/>
+				<property name="Create_item" value="resourceArrowHeadIron,resourceWood,resourceFeather"/>
+				<property name="Create_item_count" value="150,150,150"/>
+			</property>
+		</item>
+
+		<item name="Disassemble Iron Bolt (10)">
+			<property name="Extends" value="ammo9mmBulletBall"/>
+			<property name="CustomIcon" value="smallarrows"/>
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Sound_start" value="close_garbage"/>
+				<property name="Create_item" value="resourceArrowHeadIron,resourceWood,resourceFeather"/>
+				<property name="Create_item_count" value="10,10,10"/>
+			</property>
+		</item>
+		<item name="Disassemble Iron Bolt (50)">
+			<property name="Extends" value="ammo9mmBulletBall"/>
+			<property name="CustomIcon" value="mediumarrows"/>
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Sound_start" value="close_garbage"/>
+				<property name="Create_item" value="resourceArrowHeadIron,resourceWood,resourceFeather"/>
+				<property name="Create_item_count" value="50,50,50"/>
+			</property>
+		</item>
+		<item name="Disassemble Iron Bolt (150)">
+			<property name="Extends" value="ammo9mmBulletBall"/>
+			<property name="CustomIcon" value="largearrows"/>
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Sound_start" value="close_garbage"/>
+				<property name="Create_item" value="resourceArrowHeadIron,resourceWood,resourceFeather"/>
+				<property name="Create_item_count" value="150,150,150"/>
+			</property>
+		</item>
+
+		<item name="Disassemble Steel Arrow (10)">
+			<property name="Extends" value="ammo9mmBulletBall"/>
+			<property name="CustomIcon" value="smallarrows"/>
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Sound_start" value="close_garbage"/>
+				<property name="Create_item" value="resourceArrowHeadSteelAP,resourceWood,resourceFeather"/>
+				<property name="Create_item_count" value="10,10,10"/>
+			</property>
+		</item>
+		<item name="Disassemble Steel Arrow (50)">
+			<property name="Extends" value="ammo9mmBulletBall"/>
+			<property name="CustomIcon" value="mediumarrows"/>
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Sound_start" value="close_garbage"/>
+				<property name="Create_item" value="resourceArrowHeadSteelAP,resourceWood,resourceFeather"/>
+				<property name="Create_item_count" value="50,50,50"/>
+			</property>
+		</item>
+		<item name="Disassemble Steel Arrow (150)">
+			<property name="Extends" value="ammo9mmBulletBall"/>
+			<property name="CustomIcon" value="largearrows"/>
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Sound_start" value="close_garbage"/>
+				<property name="Create_item" value="resourceArrowHeadSteelAP,resourceWood,resourceFeather"/>
+				<property name="Create_item_count" value="150,150,150"/>
+			</property>
+		</item>
+
+		<item name="Disassemble Steel Bolt (10)">
+			<property name="Extends" value="ammo9mmBulletBall"/>
+			<property name="CustomIcon" value="smallarrows"/>
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Sound_start" value="close_garbage"/>
+				<property name="Create_item" value="resourceArrowHeadSteelAP,resourceWood,resourceFeather"/>
+				<property name="Create_item_count" value="10,10,10"/>
+			</property>
+		</item>
+		<item name="Disassemble Steel Bolt (50)">
+			<property name="Extends" value="ammo9mmBulletBall"/>
+			<property name="CustomIcon" value="mediumarrows"/>
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Sound_start" value="close_garbage"/>
+				<property name="Create_item" value="resourceArrowHeadSteelAP,resourceWood,resourceFeather"/>
+				<property name="Create_item_count" value="50,50,50"/>
+			</property>
+		</item>
+		<item name="Disassemble Steel Bolt (150)">
+			<property name="Extends" value="ammo9mmBulletBall"/>
+			<property name="CustomIcon" value="largearrows"/>
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Sound_start" value="close_garbage"/>
+				<property name="Create_item" value="resourceArrowHeadSteelAP,resourceWood,resourceFeather"/>
+				<property name="Create_item_count" value="150,150,150"/>
+			</property>
+		</item>
+
+		<item name="Disassemble Flaming Arrow (10)">
+			<property name="Extends" value="ammo9mmBulletBall"/>
+			<property name="CustomIcon" value="smallarrows"/>
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Sound_start" value="close_garbage"/>
+				<property name="Create_item" value="resourceArrowHeadSteelAP,resourceScrapPolymers,resourceGunPowder,resourceAnimalFat,resourceCloth"/>
+				<property name="Create_item_count" value="10,20,20,10,50"/>
+			</property>
+		</item>
+		<item name="Disassemble Flaming Arrow (50)">
+			<property name="Extends" value="ammo9mmBulletBall"/>
+			<property name="CustomIcon" value="mediumarrows"/>
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Sound_start" value="close_garbage"/>
+				<property name="Create_item" value="resourceArrowHeadSteelAP,resourceScrapPolymers,resourceGunPowder,resourceAnimalFat,resourceCloth"/>
+				<property name="Create_item_count" value="50,100,100,50,250"/>
+			</property>
+		</item>
+		<item name="Disassemble Flaming Arrow (150)">
+			<property name="Extends" value="ammo9mmBulletBall"/>
+			<property name="CustomIcon" value="largearrows"/>
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Sound_start" value="close_garbage"/>
+				<property name="Create_item" value="resourceArrowHeadSteelAP,resourceScrapPolymers,resourceGunPowder,resourceAnimalFat,resourceCloth"/>
+				<property name="Create_item_count" value="150,300,300,150,750"/>
+			</property>
+		</item>
+
+		<item name="Disassemble Flaming Bolt (10)">
+			<property name="Extends" value="ammo9mmBulletBall"/>
+			<property name="CustomIcon" value="smallarrows"/>
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Sound_start" value="close_garbage"/>
+				<property name="Create_item" value="resourceArrowHeadSteelAP,resourceScrapPolymers,resourceGunPowder,resourceAnimalFat,resourceCloth"/>
+				<property name="Create_item_count" value="10,20,20,10,50"/>
+			</property>
+		</item>
+		<item name="Disassemble Flaming Bolt (50)">
+			<property name="Extends" value="ammo9mmBulletBall"/>
+			<property name="CustomIcon" value="mediumarrows"/>
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Sound_start" value="close_garbage"/>
+				<property name="Create_item" value="resourceArrowHeadSteelAP,resourceScrapPolymers,resourceGunPowder,resourceAnimalFat,resourceCloth"/>
+				<property name="Create_item_count" value="50,100,100,50,250"/>
+			</property>
+		</item>
+		<item name="Disassemble Flaming Bolt (150)">
+			<property name="Extends" value="ammo9mmBulletBall"/>
+			<property name="CustomIcon" value="largearrows"/>
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Sound_start" value="close_garbage"/>
+				<property name="Create_item" value="resourceArrowHeadSteelAP,resourceScrapPolymers,resourceGunPowder,resourceAnimalFat,resourceCloth"/>
+				<property name="Create_item_count" value="150,300,300,150,750"/>
+			</property>
+		</item>
+
+
+		<item name="Disassemble Exploding Bolt (1)">
+			<property name="Extends" value="ammo9mmBulletBall"/>
+			<property name="CustomIcon" value="smallarrows"/>
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Sound_start" value="close_garbage"/>
+				<property name="Create_item" value="resourceArrowHeadSteelAP,resourceScrapPolymers,resourceGunPowder,resourceDuctTape"/>
+				<property name="Create_item_count" value="1,2,8,1"/>
+			</property>
+		</item>
+		<item name="Disassemble Exploding Bolt (25)">
+			<property name="Extends" value="ammo9mmBulletBall"/>
+			<property name="CustomIcon" value="mediumarrows"/>
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Sound_start" value="close_garbage"/>
+				<property name="Create_item" value="resourceArrowHeadSteelAP,resourceScrapPolymers,resourceGunPowder,resourceDuctTape"/>
+				<property name="Create_item_count" value="25,50,200,25"/>
+			</property>
+		</item>
+		<item name="Disassemble Exploding Bolt (75)">
+			<property name="Extends" value="ammo9mmBulletBall"/>
+			<property name="CustomIcon" value="largearrows"/>
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Sound_start" value="close_garbage"/>
+				<property name="Create_item" value="resourceArrowHeadSteelAP,resourceScrapPolymers,resourceGunPowder,resourceDuctTape"/>
+				<property name="Create_item_count" value="75,150,600,75"/>
+			</property>
+		</item>
+
+		<item name="Disassemble Exploding Arrow (1)">
+			<property name="Extends" value="ammo9mmBulletBall"/>
+			<property name="CustomIcon" value="smallarrows"/>
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Sound_start" value="close_garbage"/>
+				<property name="Create_item" value="resourceArrowHeadSteelAP,resourceScrapPolymers,resourceGunPowder,resourceDuctTape"/>
+				<property name="Create_item_count" value="1,2,6,1"/>
+			</property>
+		</item>
+		<item name="Disassemble Exploding Arrow (25)">
+			<property name="Extends" value="ammo9mmBulletBall"/>
+			<property name="CustomIcon" value="mediumarrows"/>
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Sound_start" value="close_garbage"/>
+				<property name="Create_item" value="resourceArrowHeadSteelAP,resourceScrapPolymers,resourceGunPowder,resourceDuctTape"/>
+				<property name="Create_item_count" value="25,50,150,25"/>
+			</property>
+		</item>
+		<item name="Disassemble Exploding Arrow (75)">
+			<property name="Extends" value="ammo9mmBulletBall"/>
+			<property name="CustomIcon" value="largearrows"/>
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Sound_start" value="close_garbage"/>
+				<property name="Create_item" value="resourceArrowHeadSteelAP,resourceScrapPolymers,resourceGunPowder,resourceDuctTape"/>
+				<property name="Create_item_count" value="75,150,450,75"/>
+			</property>
+		</item>
+
+		<item name="Disassemble High Explosive Rocket (1)">
+			<property name="Extends" value="ammo9mmBulletBall"/>
+			<property name="CustomIcon" value="smallammo"/>
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Sound_start" value="close_garbage"/>
+				<property name="Create_item" value="resourceRocketTip,resourceGunPowder,resourceDuctTape,ammoGasCan,resourceRocketCasing"/>
+				<property name="Create_item_count" value="1,15,2,500,1"/>
+			</property>
+		</item>
+		<item name="Disassemble High Explosive Rocket (5)">
+			<property name="Extends" value="ammo9mmBulletBall"/>
+			<property name="CustomIcon" value="mediumammo"/>
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Sound_start" value="close_garbage"/>
+				<property name="Create_item" value="resourceRocketTip,resourceGunPowder,resourceDuctTape,ammoGasCan,resourceRocketCasing"/>
+				<property name="Create_item_count" value="5,75,10,2500,5"/>
+			</property>
+		</item>
+		<item name="Disassemble High Explosive Rocket (20)">
+			<property name="Extends" value="ammo9mmBulletBall"/>
+			<property name="CustomIcon" value="largeammo"/>
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Sound_start" value="close_garbage"/>
+				<property name="Create_item" value="resourceRocketTip,resourceGunPowder,resourceDuctTape,ammoGasCan,resourceRocketCasing"/>
+				<property name="Create_item_count" value="20,300,40,10000,20"/>
+			</property>
+		</item>
+		<item name="Disassemble Fragmentation Rocket (1)">
+			<property name="Extends" value="ammo9mmBulletBall"/>
+			<property name="CustomIcon" value="smallammo"/>
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Sound_start" value="close_garbage"/>
+				<property name="Create_item" value="resourceBuckshot,resourceGunPowder,resourceDuctTape,ammoGasCan,resourceRocketCasing"/>
+				<property name="Create_item_count" value="25,15,2,500,1"/>
+			</property>
+		</item>
+		<item name="Disassemble Fragmentation Rocket (5)">
+			<property name="Extends" value="ammo9mmBulletBall"/>
+			<property name="CustomIcon" value="mediumammo"/>
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Sound_start" value="close_garbage"/>
+				<property name="Create_item" value="resourceBuckshot,resourceGunPowder,resourceDuctTape,ammoGasCan,resourceRocketCasing"/>
+				<property name="Create_item_count" value="125,75,10,2500,5"/>
+			</property>
+		</item>
+		<item name="Disassemble Fragmentation Rocket (20)">
+			<property name="Extends" value="ammo9mmBulletBall"/>
+			<property name="CustomIcon" value="largeammo"/>
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Sound_start" value="close_garbage"/>
+				<property name="Create_item" value="resourceBuckshot,resourceGunPowder,resourceDuctTape,ammoGasCan,resourceRocketCasing"/>
+				<property name="Create_item_count" value="500,300,40,10000,20"/>
+			</property>
+		</item>
+		<item name="Disassemble Pipe Bomb (1)">
+			<property name="Extends" value="ammo9mmBulletBall"/>
+			<property name="CustomIcon" value="smallammo"/>
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Sound_start" value="close_garbage"/>
+				<property name="Create_item" value="resourceYuccaFibers,resourceGunPowder,resourceMetalPipe"/>
+				<property name="Create_item_count" value="1,12,1"/>
+			</property>
+		</item>
+		<item name="Disassemble Pipe Bomb (5)">
+			<property name="Extends" value="ammo9mmBulletBall"/>
+			<property name="CustomIcon" value="mediumammo"/>
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Sound_start" value="close_garbage"/>
+				<property name="Create_item" value="resourceYuccaFibers,resourceGunPowder,resourceMetalPipe"/>
+				<property name="Create_item_count" value="5,60,5"/>
+			</property>
+		</item>
+		<item name="Disassemble Pipe Bomb (20)">
+			<property name="Extends" value="ammo9mmBulletBall"/>
+			<property name="CustomIcon" value="largeammo"/>
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Sound_start" value="close_garbage"/>
+				<property name="Create_item" value="resourceYuccaFibers,resourceGunPowder,resourceMetalPipe"/>
+				<property name="Create_item_count" value="20,240,20"/>
+			</property>
+		</item>
+		<item name="Disassemble MolotovCocktail (1)">
+			<property name="Extends" value="ammo9mmBulletBall"/>
+			<property name="CustomIcon" value="smallammo"/>
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Sound_start" value="close_garbage"/>
+				<property name="Create_item" value="resourceCloth,ammoGasCan,resourceOil"/>
+				<property name="Create_item_count" value="5,300,1"/>
+			</property>
+		</item>
+		<item name="Disassemble MolotovCocktail (5)">
+			<property name="Extends" value="ammo9mmBulletBall"/>
+			<property name="CustomIcon" value="mediumammo"/>
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Sound_start" value="close_garbage"/>
+				<property name="Create_item" value="resourceCloth,ammoGasCan,resourceOil"/>
+				<property name="Create_item_count" value="60,1500,5"/>
+			</property>
+		</item>
+		<item name="Disassemble MolotovCocktail (20)">
+			<property name="Extends" value="ammo9mmBulletBall"/>
+			<property name="CustomIcon" value="largeammo"/>
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Sound_start" value="close_garbage"/>
+				<property name="Create_item" value="resourceCloth,ammoGasCan,resourceOil"/>
+				<property name="Create_item_count" value="240,6000,20"/>
+			</property>
+		</item>
+		<item name="Disassemble Grenade (1)">
+			<property name="Extends" value="ammo9mmBulletBall"/>
+			<property name="CustomIcon" value="smallammo"/>
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Sound_start" value="close_garbage"/>
+				<property name="Create_item" value="resourceMechanicalParts,resourceGunPowder,resourceForgeIron,resourceSpring"/>
+				<property name="Create_item_count" value="1,14,4,1"/>
+			</property>
+		</item>
+		<item name="Disassemble Grenade (5)">
+			<property name="Extends" value="ammo9mmBulletBall"/>
+			<property name="CustomIcon" value="mediumammo"/>
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Sound_start" value="close_garbage"/>
+				<property name="Create_item" value="resourceMechanicalParts,resourceGunPowder,resourceForgeIron,resourceSpring"/>
+				<property name="Create_item_count" value="5,70,20,5"/>
+			</property>
+		</item>
+		<item name="Disassemble Grenade (20)">
+			<property name="Extends" value="ammo9mmBulletBall"/>
+			<property name="CustomIcon" value="largeammo"/>
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Sound_start" value="close_garbage"/>
+				<property name="Create_item" value="resourceMechanicalParts,resourceGunPowder,resourceForgeIron,resourceSpring"/>
+				<property name="Create_item_count" value="20,280,80,20"/>
+			</property>
+		</item>
+		<item name="Disassemble GrenadeContact (1)">
+			<property name="Extends" value="ammo9mmBulletBall"/>
+			<property name="CustomIcon" value="smallammo"/>
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Sound_start" value="close_garbage"/>
+				<property name="Create_item" value="resourceMechanicalParts,resourceGunPowder,resourceForgeIron,resourceSpring"/>
+				<property name="Create_item_count" value="2,14,4,1"/>
+			</property>
+		</item>
+		<item name="Disassemble GrenadeContact (5)">
+			<property name="Extends" value="ammo9mmBulletBall"/>
+			<property name="CustomIcon" value="mediumammo"/>
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Sound_start" value="close_garbage"/>
+				<property name="Create_item" value="resourceMechanicalParts,resourceGunPowder,resourceForgeIron,resourceSpring"/>
+				<property name="Create_item_count" value="10,70,20,5"/>
+			</property>
+		</item>
+		<item name="Disassemble GrenadeContact (20)">
+			<property name="Extends" value="ammo9mmBulletBall"/>
+			<property name="CustomIcon" value="largeammo"/>
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Sound_start" value="close_garbage"/>
+				<property name="Create_item" value="resourceMechanicalParts,resourceGunPowder,resourceForgeIron,resourceSpring"/>
+				<property name="Create_item_count" value="40,280,80,20"/>
+			</property>
+		</item>
+		<item name="Disassemble TimedCharge (1)">
+			<property name="Extends" value="ammo9mmBulletBall"/>
+			<property name="CustomIcon" value="smallammo"/>
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Sound_start" value="close_garbage"/>
+				<property name="Create_item" value="resourceScrapIron,resourceGunPowder,resourceElectricParts"/>
+				<property name="Create_item_count" value="20,10,1"/>
+			</property>
+		</item>
+		<item name="Disassemble TimedCharge (5)">
+			<property name="Extends" value="ammo9mmBulletBall"/>
+			<property name="CustomIcon" value="mediumammo"/>
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Sound_start" value="close_garbage"/>
+				<property name="Create_item" value="resourceScrapIron,resourceGunPowder,resourceElectricParts"/>
+				<property name="Create_item_count" value="100,50,5"/>
+			</property>
+		</item>
+		<item name="Disassemble TimedCharge (20)">
+			<property name="Extends" value="ammo9mmBulletBall"/>
+			<property name="CustomIcon" value="largeammo"/>
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Sound_start" value="close_garbage"/>
+				<property name="Create_item" value="resourceScrapIron,resourceGunPowder,resourceElectricParts"/>
+				<property name="Create_item_count" value="400,200,20"/>
+			</property>
+		</item>
+		<item name="Disassemble Dynamite (1)">
+			<property name="Extends" value="ammo9mmBulletBall"/>
+			<property name="CustomIcon" value="smallammo"/>
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Sound_start" value="close_garbage"/>
+				<property name="Create_item" value="resourceYuccaFibers,resourceGunPowder,resourceDuctTape,resourcePaper"/>
+				<property name="Create_item_count" value="1,20,2,10"/>
+			</property>
+		</item>
+		<item name="Disassemble Dynamite (5)">
+			<property name="Extends" value="ammo9mmBulletBall"/>
+			<property name="CustomIcon" value="mediumammo"/>
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Sound_start" value="close_garbage"/>
+				<property name="Create_item" value="resourceYuccaFibers,resourceGunPowder,resourceDuctTape,resourcePaper"/>
+				<property name="Create_item_count" value="5,100,10,50"/>
+			</property>
+		</item>
+		<item name="Disassemble Dynamite (20)">
+			<property name="Extends" value="ammo9mmBulletBall"/>
+			<property name="CustomIcon" value="largeammo"/>
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Sound_start" value="close_garbage"/>
+				<property name="Create_item" value="resourceYuccaFibers,resourceGunPowder,resourceDuctTape,resourcePaper"/>
+				<property name="Create_item_count" value="20,400,40,200"/>
+			</property>
+		</item>
+	</append>
 </configs>
