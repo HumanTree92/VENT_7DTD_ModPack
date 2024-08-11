@@ -1,5 +1,5 @@
 HUDPlus
-V1.0 Version 3.0.0
+V1.0 Version 3.2.0
 
 
 ______________________________________________________________________________________________________________________
@@ -66,15 +66,26 @@ ________________________________________________________________________________
 	-Simple color coordination of interactive blocks or npcs.
 	-5 crafting slots positioned evenly.
 	-Removed Pop up of wandering into new location.
+	-Read schematics / magazines / books have read book icon of slight transparency and green
 	-A purple book icon that opens up Details on one page!
 		-Magazine unlocks
 		-Books
-		-Unlocks from Schematics/Books (Update in works)
-		-Armor Details (Under Construction)
+		-Unlocks from Schematics/Books
+		-Armor Details
 
 
 ______________________________________________________________________________________________________________________
 5.  CHANGELOG
+v3.2.0
+-Crafting Checklist now visually indicates where you are with crafting levels.
+
+v3.1.1
+-Finished the armor page
+-corrected some checklist checking, thought it wasn't running up performance. I had put the wrong value in, now fixed!
+
+v3.1.0
+-Modified the altIconType color for read books to be green with slight transparency.
+
 v3.0.0
 -Added a "purple book" icon to show magazines on one page
 	-books on one page

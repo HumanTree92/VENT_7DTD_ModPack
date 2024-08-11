@@ -1,0 +1,11 @@
+<AGF-HUDPlus>
+
+<!--Have to do insertafter in order to apply the new property where a book/book_read already exists-->
+	<insertafter xpath="/items/item/property[@name='AltItemTypeIcon' and @value='book_read']">
+		<property name="AltItemTypeIconColor" value="0,255,0,200" />
+	</insertafter>
+ 
+ <!--I would have a code to change the color for the item type icon itself, but doesn't seem available at this moment.-->
+  
+  </AGF-HUDPlus>
+  
