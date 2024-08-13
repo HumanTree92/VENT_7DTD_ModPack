@@ -8,8 +8,8 @@
 	<set xpath="/recipes/recipe[@name='resourceLeadBundle']/ingredient[@name='resourceScrapLead']/@count">10000</set>
 	<set xpath="/recipes/recipe[@name='resourceCoalBundle']/ingredient[@name='resourceCoal']/@count">10000</set>
 
-	<!-- Disassemble Ammo -->
 	<append xpath="/recipes">
+		<!-- Disassemble Ammo -->
 		<recipe name="Disassemble 7.62mm (10)" count="1" craft_time = "1" craft_area="workbench">
 			<ingredient name="ammo762mmBulletBall" count="10"/>
 		</recipe>
@@ -273,6 +273,76 @@
 		</recipe>
 		<recipe name="Disassemble Dynamite (20)" count="1" craft_time = "1" craft_area="workbench">
 			<ingredient name="thrownDynamite" count="20"/>
+		</recipe>
+
+		<!-- Pickup Mechanical Items -->
+		<recipe name="resourceForgedSteel" count="1" tooltip="ttScrapMetalIron" always_unlocked="true" tags="salvageScrap"> <wildcard_forge_category /> </recipe>
+
+		<!-- Sonic's Decor -->
+		<!--plastic barrier -->
+		<recipe name="Sonic's barrierPlasticWhite(Master)" count="1" craft_area="workbench">
+			<ingredient name="resourceScrapPolymers" count="35"/>
+		</recipe>
+
+		<!--concrete barrier -->
+		<recipe name="Sonic's barrierConcrete" count="1" craft_area="workbench">
+			<ingredient name="resourceConcreteMix" count="25"/>
+		</recipe>
+
+		<!--Military barrier -->
+		<recipe name="Sonic's barrierMilitary" count="1" craft_area="workbench">
+			<ingredient name="resourceCrushedSand" count="15"/>
+			<ingredient name="resourceCloth" count="5"/>
+		</recipe>
+
+		<!--road barricade -->
+		<recipe name="Sonic's Roadworks Signs(Master)" count="1" craft_area="workbench">
+			<ingredient name="resourceScrapIron" count="35"/>
+		</recipe>
+
+		<!--road barrier -->
+		<recipe name="Sonic's GuardRail(Master)" count="1" craft_area="workbench">
+			<ingredient name="resourceScrapIron" count="25"/>
+		</recipe>
+
+		<!--powered rollup 7x4 -->
+		<recipe name="Sonic's Roll Up Door 7x4(powered)" count="1" craft_area="workbench">
+			<ingredient name="resourceForgedIron" count="30"/>
+			<ingredient name="resourceSpring" count="10"/>
+			<ingredient name="resourceElectricParts" count="15"/>
+			<ingredient name="resourceMechanicalParts" count="10"/>
+		</recipe>
+
+		<!--Bathroom master -->
+		<recipe name="Sonic's BathRoom(Master)" count="1" craft_area="workbench">
+			<ingredient name="resourceScrapIron" count="10"/>
+			<ingredient name="resourceCobblestones" count="10"/>
+		</recipe>
+
+		<!--plant master -->
+		<recipe name="Sonic's plant(Master)" count="1" craft_area="workbench">
+			<ingredient name="resourceWood" count="9"/>
+			<ingredient name="resourceYuccaFibers" count="17"/>
+		</recipe>
+
+		<!--mannequin master -->
+		<recipe name="Sonic's Mannequin Male(Master)" count="1" craft_area="workbench">
+			<ingredient name="resourceScrapPolymers" count="9"/>
+		</recipe>
+
+		<!--Flag master -->
+		<recipe name="Sonic's Flag(Master)" count="1" craft_area="workbench">
+			<ingredient name="resourceCloth" count="18"/>
+		</recipe>
+
+		<!--helipad -->
+		<recipe name="helipad" count="1" craft_area="workbench">
+			<ingredient name="resourceConcreteMix" count="145"/>
+		</recipe>
+
+		<!--barbedWire -->
+		<recipe name="Sonic's BarbedWire(Master)" count="1" craft_area="workbench">
+			<ingredient name="resourceScrapIron" count="45"/>
 		</recipe>
 	</append>
 </configs>

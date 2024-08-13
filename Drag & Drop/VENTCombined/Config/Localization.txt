@@ -2,6 +2,7 @@ Key,File,Type,UsedInMainMenu,NoTranslate,english
 
 StarterBundleName,items,Item,,,Starter Kit
 StarterBundleDesc,items,Item,,,Included are items necessary to your survival\nPress Open and claim your items!
+
 resourceCoalBundle,items,Item,,,Stack of Coal (10000)
 resourceLeadBundle,items,Item,,,Stack of Lead (10000)
 resourceOilShaleBundle,items,Item,,,Stack of Oil Shale (10000)
@@ -9,8 +10,66 @@ resourcePotassiumNitratePowderBundle,items,Item,,,Stack of Nitrate Powder (10000
 resourceRockSmallBundle,items,Item,,,Stack of Small Stone (10000)
 resourceScrapIronBundle,items,Item,,,Stack of Iron (10000)
 resourceWoodBundle,items,Item,,,Stack of Wood (10000)
+
 perkMiner69rRank1LongDesc,progression,perk Str,,,"Everyone has to start somewhere. Increase tool damage by 10% and block damage by 30% with any axe, pick, shovel, chainsaw or auger. Stamina costs are reduced by 8% and 15% for power attacks. Attack speeds are increased by 10%. Find more tools and parts in loot."
 perkMiner69rRank2LongDesc,progression,perk Str,,,"You're still a little green, but you aren't fetching the Muckmen blackstrap anymore. Increase tool damage by 20% and block damage by 60% with any axe, pick, shovel, chainsaw or auger. Stamina costs are reduced by 15% and 30% for power attacks. Attack speeds are increased by 15%. Find more tools and parts in loot."
 perkMiner69rRank3LongDesc,progression,perk Str,,,"You're now a professional miner, or what they called “Muckmen”, back in the day. Increase tool damage by 30% and block damage by 90% with any axe, pick, shovel, chainsaw or auger. Stamina costs are reduced by 20% and 40% for power attacks. Attack speeds are increased by 20%. Find more tools and parts in loot."
 perkMiner69rRank4LongDesc,progression,perk Str,,,"You can crack rock with the best of them now. Increase tool damage by 40% and block damage by 120% with any axe, pick, shovel, chainsaw or auger. Stamina costs are reduced by 25% and 50% for power attacks. Attack speeds are increased by 25%. Find more tools and parts in loot."
 perkMiner69rRank5LongDesc,progression,perk Str,,,"You're the legendary Miner 69'er and can find the juicy center of any rock faster than a horny bullfrog. Increase damage by 50% and block damage by 150% with any axe, pick, shovel, chainsaw or auger. Attack speeds are increased by 30%. Find more tools and parts in loot."
+
+Sonic's barrierPlasticWhite(Master),shapes,block,,,(S)Plastic Barrier (Master)
+Sonic's barrierPlasticWhite(Master)Desc,shapes,block,,,This is the Master block for the coloured plastic barriers. also i have made them brighter and better looking.
+Sonic's barrierPlasticWhite,shapes,block,,,(S)Plastic Barrier (White)
+Sonic's barrierPlasticRed,shapes,block,,,(S)Plastic Barrier (Red)
+Sonic's barrierPlasticOrange,shapes,block,,,(S)Plastic Barrier (Orange)
+Sonic's barrierPlasticYellow,shapes,block,,,(S)Plastic Barrier (Yellow)
+Sonic's barrierPlasticBlue,shapes,block,,,(S)Plastic Barrier (Blue)
+Sonic's barrierPlasticDesc,shapes,block,,,Brighter and craftable plastic barrier.
+Sonic's barrierConcrete,shapes,block,,,(S)Concrete Barrier
+Sonic's barrierConcreteDesc,shapes,block,,,What do you want from me?. Its concrete.
+Sonic's barrierMilitary,shapes,block,,,(S)Military Sand Barrier
+Sonic's barrierMilitaryDesc,shapes,block,,,A sand barrier used by the military
+Sonic's Roadworks Signs(Master),shapes,block,,,(S)Road Signs (Master)
+Sonic's Roadworks Signs(Master)Desc,shapes,block,,,This is the Master Block for mainly roadworks signs.(More may be added later)
+Sonic's GuardRail(Master),shapes,block,,,(S)GuardRail (Master)
+Sonic's GuardRail(Master)Desc,shapes,block,,,This is the Master block for the guardrail blocks
+Sonic's Roll Up Door 7x4(powered),shapes,block,,,(S)Roll Up Door 7x4(powered)
+Sonic's Roll Up Door 7x4(powered)Desc,shapes,block,,,This is the 7x4 white roll up door that is now (Powered)
+Sonic's BathRoom(Master),shapes,block,,,(S)Bathroom (Master)
+Sonic's BathRoom(Master)Desc,shapes,block,,,This is the Master block for some of the bathroom blocks 
+Sonic's plant(Master),shapes,block,,,(S)Plants (Master)
+Sonic's plant(Master)Desc,shapes,block,,,This is the Master block for some plant blocks. (May add more later)
+Sonic's Mannequin Male(Master),shapes,block,,,(S)Mannequin (Master)
+Sonic's Flag(Master),shapes,block,,,(S)Flag (Master)
+Sonic's BarbedWire(Master),shapes,block,,,(S)BarbedWire (Master)
+
+plantedAloe3Harvest,blocks,Farming,,,Aloe Vera Plant
+plantedBlueberry3Harvest,blocks,Farming,,,Blueberry Plant
+plantedChrysanthemum3Harvest,blocks,Farming,,,Chrysanthemum
+plantedCoffee3Harvest,blocks,Farming,,,Coffee Plant
+plantedCorn3Harvest,blocks,Farming,,,Corn Plant
+plantedCotton3Harvest,blocks,Farming,,,Cotton Plant
+plantedGoldenrod3Harvest,blocks,Farming,,,Goldenrod Flower
+plantedGraceCorn3Harvest,blocks,Farming,,,Super Corn
+plantedHop3Harvest,blocks,Farming,,,Hop Plant
+plantedMushroom3Harvest,blocks,Farming,,,Mushrooms
+plantedPotato3Harvest,blocks,Farming,,,Potato Plant
+plantedPumpkin3Harvest,blocks,Farming,,,Pumpkin Plant
+plantedSnowberry3Harvest,blocks,Farming,,,Snowberry Plant
+plantedYucca3Harvest,blocks,Farming,,,Yucca Plant
+plantedAloe3HarvestPlayer,blocks,Farming,,,Aloe Vera Plant
+plantedBlueberry3HarvestPlayer,blocks,Farming,,,Blueberry Plant
+plantedChrysanthemum3HarvestPlayer,blocks,Farming,,,Chrysanthemum
+plantedCoffee3HarvestPlayer,blocks,Farming,,,Coffee Plant
+plantedCorn3HarvestPlayer,blocks,Farming,,,Corn Plant
+plantedCotton3HarvestPlayer,blocks,Farming,,,Cotton Plant
+plantedGoldenrod3HarvestPlayer,blocks,Farming,,,Goldenrod Flower
+plantedGraceCorn3HarvestPlayer,blocks,Farming,,,Super Corn
+plantedHop3HarvestPlayer,blocks,Farming,,,Hop Plant
+plantedMushroom3HarvestPlayer,blocks,Farming,,,Mushrooms
+plantedPotato3HarvestPlayer,blocks,Farming,,,Potato Plant
+plantedPumpkin3HarvestPlayer,blocks,Farming,,,Pumpkin Plant
+plantedSnowberry3HarvestPlayer,blocks,Farming,,,Snowberry Plant
+plantedYucca3HarvestPlayer,blocks,Farming,,,Yucca Plant
+mushroom01,blocks,Farming,,,Mushrooms
+mushroom02,blocks,Farming,,,Mushrooms

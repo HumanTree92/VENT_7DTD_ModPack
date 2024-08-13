@@ -276,9 +276,14 @@
 	<set xpath="/items/item[@name='casinoCoin']/property[@name='Stacknumber']/@value">30000</set> <!-- Default 20000 -->
 	<set xpath="/items/item[@name='schematicMaster']/property[@name='Stacknumber']/@value">10</set> <!-- Default 5 -->
 
-	<!--Twice as fast Bellow-->
+	<!-- Twice as fast Bellow -->
 	<set xpath="/items/item[@name='toolBellows']/effect_group/passive_effect[@name='CraftingSmeltTime']/@value">-.777</set> <!-- Default -.333  -->
 	<set xpath="/items/item[@name='toolBellows']/effect_group/display_value[@name='dCraftingSmeltTime']/@value">1.3</set> <!-- Default .5 -->
+
+	<!-- Pickup Mechanical Items -->
+	<append xpath="//item[@name='resourceForgedSteel']">
+		<property name="Weight" value="1"/>
+	</append>
 
 	<!-- Add Disassembly items -->
 	<append xpath="/items">

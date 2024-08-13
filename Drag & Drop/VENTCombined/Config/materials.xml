@@ -1,0 +1,33 @@
+<configs>
+	<append xpath="/materials">
+		<!-- Sonic's Decor -->
+		<material id="MbarbedWire">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="iron"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="stepsound" value="metal"/>
+			<property name="stability_glue" value="10"/>
+			<property name="Mass" type="int" value="1"/>
+			<property name="MaxDamage" value="1000"/>
+			<property name="movement_factor" value="0.2"/>
+			<property name="Experience" value="2"/>
+		</material>
+
+		<!-- Pickup Mechanical Items -->
+		<material id="Msteel_medium_vending_machine_nplm">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="resourceForgedSteel"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="stepsound" value="metal"/>
+			<property name="stability_glue" value="350"/>
+			<property name="Mass" type="int" value="30"/>
+			<property name="explosionresistance" value="2"/>
+			<property name="MaxDamage" value="2000"/>
+			<property name="Experience" value="3.0"/>
+		</material>
+	</append>
+
+	<set xpath="//material[@id='MresourceForgedSteel']/property[@name='forge_category']/@value">resourceForgedSteel</set>
+</configs>
