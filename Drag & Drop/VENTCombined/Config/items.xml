@@ -285,6 +285,11 @@
 		<property name="Weight" value="1"/>
 	</append>
 
+	<!-- TheMeanOnesCraftableParts -->
+	<append xpath="/items/item[(starts-with(@name, 'armor') or starts-with(@name, 'gun') or starts-with(@name, 'melee')) and contains(@name, 'Parts')]">
+		<property name="Group" value="Tools/Traps"/>
+	</append>
+
 	<!-- Add Disassembly items -->
 	<append xpath="/items">
 		<!-- 7.62mm -->

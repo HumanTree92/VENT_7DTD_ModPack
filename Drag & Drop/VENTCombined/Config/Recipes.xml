@@ -278,6 +278,102 @@
 		<!-- Pickup Mechanical Items -->
 		<recipe name="resourceForgedSteel" count="1" tooltip="ttScrapMetalIron" always_unlocked="true" tags="salvageScrap"> <wildcard_forge_category /> </recipe>
 
+		<!-- TheMeanOnesCraftableParts -->
+		<!-- Basic Gun Parts: Recipes for crafting basic gun parts using Forged Iron and other materials -->
+		<recipe name="gunMGT1AK47Parts" count="1" craft_area="workbench" tags="workbenchCrafting">
+		  <ingredient name="resourceForgedIron" count="10"/>
+		  <ingredient name="resourceDuctTape" count="4"/>
+		  <ingredient name="resourceMechanicalParts" count="6"/>
+		</recipe>
+
+		<recipe name="gunHandgunT1PistolParts" count="1" craft_area="workbench" tags="workbenchCrafting">
+		  <ingredient name="resourceForgedIron" count="8"/>
+		  <ingredient name="resourceDuctTape" count="3"/>
+		  <ingredient name="resourceMechanicalParts" count="5"/>
+		</recipe>
+
+		<recipe name="gunRifleT1HuntingRifleParts" count="1" craft_area="workbench" tags="workbenchCrafting">
+		  <ingredient name="resourceForgedIron" count="12"/>
+		  <ingredient name="resourceDuctTape" count="5"/>
+		  <ingredient name="resourceMechanicalParts" count="8"/>
+		</recipe>
+
+		<recipe name="gunShotgunT1DoubleBarrelParts" count="1" craft_area="workbench" tags="workbenchCrafting">
+		  <ingredient name="resourceForgedIron" count="10"/>
+		  <ingredient name="resourceDuctTape" count="4"/>
+		  <ingredient name="resourceMechanicalParts" count="7"/>
+		</recipe>
+
+		<!-- Advanced Gun Parts: Recipes for crafting advanced gun parts using Forged Steel and other materials -->
+		<recipe name="gunExplosivesT3RocketLauncherParts" count="1" craft_area="workbench" tags="workbenchCrafting">
+		  <ingredient name="resourceForgedSteel" count="20"/>
+		  <ingredient name="resourceDuctTape" count="8"/>
+		  <ingredient name="resourceMechanicalParts" count="15"/>
+		</recipe>
+
+		<recipe name="gunBotRoboticsParts" count="1" craft_area="workbench" tags="workbenchCrafting">
+		  <ingredient name="resourceForgedSteel" count="15"/>
+		  <ingredient name="resourceDuctTape" count="6"/>
+		  <ingredient name="resourceElectricParts" count="12"/>
+		</recipe>
+
+		<!-- Melee Weapon Parts: Recipes for crafting melee weapon parts using Forged Iron or Forged Steel -->
+		<recipe name="meleeWpnBatonT2StunBatonParts" count="1" craft_area="workbench" tags="workbenchCrafting">
+		  <ingredient name="resourceForgedIron" count="8"/>
+		  <ingredient name="resourceDuctTape" count="3"/>
+		  <ingredient name="resourceElectricParts" count="10"/>
+		</recipe>
+
+		<recipe name="meleeWpnKnucklesT3SteelKnucklesParts" count="1" craft_area="workbench" tags="workbenchCrafting">
+		  <ingredient name="resourceForgedSteel" count="12"/>
+		  <ingredient name="resourceDuctTape" count="5"/>
+		  <ingredient name="resourceMechanicalParts" count="8"/>
+		</recipe>
+
+		<recipe name="meleeWpnBladeT3MacheteParts" count="1" craft_area="workbench" tags="workbenchCrafting">
+		  <ingredient name="resourceForgedSteel" count="14"/>
+		  <ingredient name="resourceDuctTape" count="6"/>
+		  <ingredient name="resourceMechanicalParts" count="10"/>
+		</recipe>
+
+		<recipe name="meleeWpnSpearT3SteelSpearParts" count="1" craft_area="workbench" tags="workbenchCrafting">
+		  <ingredient name="resourceForgedSteel" count="12"/>
+		  <ingredient name="resourceDuctTape" count="4"/>
+		  <ingredient name="resourceMechanicalParts" count="9"/>
+		</recipe>
+
+		<recipe name="meleeWpnClubT3SteelClubParts" count="1" craft_area="workbench" tags="workbenchCrafting">
+		  <ingredient name="resourceForgedSteel" count="14"/>
+		  <ingredient name="resourceDuctTape" count="6"/>
+		  <ingredient name="resourceMechanicalParts" count="10"/>
+		</recipe>
+
+		<recipe name="meleeWpnSledgeT3SteelSledgehammerParts" count="1" craft_area="workbench" tags="workbenchCrafting">
+		  <ingredient name="resourceForgedSteel" count="16"/>
+		  <ingredient name="resourceDuctTape" count="7"/>
+		  <ingredient name="resourceMechanicalParts" count="12"/>
+		</recipe>
+
+		<!-- Tool Parts: Recipes for crafting tool parts using Forged Steel -->
+		<recipe name="meleeToolAxeT3ChainsawParts" count="1" craft_area="workbench" tags="workbenchCrafting">
+		  <ingredient name="resourceForgedSteel" count="18"/>
+		  <ingredient name="resourceDuctTape" count="8"/>
+		  <ingredient name="resourceMechanicalParts" count="15"/>
+		</recipe>
+
+		<recipe name="meleeToolAllSteelParts" count="1" craft_area="workbench" tags="workbenchCrafting">
+		  <ingredient name="resourceForgedSteel" count="12"/>
+		  <ingredient name="resourceDuctTape" count="5"/>
+		  <ingredient name="resourceMechanicalParts" count="9"/>
+		</recipe>
+
+		<!-- Armor Parts: Recipes for crafting armor parts using Forged Steel -->
+		<recipe name="armorParts" count="1" craft_area="workbench" tags="workbenchCrafting">
+		  <ingredient name="resourceForgedSteel" count="20"/>
+		  <ingredient name="resourceDuctTape" count="8"/>
+		  <ingredient name="resourceMechanicalParts" count="15"/>
+		</recipe>
+
 		<!-- Sonic's Decor -->
 		<!--plastic barrier -->
 		<recipe name="Sonic's barrierPlasticWhite(Master)" count="1" craft_area="workbench">
