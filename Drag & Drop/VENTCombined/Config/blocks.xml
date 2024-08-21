@@ -93,7 +93,7 @@
 		<property name="DowngradeBlock" value="plantedChrysanthemum1" prob="0.5"/>
 	</append>
 
-	<!-- Pickup Plants -->
+	<!-- Pick Up Crops -->
 	<append xpath="/blocks/block[starts-with(@name,'planted') and (contains(@name,'3Harvest')) and not (contains(@name,'Snowberry'))]">
 		<property name="Class" value="BlockCropsHarvest, CropPickupBonus"/>
 	</append>
@@ -107,7 +107,6 @@
 	<append xpath="/blocks/block[@name='cntVendingMachine2Broken']">
 		<property name="Weight" value="7"/>
 	</append>
-
 
 	<!-- This is a dummy oject that several machines below will extend  -->
 	<insertAfter xpath="/blocks/block[@name='cntVendingMachine2Broken']" >

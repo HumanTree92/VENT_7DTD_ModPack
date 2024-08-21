@@ -1,0 +1,73 @@
+<blocks>
+
+	<!-- 
+	Extends
+	backhoeWhite
+	cntAmbulanceTruck01
+	cntArmyTruckClosed
+	cntBoxTruckWhite
+	cntBusSchool
+	cntBusSchoolShort
+	cntBusShuttle
+	cntBusCity
+	cntServiceTruckMoPower
+	cntServiceTruckWorkingStiffTools
+	cntServiceTruckWhite
+	excavatorClawWhite
+	excavatorWhite
+	tractorWhite
+	-->
+	<append xpath="//block[@name='cntBusSchool']">
+		<property name="Tags" value="vehicleDamageAlarm"/>
+	</append>
+
+	<!-- #region - No Damage Alarm Vehicles -->
+		<append xpath="//block[@name='backhoeWhite']">
+			<property name="Tags" value="vehicleDamageNoAlarm"/>
+		</append>
+
+		<append xpath="//block[@name='excavatorClawWhite']">
+			<property name="Tags" value="vehicleDamageNoAlarm"/>
+		</append>
+
+		<append xpath="//block[@name='excavatorWhite']">
+			<property name="Tags" value="vehicleDamageNoAlarm"/>
+		</append>
+		
+		<append xpath="//block[contains(@name, 'tractor')]">
+			<property name="Tags" value="vehicleDamageNoAlarm"/>
+		</append>
+	<!-- #endregion - No Damage Alarm Vehicles -->
+
+	<!-- FIRETRUCKS -->
+	<append xpath="//block[@name='cntFireTruck01White']">
+		<property name="Tags" value="vehicleDamageAlarm"/>
+	</append>
+
+	<!-- MINIVANS -->
+	<append xpath="//block[@name='cntMinivan01White']">
+		<property name="Tags" value="vehicleDamageAlarm"/>
+	</append>
+
+	<!-- PICKUP TRUCKS -->
+	<append xpath="//block[@name='cntPickupTruck01White']">
+		<property name="Tags" value="vehicleDamageAlarm"/>
+	</append>
+
+	<!-- SEDANS -->
+	<append xpath="//block[@name='cntSedan01White']">
+		<property name="Tags" value="vehicleDamageAlarm"/>
+	</append>
+
+	<!-- SemiTruck -->
+	<append xpath="//block[@name='cntSemiTruck01White']">
+		<property name="Tags" value="vehicleDamageAlarm"/>
+	</append>
+
+	<!-- SUVS -->
+	<append xpath="//block[@name='cntSUV01White']">
+		<property name="Tags" value="vehicleDamageAlarm"/>
+	</append>
+
+
+</blocks>

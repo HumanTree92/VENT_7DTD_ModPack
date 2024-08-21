@@ -1,4 +1,5 @@
 <biomes>
+	<!-- cuyd_no_foggy_weather -->
 	<!-- Snow -->
 	<set xpath="/worldgeneration/biomes/biome[@name='snow']/weather[@name='default']/@prob">52</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='snow']/weather[@name='default']/Fog/@min">0</set> 
@@ -35,6 +36,7 @@
 	<set xpath="/worldgeneration/biomes/biome[@name='wasteland']/weather[@name='storm']/Fog/@min">0</set> 
 	<set xpath="/worldgeneration/biomes/biome[@name='wasteland']/weather[@name='storm']/Fog/@max">0</set> 
 
+	<!-- Ana_BrighterWasteland --> 
 	<set xpath="/worldgeneration/biomes/biome[@name='wasteland']/spectrum[@name='wasteland']/@name">pine_forest</set>
 </biomes>
 
