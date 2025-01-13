@@ -29,7 +29,7 @@ This is a Mod Pack for Velociti Entertainments Private 7 Days to Die Server.
 ### License
 VENT_7DTD_ModPack - Mod Pack for Velociti Entertainments 7 Days to Die Server.
 
-Copyright (C) 2024 Velociti Entertainment
+Copyright (C) 2025 Velociti Entertainment
 
 This program Is free software: you can redistribute it And/Or modify it under the terms Of the GNU General Public License As published by the Free Software Foundation, either version 3 Of the License, Or (at your option) any later version.
 
