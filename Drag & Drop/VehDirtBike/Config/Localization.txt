@@ -1,8 +1,0 @@
-Key,English
-vehicleDirtBike,Dirt Bike
-vehicleDirtBikeplaceable,Dirt Bike
-vehicleDirtBikeplaceableDesc,"A dirt bike. And no neighbors to complain about it. Sweet!"
-vehicleDirtBikeChassis,Dirt Bike Chassis
-vehicleDirtBikeChassisDesc,"The beginning of something...awesome!"
-vehicleDirtBikeParts,Dirt Bike Parts
-vehicleDirtBikePartsDesc,You might need these.
