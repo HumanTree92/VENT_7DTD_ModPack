@@ -1,0 +1,55 @@
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+**              7 Days to Die Helpful Info              **
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+- Server will Restart 8 AM CST
+- A21 Map | <https://www.reddit.com/r/7daystodie/comments/158vvpl/a21_navezgane_map/>
+- Bloodmoon Horde every 7 Days.
+- Airdrops every 2 Days.
+- Loot Respawn every 5 Days.
+- Day/Night Length is 120Mins. (2 Hours is 1 In-Game Day.)
+- X2 Loot
+
+**Serverside Mods**
+▬▬▬▬▬
+- More Skill Points = Receive 2 instead of 1
+- TMO More Craftables
+- TMO Pickup Crates N Workstations
+- TMO Pickup Traps
+- TMO Trader Never Closes
+- Vaybens Reasonable Book Piles
+- VENT Starter Bundle
+
+**Clientside Mods**
+▬▬▬▬▬
+- Added Bikes: Cruiser, Dirt Bike, Junker, Rat
+- Added Helis: MD-500, UH-60
+- Added Vehicles: Buggy, Humvee, Trophy Truck, Willy Jeep
+- Added Boats: Wood Boat, Dinghy, & Jetski
+- Added Horses
+- Improved HUD with Upgraded Backpacks
+- Claim Auto Repair Block
+- Density Hoe to level Ground
+- Electricity Wire Colors
+- Pin Recipes
+- Startup Optimizer
+- Stop Fuel Waste
+- Additional Waypoint Icons
+- Additional Paints
+- Vehicles will have a chance to Alarm when Looting &/or if taken Damage
+- Increased Stack Size of Items
+- Loot Drops Increased & Stay on Ground longer
+- Mod Slots changed to 1-6 & Vehicles changed to 6
+- Better Air Drop Loot
+- Better Read Books Icon
+- Faster Belows
+- Pickup Crops
+- Planted Crops go back to Seeding
+- Pickup Mechanical Items (Must use Left click)
+- Craft more Decorations
+- Vehicle FPV Camera
+
+**VENTCombine Mods**
+▬▬▬▬▬
+- Less Fog in certain Biomes
+- Ammo & Explosive Disassembly
+- Trader Quest Map

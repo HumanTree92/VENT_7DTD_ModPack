@@ -1,0 +1,63 @@
+- OCB Electricity Overhaul
+	- <https://www.nexusmods.com/7daystodie/mods/1713>
+	- Power sources can be connected like every other power item
+	- Power can be taken from any upstream power source
+	- Prioritize renewable energy before using gasoline
+	- Additional grid demand/supply and charge statistics
+	- Batteries are all charged/discharged when in a bank
+	- Solar power gradually fades in and out at dawn and dusk
+	- Decide from which upstream power types to charge batteries
+
+- OCB Claim Auto Repair Block
+	- <https://www.nexusmods.com/7daystodie/mods/1705>
+	- The Block is based on a storage chest, as you need to put the necessary repair materials into it.
+	It will randomly check blocks in its perimeter if they need repair and if the required materials are in storage.
+	If both requirements are met, the block will start to be repaired.
+	This will take some time and the repair sound will be played while repair is undergoing.
+	If the block is damaged during that process, the whole repair will be aborted.
+	Also only blocks that are within a claim you belong to (e.g. can pickup items) are repaired.
+
+- OCB Leveling Tool
+	- <https://www.nexusmods.com/7daystodie/mods/2806>
+	- Adds a Farming Hoe for terrain leveling. Beside the obvious use case,
+	it has an alternate action that levels terrain with
+	solid cube blocks and shapes, so you get a clean transition.
+	When standing, it will consider the 4 directly adjacent blocks.
+	Performing the actions while crouching down, it will also
+	include the 4 additional corner blocks; leveling a 3x3 grid.
+
+- The Boating/Jetski Modlet:
+  - <https://www.nexusmods.com/7daystodie/mods/1015> <https://www.nexusmods.com/7daystodie/mods/1451>
+  - Launch: Place the JetSki on/in water in a 'shallow water' area that has fairly flat ground underneath, if you have no shallow water in your map then build a small launch dock using standard blocks, add some fuel to the JetSki and off you go. The will not work on land (It may move very very slightly due to Motor torque but will have no steering or control over direction)
+  - Controls: Standard WASD controls for this version as it is based on the motorcycle and the JetSki can now be steered with the mouse like a standard vehicle. The new JetSki can 'hop' using the same functions as the motorcycle to avoid any obstacles that may be in the water and is also very hard to sink it.
+  - S will act as brake and spacebar will stop the JetSki quicker.
+
+- Pickup Plants for Pickup Crops Gives Seeds and Living off the land bonuses too
+	- <https://www.nexusmods.com/7daystodie/mods/7148>
+	- allows you to pickup the plant/crops by pressing the E key. Pretty self explanatory, you can also pickup deadplants aswell but that will give you plant fibers
+
+- (TMO) Pickup Crates N Workstations
+	- <https://www.nexusmods.com/7daystodie/mods/6618>
+	- Moveable Workstations and Crates: Pick up and relocate workstations like the campfire, forge, workbench, chemistry station, cement mixer, and all writable crates.
+	- Prevents Resource Duplication: No more unintentional resource drops during harvesting or relocation, ensuring fair gameplay.
+	- Simplified Process: No extra tools or recipes are needed. Simply break the block, and it’s returned to your inventory for reuse.
+	- Balanced Gameplay: Eliminates unnecessary resource drops, keeping the game balanced and focused on survival.
+	- Perfect for Base Designers: Easily adjust your base layout or move stations between multiple locations.
+
+- (TMO) Pickup Traps
+	- <https://www.nexusmods.com/7daystodie/mods/6608>
+	- Enables trap pickup functionality for:
+	- Wooden Spike Traps, Scrap Iron Spike Traps, Barbed Wire (Sheets, Fences, and Spindles), Landmines (Candy Tin, Cooking Pot, Hubcap, and Air Filter)
+	- Destroy to Pickup ( Blade Traps and Electrical Fence Posts) <----- Added in 2.0 Update on 12/5/2024
+	- Picked-up items are returned as usable blocks, allowing players to repurpose them for their own defenses.
+	- Destroyed Items as specified above are also returned to inventory and ready to be placed down again.
+
+- Pick Up Mechanical Items
+	- <https://www.nexusmods.com/7daystodie/mods/5617>
+	- You can pick up non player mechanical objects from the world by dismantling them with a wrench.
+	- Forges, Work Benches, Chemistry Stations, Cement Mixers, Dew Collectors, Battery Banks, Generator Banks, Solar Panels, Camp Fires, 
+	- Water Vending Machines, Food Vending Machines, Energy Drink Vending Machines, Snack Vending Machines
+
+- PlantToSeedling
+	- <https://www.nexusmods.com/7daystodie/mods/5598>
+	- When harvested, the plant will be not destroyed, but only reset to a seedling.
